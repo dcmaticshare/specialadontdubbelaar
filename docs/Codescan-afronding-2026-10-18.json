@@ -1,0 +1,54 @@
+{
+  "datum": "2026-10-18T19:17:24.951Z",
+  "publiekeTests": 367,
+  "publiekeTestsMislukt": 0,
+  "publiekeTestsOvergeslagen": 0,
+  "browser": "155.0.8059.84",
+  "browserGeslaagd": true,
+  "netwerkverzoeken": 0,
+  "consolefouten": 0,
+  "synthetischeKwaliteitGeslaagd": true,
+  "privateVoorbeeldenGeslaagd": true,
+  "privateBeoordelingen": {
+    "vereist": 212,
+    "gevonden": 212,
+    "gecontroleerd": 0,
+    "geslaagd": false
+  },
+  "prestaties": {
+    "metingen": 54,
+    "referentie": {
+      "platform": "darwin",
+      "arch": "arm64",
+      "cpu": "Apple M5 Pro",
+      "geheugenBytes": 25769803776,
+      "node": "24.19.0",
+      "browser": "155.0.8059.84",
+      "playwright": "1.62.1"
+    },
+    "bronSha256": "2c6e93eaabfec3b590ddbd8ad5d5644b4b97157b5cc75f2a5ab26743b60bce45",
+    "rapportSha256": "7f6544cbed050410a1b6d7d7b836fb2627416a2aac630b0edb735474a2f8dcc7",
+    "budgettenGeslaagd": false,
+    "budgetoverschrijdingen": 104,
+    "metingenMetOverschrijding": 19,
+    "nodeMetingenMetOverschrijding": 17,
+    "browserMetingenMetOverschrijding": 2,
+    "overigeContractfouten": []
+  },
+  "releaseBronSha256": "09b0a683f2e84ee39678bdf5b110349cb818a98a2ae939231928fce52503a260",
+  "htmlSha256": "34b860dc8cbfdc144224b186486ce4b1f109f52e0be2a7aec7736127e618d589",
+  "releaseRapportSha256": "c1303d9470657a532e8936f0f94678233adf41cee31339a376a55e3a53a0ed73",
+  "releaseGeslaagd": false,
+  "releaseBlokkades": [
+    "privateBeoordelingen",
+    "prestaties",
+    "windows"
+  ],
+  "behoud": {
+    "aantalBestanden": 19,
+    "ongewijzigd": true,
+    "harnessWerkmapLeeg": true
+  },
+  "windowsUitgevoerd": false,
+  "ciGehostUitgevoerd": false
+}

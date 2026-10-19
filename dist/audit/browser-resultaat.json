@@ -1,0 +1,24 @@
+{
+  "browser": "155.0.8059.84",
+  "loadedViaFile": true,
+  "firstSummary": "3\nrijen ingelezen\n2\nunieke leads\n1\nautomatisch samengevoegd\n0\nte controleren",
+  "exportSheets": [
+    "Unieke leads",
+    "Te controleren",
+    "Beslissingen",
+    "Logboek",
+    "Per bron",
+    "Info"
+  ],
+  "exportAllText": true,
+  "extraColumnExported": false,
+  "afterUnlink": "3\nrijen ingelezen\n3\nunieke leads\n0\nautomatisch samengevoegd\n0\nte controleren",
+  "dirtyAfterEdit": false,
+  "profileMessageBefore": 0,
+  "profileMessageAfter": 1,
+  "errors": [],
+  "violations": [],
+  "requests": [
+    "file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/dist/Lead-ontdubbelaar.html"
+  ]
+}

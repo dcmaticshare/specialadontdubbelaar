@@ -1,0 +1,80 @@
+{
+  "modus": "browser",
+  "soort": "duplicaten",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 29,
+  "longtasks": [
+    {
+      "start": 84.30000007152557,
+      "duur": 59
+    },
+    {
+      "start": 224.40000009536743,
+      "duur": 115
+    },
+    {
+      "start": 389.8000000715256,
+      "duur": 145
+    },
+    {
+      "start": 769.1000000238419,
+      "duur": 154
+    },
+    {
+      "start": 1123.6000000238419,
+      "duur": 768
+    }
+  ],
+  "timerVertragingMs": 750.1999999284744,
+  "fasen": {
+    "inlezen": 23.5,
+    "koppelen": 113.29999995231628,
+    "normaliseren": 143.89999997615814,
+    "voorbereiden": 378.60000002384186,
+    "kandidaten": 15.799999952316284,
+    "scoren": 217.39999997615814,
+    "groeperen": 134.59999990463257,
+    "werkmap": 176.59999990463257,
+    "serialiseren": 591.1000000238419
+  },
+  "faseBlokkades": {
+    "inlezen": 59,
+    "koppelen": 115,
+    "normaliseren": 145,
+    "voorbereiden": 154,
+    "kandidaten": 0,
+    "scoren": 0,
+    "groeperen": 154,
+    "werkmap": 768,
+    "serialiseren": 768
+  },
+  "aantallen": {
+    "kandidaten": 120000,
+    "compacteGroepen": 0,
+    "scores": 120000,
+    "overgeslagenSleutels": 0
+  },
+  "groepen": 400,
+  "totaalMs": 1417.6999998092651,
+  "browserBlokkadeMs": 768,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 120000,
+  "compacteGroepen": 0,
+  "scores": 120000,
+  "overgeslagenSleutels": 0,
+  "exportBytes": 11567355,
+  "kwaliteitscontrole": {
+    "groepen": 400,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "72e542b6a388aa414f37703347f13af49dcb59569d2635525411c576a5e0e5fe"
+}

@@ -1,0 +1,80 @@
+{
+  "datum": "2026-10-18T19:58:28.056Z",
+  "publiekeTests": 373,
+  "publiekeTestsMislukt": 0,
+  "publiekeTestsOvergeslagen": 0,
+  "browser": "155.0.8059.84",
+  "browserGeslaagd": true,
+  "netwerkverzoeken": 0,
+  "consolefouten": 0,
+  "synthetischeKwaliteitGeslaagd": true,
+  "privateVoorbeeldenGeslaagd": true,
+  "prestatieMetingen": 54,
+  "prestatieBudgettenGeslaagd": true,
+  "prestatieInstellingenOngewijzigd": true,
+  "prestatieInstellingenSha256": "c8600025a2cb36a6e80e1a773cc8b8dce719c5f8951c52d5c2ae1c5002595b38",
+  "prestatieReferentie": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M5 Pro",
+    "geheugenBytes": 25769803776,
+    "node": "24.19.0",
+    "browser": "155.0.8059.84",
+    "playwright": "1.62.1"
+  },
+  "prestatieBronSha256": "ba89fc402cc0832b93d09a2f119c6e4fb4998e1217b7b1ea1166fefca15ea3e2",
+  "prestatieRapportSha256": "f11f9e95b42cf090f56a4c363d684fe81ac0ba5ebdae00ea7cefd8d53255c648",
+  "metingen50000": [
+    {
+      "scenario": "uniek",
+      "nodeMediaanMs": 4930.094874,
+      "browserMediaanMs": 4562.299999952316,
+      "nodePiekBytes": 1958477824,
+      "langsteBrowsertaakMs": 2639,
+      "timerVertragingMs": 2623.100000023842,
+      "browserKandidatenMaxMs": 169.29999995231628,
+      "browserGroeperenMaxMs": 104.5
+    },
+    {
+      "scenario": "duplicaten",
+      "nodeMediaanMs": 6815.419082,
+      "browserMediaanMs": 5054.399999976158,
+      "nodePiekBytes": 3272704000,
+      "langsteBrowsertaakMs": 2657,
+      "timerVertragingMs": 2652.5,
+      "browserKandidatenMaxMs": 90.19999992847443,
+      "browserGroeperenMaxMs": 494.6999999284744
+    },
+    {
+      "scenario": "gedeeld",
+      "nodeMediaanMs": 11864.431707,
+      "browserMediaanMs": 8539.199999928474,
+      "nodePiekBytes": 3759144960,
+      "langsteBrowsertaakMs": 2362,
+      "timerVertragingMs": 2363,
+      "browserKandidatenMaxMs": 257.60000002384186,
+      "browserGroeperenMaxMs": 666.2000000476837
+    }
+  ],
+  "gelijkwaardigheid": {
+    "synthetischeScenarios": 3,
+    "rijenPerScenario": 1000,
+    "recordsScoresGroepenLeadsLogBronnenEnXlsxGelijk": true,
+    "rapportSha256": "dec771b8fe27806ecca424035e954e6cc2bc31000ae968c0865b2b49b3c148aa"
+  },
+  "behoud": {
+    "aantalBestanden": 19,
+    "ongewijzigd": true,
+    "harnessWerkmapLeeg": true
+  },
+  "releaseBronSha256": "28659bdef8f111453d954156af9472ed01c6a231cebd9b96ad2236e2f10f0428",
+  "htmlSha256": "7363ca639fea230afe0c70a7682dda3fd8aeac00df46da20cd09cc878033199a",
+  "releaseRapportSha256": "2a5f573341ca88f27d2065e8e9eb3f88303665e8e22bf46b7e1b8d5c16dc7548",
+  "releaseGeslaagd": false,
+  "releaseBlokkades": [
+    "privateBeoordelingen",
+    "windows"
+  ],
+  "windowsUitgevoerd": false,
+  "ciGehostUitgevoerd": false
+}

@@ -1,0 +1,8 @@
+{"punt":"performance.clearMeasures();","rss":226820096,"heapTotal":198344704,"heapUsed":106894840,"external":14468974,"arrayBuffers":12588919,"piek":226820096}
+{"punt":"const sheet =","rss":443416576,"heapTotal":337018880,"heapUsed":236170528,"external":33430450,"arrayBuffers":22039280,"piek":444678144}
+{"punt":"const prep =","rss":499253248,"heapTotal":388907008,"heapUsed":264109472,"external":33430450,"arrayBuffers":22039280,"piek":508231680}
+{"punt":"const res =","rss":779943936,"heapTotal":551485440,"heapUsed":438682896,"external":14529728,"arrayBuffers":12588919,"piek":779943936}
+{"punt":"const wb =","rss":811761664,"heapTotal":687915008,"heapUsed":603919864,"external":14529728,"arrayBuffers":12588919,"piek":811761664}
+{"punt":"const writing =","rss":1659404288,"heapTotal":1465860096,"heapUsed":1377388296,"external":14529728,"arrayBuffers":12588919,"piek":1659404288}
+{"punt":"writeFileSync(dest +","rss":1830436864,"heapTotal":1129431040,"heapUsed":939961536,"external":521424799,"arrayBuffers":519487636,"piek":2485616640}
+{"soort":"uniek","aantal":50000,"totaalMs":10741.182123999999,"fasen":{"inlezen":140.624541,"koppelen":368.71320800000007,"normaliseren":1010.0505,"voorbereiden":1201.951,"kandidaten":182.84629199999995,"scoren":6.557332999999971,"groeperen":147.36862499999984,"werkmap":2018.4974160000002,"serialiseren":6864.027333999999},"piekRssBytes":2485616640,"kandidaten":2667,"exportBytes":56105621}

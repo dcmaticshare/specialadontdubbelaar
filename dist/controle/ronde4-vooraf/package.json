@@ -1,0 +1,25 @@
+{
+  "name": "lead-ontdubbelaar",
+  "version": "0.1.0",
+  "description": "Ontdubbelt leadlijsten (CSV/Excel) lokaal in de browser: één HTML-bestand, geen installatie, geen internet.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tools/check.mjs --tests",
+    "check": "node tools/check.mjs",
+    "check:browser": "node tools/check-browser.mjs",
+    "check:private": "node tools/run-testdata.mjs",
+    "check:judged": "node tools/private/controle-beoordelingen.mjs",
+    "bench": "node bench.mjs",
+    "check:quality": "node tools/check-quality.mjs"
+  },
+  "engines": {
+    "node": "24.19.0"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "playwright": "1.62.1"
+  },
+  "packageManager": "pnpm@11.25.0"
+}

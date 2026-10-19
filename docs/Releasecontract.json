@@ -1,0 +1,10 @@
+{
+  "versie": 1,
+  "sourceDateEpoch": "1792195200",
+  "privateSet": {
+    "manifestSha256": "b58f23b4e1fea252efd4bd481953c5e19ffcde4869bf6f82aac21d49588b416a",
+    "origineelSha256": "97d62d9761d4c2bd02a44b088c0402a3f6974e64114158479d49d5133ba01005",
+    "records": 1357,
+    "paren": 212
+  }
+}

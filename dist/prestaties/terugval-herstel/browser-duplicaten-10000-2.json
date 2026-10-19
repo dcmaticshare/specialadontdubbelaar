@@ -1,0 +1,84 @@
+{
+  "modus": "browser",
+  "soort": "duplicaten",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 31,
+  "longtasks": [
+    {
+      "start": 88.70000004768372,
+      "duur": 64
+    },
+    {
+      "start": 255.30000007152557,
+      "duur": 128
+    },
+    {
+      "start": 437.40000009536743,
+      "duur": 56
+    },
+    {
+      "start": 676.6000000238419,
+      "duur": 100
+    },
+    {
+      "start": 998.2000000476837,
+      "duur": 62
+    },
+    {
+      "start": 1085.4000000953674,
+      "duur": 521
+    }
+  ],
+  "timerVertragingMs": 502.59999990463257,
+  "fasen": {
+    "inlezen": 25.100000023841858,
+    "koppelen": 125.60000002384186,
+    "normaliseren": 158.29999995231628,
+    "voorbereiden": 238.5,
+    "kandidaten": 14.200000047683716,
+    "scoren": 65.39999997615814,
+    "groeperen": 80.19999992847443,
+    "werkmap": 61.699999928474426,
+    "serialiseren": 521.5999999046326
+  },
+  "faseBlokkades": {
+    "inlezen": 64,
+    "koppelen": 128,
+    "normaliseren": 56,
+    "voorbereiden": 100,
+    "kandidaten": 0,
+    "scoren": 0,
+    "groeperen": 100,
+    "werkmap": 62,
+    "serialiseren": 521
+  },
+  "aantallen": {
+    "kandidaten": 120000,
+    "compacteGroepen": 0,
+    "scores": 120000,
+    "overgeslagenSleutels": 0
+  },
+  "groepen": 400,
+  "totaalMs": 1052.6999998092651,
+  "browserBlokkadeMs": 521,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 120000,
+  "compacteGroepen": 0,
+  "scores": 120000,
+  "overgeslagenSleutels": 0,
+  "exportBytes": 11567355,
+  "kwaliteitscontrole": {
+    "groepen": 400,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "3af1c60b28ee99c42b27a8ba030baea3913427e497e137bba0deef12606d41f0"
+}

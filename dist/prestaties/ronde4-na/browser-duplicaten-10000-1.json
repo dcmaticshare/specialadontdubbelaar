@@ -1,0 +1,84 @@
+{
+  "modus": "browser",
+  "soort": "duplicaten",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 50,
+  "longtasks": [
+    {
+      "start": 82.79999995231628,
+      "duur": 64
+    },
+    {
+      "start": 232.19999992847443,
+      "duur": 132
+    },
+    {
+      "start": 414.7999999523163,
+      "duur": 61
+    },
+    {
+      "start": 863.1999999284744,
+      "duur": 114
+    },
+    {
+      "start": 1479.7999999523163,
+      "duur": 227
+    },
+    {
+      "start": 1707.1000000238419,
+      "duur": 717
+    }
+  ],
+  "timerVertragingMs": 698.0999999046326,
+  "fasen": {
+    "inlezen": 24.799999952316284,
+    "koppelen": 129.89999997615814,
+    "normaliseren": 193.89999997615814,
+    "voorbereiden": 447.5,
+    "kandidaten": 15.600000023841858,
+    "scoren": 228.29999995231628,
+    "groeperen": 93.10000002384186,
+    "werkmap": 227.10000002384186,
+    "serialiseren": 717.1999999284744
+  },
+  "faseBlokkades": {
+    "inlezen": 0,
+    "koppelen": 132,
+    "normaliseren": 61,
+    "voorbereiden": 114,
+    "kandidaten": 0,
+    "scoren": 0,
+    "groeperen": 114,
+    "werkmap": 227,
+    "serialiseren": 717
+  },
+  "aantallen": {
+    "kandidaten": 120000,
+    "compacteGroepen": 0,
+    "scores": 120000,
+    "overgeslagenSleutels": 0
+  },
+  "groepen": 400,
+  "totaalMs": 1639.5999999046326,
+  "browserBlokkadeMs": 717,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 120000,
+  "compacteGroepen": 0,
+  "scores": 120000,
+  "overgeslagenSleutels": 0,
+  "exportBytes": 11567348,
+  "kwaliteitscontrole": {
+    "groepen": 400,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "e690c2d6ec1937cec00ee16f5edafc8b4352dd1795cc380bdfc2217fcd42b33c"
+}

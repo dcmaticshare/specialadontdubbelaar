@@ -1,0 +1,80 @@
+{
+  "modus": "browser",
+  "soort": "gedeeld",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 64,
+  "longtasks": [
+    {
+      "start": 115.80000007152557,
+      "duur": 66
+    },
+    {
+      "start": 251.70000004768372,
+      "duur": 124
+    },
+    {
+      "start": 433.40000009536743,
+      "duur": 53
+    },
+    {
+      "start": 1372.1000000238419,
+      "duur": 147
+    },
+    {
+      "start": 1697.8000000715256,
+      "duur": 463
+    }
+  ],
+  "timerVertragingMs": 453.7999999523163,
+  "fasen": {
+    "inlezen": 30.899999976158142,
+    "koppelen": 121.79999995231628,
+    "normaliseren": 167.59999990463257,
+    "voorbereiden": 942.6999999284744,
+    "kandidaten": 46.5,
+    "scoren": 727.7999999523163,
+    "groeperen": 121.60000002384186,
+    "werkmap": 41.700000047683716,
+    "serialiseren": 461.89999997615814
+  },
+  "faseBlokkades": {
+    "inlezen": 0,
+    "koppelen": 124,
+    "normaliseren": 53,
+    "voorbereiden": 147,
+    "kandidaten": 0,
+    "scoren": 147,
+    "groeperen": 147,
+    "werkmap": 0,
+    "serialiseren": 463
+  },
+  "aantallen": {
+    "kandidaten": 245008,
+    "compacteGroepen": 5000,
+    "scores": 245000,
+    "overgeslagenSleutels": 2
+  },
+  "groepen": 5000,
+  "totaalMs": 1720.5999999046326,
+  "browserBlokkadeMs": 463,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 245008,
+  "compacteGroepen": 5000,
+  "scores": 245000,
+  "overgeslagenSleutels": 2,
+  "exportBytes": 9555045,
+  "kwaliteitscontrole": {
+    "groepen": 5000,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "45006828d84fc08b3e3ca567658a2aa98db844f7e92fff85acc0aaf1f2216a02"
+}

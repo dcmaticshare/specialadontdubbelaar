@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "errors": [],
+  "violations": [],
+  "counts": {
+    "recordsVerwacht": 5,
+    "recordsGevonden": 5,
+    "verwacht": 10,
+    "gevonden": 10,
+    "gecontroleerd": 10,
+    "zelfde": 2,
+    "verschillend": 8,
+    "kandidaatverbindingen": 2,
+    "compacteGroepen": 0,
+    "gescoordeParen": 2,
+    "controlelijst": 0
+  },
+  "metrics": {
+    "fouteSamenvoegingen": 0,
+    "foutePaarscores": 0,
+    "gemistePaarscores": 0,
+    "gemisteDubbels": 0,
+    "gemisteKandidaten": 0,
+    "zonderDirectKandidaat": 0,
+    "nietSamengevoegd": 0,
+    "controleZelfde": 0,
+    "controleVerschillend": 0
+  }
+}

@@ -1,0 +1,311 @@
+✖ B07: constante E-mail levert geen kandidaat of punten, ook bij andere schrijfwijze (11.331208ms)
+✖ B07: constante Telefoon levert geen kandidaat of punten, ook bij andere schrijfwijze (8.2895ms)
+✖ B07: constante Website levert geen kandidaat of punten, ook bij andere schrijfwijze (4.146333ms)
+✖ B07: constante Contactpersoon levert geen kandidaat of punten, ook bij andere schrijfwijze (3.596875ms)
+✖ B07: constante postcode blijft bruikbaar en verlaagt punten bij een andere postcode (3.904833ms)
+✖ B07: geldige BTW, adres en identieke bedrijfsnamen behouden hun vergelijkingsrol (13.385083ms)
+✖ B10: ongeldige profielvorm {} valt terug op voorstel (0.144541ms)
+✖ B10: ongeldige profielvorm null valt terug op voorstel (0.175042ms)
+✖ B10: ongeldige profielvorm [null] valt terug op voorstel (0.11275ms)
+✖ B10: ongeldige profielvorm [{"signature":"naam","mapping":null}] valt terug op voorstel (0.096167ms)
+✖ B10: ongeldige profielvorm [{"signature":"naam","mapping":{"naam":"bestaat-niet"}}] valt terug op voorstel (0.558833ms)
+✖ B10: expliciet nieuw voorstel negeert een geldig bewaard profiel (0.161084ms)
+✖ B10: ontbrekende, kapotte en oude opslag wordt veilig gelezen en hersteld (0.112542ms)
+✖ B11: dubbele spaties, tabs en regeleinden scheiden volledige telefoons vóór opschonen (0.17675ms)
+✖ B11: alleen spaties direct rond @ worden hersteld; afgebroken lokale naam wordt niet geraden (0.106333ms)
+✖ B11: export en herimport behouden gesplitste contacten, waarschuwingen en originele celtekst (12.786333ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 0
+ℹ fail 16
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 158.5395
+
+✖ failing tests:
+
+test at test/derde-ronde.test.mjs:19:3
+✖ B07: constante E-mail levert geen kandidaat of punten, ook bij andere schrijfwijze (11.331208ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  3 !== 20
+  
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:24:12)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 3,
+    expected: 20,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/derde-ronde.test.mjs:19:3
+✖ B07: constante Telefoon levert geen kandidaat of punten, ook bij andere schrijfwijze (8.2895ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!pair.matched[signaal] || pair.matched[signaal].length === 0)
+  
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:23:12)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/derde-ronde.test.mjs:19:3
+✖ B07: constante Website levert geen kandidaat of punten, ook bij andere schrijfwijze (4.146333ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!pair.matched[signaal] || pair.matched[signaal].length === 0)
+  
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:23:12)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/derde-ronde.test.mjs:19:3
+✖ B07: constante Contactpersoon levert geen kandidaat of punten, ook bij andere schrijfwijze (3.596875ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(!pair.matched[signaal] || pair.matched[signaal].length === 0)
+  
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:23:12)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/derde-ronde.test.mjs:31:1
+✖ B07: constante postcode blijft bruikbaar en verlaagt punten bij een andere postcode (3.904833ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  false !== true
+  
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:34:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at test/derde-ronde.test.mjs:39:1
+✖ B07: geldige BTW, adres en identieke bedrijfsnamen behouden hun vergelijkingsrol (13.385083ms)
+  AssertionError [ERR_ASSERTION]: The input was expected to not match the regular expression /wordt niet gebruikt om te vergelijken/. Input:
+  
+  'Kolom "Naam" heeft bijna overal dezelfde waarde en wordt niet gebruikt om te vergelijken. Kolom "BTW" heeft bijna overal dezelfde waarde en wordt niet gebruikt om te vergelijken. Kolom "Adres" heeft bijna overal dezelfde waarde en wordt niet gebruikt om te vergelijken. Kolom "E-mail" heeft bijna overal dezelfde waarde en wordt niet gebruikt om te vergelijken.'
+  
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:43:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Kolom "Naam" heeft bijna overal dezelfde waarde en wordt niet gebruikt om te vergelijken. Kolom "BTW" heeft bijna overal dezelfde waarde en wordt niet gebruikt om te vergelijken. Kolom "Adres" heeft bijna overal dezelfde waarde en wordt niet gebruikt om te vergelijken. Kolom "E-mail" heeft bijna overal dezelfde waarde en wordt niet gebruikt om te vergelijken.',
+    expected: /wordt niet gebruikt om te vergelijken/,
+    operator: 'doesNotMatch',
+    diff: 'simple'
+  }
+
+test at test/derde-ronde.test.mjs:47:3
+✖ B10: ongeldige profielvorm {} valt terug op voorstel (0.144541ms)
+  TypeError: profiles.find is not a function
+      at Module.suggestMapping (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/src/io/mapping.js:142:36)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:48:28)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at test/derde-ronde.test.mjs:47:3
+✖ B10: ongeldige profielvorm null valt terug op voorstel (0.175042ms)
+  TypeError: Cannot read properties of null (reading 'find')
+      at Module.suggestMapping (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/src/io/mapping.js:142:36)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:48:28)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at test/derde-ronde.test.mjs:47:3
+✖ B10: ongeldige profielvorm [null] valt terug op voorstel (0.11275ms)
+  TypeError: Cannot read properties of null (reading 'signature')
+      at file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/src/io/mapping.js:142:50
+      at Array.find (<anonymous>)
+      at Module.suggestMapping (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/src/io/mapping.js:142:36)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:48:28)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at test/derde-ronde.test.mjs:47:3
+✖ B10: ongeldige profielvorm [{"signature":"naam","mapping":null}] valt terug op voorstel (0.096167ms)
+  TypeError: Cannot read properties of null (reading 'naam')
+      at file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/src/io/mapping.js:145:44
+      at Array.map (<anonymous>)
+      at Module.suggestMapping (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/src/io/mapping.js:145:18)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:48:28)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at test/derde-ronde.test.mjs:47:3
+✖ B10: ongeldige profielvorm [{"signature":"naam","mapping":{"naam":"bestaat-niet"}}] valt terug op voorstel (0.558833ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  +   'bestaat-niet'
+  -   'bedrijfsnaam'
+    ]
+  
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:49:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'bestaat-niet' ],
+    expected: [ 'bedrijfsnaam' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/derde-ronde.test.mjs:54:1
+✖ B10: expliciet nieuw voorstel negeert een geldig bewaard profiel (0.161084ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  +   'contactpersoon'
+  -   'bedrijfsnaam'
+    ]
+  
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:56:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'contactpersoon' ],
+    expected: [ 'bedrijfsnaam' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/derde-ronde.test.mjs:59:1
+✖ B10: ontbrekende, kapotte en oude opslag wordt veilig gelezen en hersteld (0.112542ms)
+  TypeError: mapping.readProfiles is not a function
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:63:28)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at test/derde-ronde.test.mjs:70:1
+✖ B11: dubbele spaties, tabs en regeleinden scheiden volledige telefoons vóór opschonen (0.17675ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + []
+  - [
+  -   '+3220000000',
+  -   '+3230000000'
+  - ]
+  
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:73:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [],
+    expected: [ '+3220000000', '+3230000000' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/derde-ronde.test.mjs:79:1
+✖ B11: alleen spaties direct rond @ worden hersteld; afgebroken lokale naam wordt niet geraden (0.106333ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+  + []
+  - [
+  -   'info@voorbeeld.invalid'
+  - ]
+  
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:80:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [],
+    expected: [ 'info@voorbeeld.invalid' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at test/derde-ronde.test.mjs:88:1
+✖ B11: export en herimport behouden gesplitste contacten, waarschuwingen en originele celtekst (12.786333ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + ''
+  - '+32 3 000 00 00'
+  
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/derde-ronde.test.mjs:94:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '',
+    expected: '+32 3 000 00 00',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

@@ -1,0 +1,140 @@
+
+Merelbeke api is geupload.csv csv utf-8 sep=";" tab=CSV rijen=491
+   Lead Source                  -> Niet gebruiken (meenemen als extra kolom)  (bijna constant)
+   Project                      -> Niet gebruiken (meenemen als extra kolom)  (bijna constant)
+   Leadowner                    -> Niet gebruiken (meenemen als extra kolom)
+   Company                      -> Bedrijfsnaam
+   Hoofdsector                  -> Hoofdsector
+   Sector                       -> Sector
+   Mobile                       -> Telefoon
+   Straat Huisnummer            -> Straat + huisnummer (één veld)
+   Postcode                     -> Postcode  (bijna constant)
+   Woonplaats                   -> Gemeente  (bijna constant)
+   Voornaam                     -> Voornaam
+   Achternaam                   -> Achternaam
+   nota: Kolom "Postcode" heeft bijna overal dezelfde waarde en wordt niet gebruikt om te vergelijken.
+   nota: Kolom "Woonplaats" heeft bijna overal dezelfde waarde en wordt niet gebruikt om te vergelijken.
+
+bestaande klanten merelbeke geupload.xlsx excel tab=Blad1 rijen=31
+   bedrijf                      -> Bedrijfsnaam
+   bedrag                       -> Niet gebruiken (meenemen als extra kolom)
+   naam                         -> Contactpersoon
+   adres                        -> Straat
+   huisnummer                   -> Huisnummer
+   postcode                     -> Postcode
+   gemeente                     -> Gemeente
+   telefoonnr                   -> Telefoon
+   btw                          -> BTW-nummer
+   email                        -> E-mail
+   sector                       -> Sector
+   hoofdsector                  -> Hoofdsector
+   project old                  -> Niet gebruiken (meenemen als extra kolom)  (bijna constant)
+   leadbron                     -> Niet gebruiken (meenemen als extra kolom)  (bijna constant)
+   nota: "naam" is de contactpersoon, want "bedrijf" is al de bedrijfsnaam.
+   nota: "adres" is de straat, want er is een aparte huisnummerkolom.
+
+bizzy lijst merelbeke geupload (1).xlsx excel tab=Bedrijven rijen=785
+   Naam                         -> Bedrijfsnaam
+   E-mail                       -> E-mail
+   Telefoonnummer               -> Telefoon
+   Website                      -> Website
+   BTW-nummer                   -> BTW-nummer
+   Activiteiten                 -> Sector
+   Postcode                     -> Postcode  (bijna constant)
+   Beschrijving                 -> Niet gebruiken (meenemen als extra kolom)
+   Personen                     -> Contactpersoon
+   Stad                         -> Gemeente  (bijna constant)
+   Huisnummer                   -> Huisnummer
+   Straat                       -> Straat
+   project old                  -> Niet gebruiken (meenemen als extra kolom)  (bijna constant)
+   nota: Kolom "Postcode" heeft bijna overal dezelfde waarde en wordt niet gebruikt om te vergelijken.
+   nota: Kolom "Stad" heeft bijna overal dezelfde waarde en wordt niet gebruikt om te vergelijken.
+
+ondernemingen_contactgegevens_met_telefoonnummers geupload.xlsx excel tab=Ondernemingen rijen=50
+   Onderneming                  -> Bedrijfsnaam
+   Telefoonnummer               -> Telefoon
+   Adres                        -> Straat + huisnummer (één veld)
+   Postcode                     -> Postcode
+   Gemeente                     -> Gemeente
+   E-mail                       -> E-mail
+   Controle                     -> Niet gebruiken (meenemen als extra kolom)
+   Bron                         -> Niet gebruiken (meenemen als extra kolom)
+   Website                      -> Website
+   Opmerkingen                  -> Niet gebruiken (meenemen als extra kolom)
+   project old                  -> Niet gebruiken (meenemen als extra kolom)  (bijna constant)
+   lead bron                    -> Niet gebruiken (meenemen als extra kolom)  (bijna constant)
+   achternaam                   -> Achternaam
+
+Inlezen 59 ms, vergelijken 38 ms (457 gescoorde paren), groeperen 8 ms
+Samenvatting: {
+  rijen: 1357,
+  uniekeLeads: 1128,
+  automatischSamengevoegd: 214,
+  samengevoegdDoorMens: 0,
+  teControleren: 98,
+  groepen: 1128
+}
+Twijfelparen per strengheid: Streng (vanaf 40 p): 152, Gemiddeld (vanaf 55 p): 98, Mild (vanaf 70 p): 73
+Overgeslagen sleutels: []
+
+Per bron:
+  Merelbeke api is: rijen 491, unieke leads 489, alleen hier 293, dubbel andere lijst 197, dubbel binnen 4, waarschuwingen 0
+  bestaande klanten merelbeke: rijen 31, unieke leads 31, alleen hier 14, dubbel andere lijst 17, dubbel binnen 0, waarschuwingen 1
+  bizzy lijst merelbeke: rijen 785, unieke leads 781, alleen hier 577, dubbel andere lijst 206, dubbel binnen 8, waarschuwingen 0
+  ondernemingen contactgegevens met telefoonnummers: rijen 50, unieke leads 50, alleen hier 33, dubbel andere lijst 17, dubbel binnen 0, waarschuwingen 0
+
+Testgevallen uit het plan:
+  OK  Jolini / Jolini Hair: zeker (157 p) zelfde gsm + zelfde domein + zelfde adres + gelijkaardige naam (71%) [verwacht zeker]
+  OK  Cheff's / Traiteur Cheff's: zeker (135 p) zelfde telefoon + zelfde adres + zelfde naam [verwacht zeker]
+  OK  Padel Uvyn / Tennisbesnaringen Uvyn: controleren (104 p) zelfde gsm + zelfde adres + naam lijkt deels (48%) [verwacht controleren]
+  OK  Winterloods / Zomerloods: controleren (107 p) zelfde telefoon + zelfde adres + naam lijkt deels (54%) [verwacht controleren]
+  OK  Almitee / Revale: uniek (75 p) verschillend BTW-nummer + zelfde gsm + zelfde adres [verwacht uniek]
+  OK  Myforce / Zeepboeren: uniek (20 p) zelfde telefoon (centraal nummer, telt minder) [verwacht uniek]
+
+Centrales (telefoon): [
+  '+3292792310 -> advocaatmerelbeke | batilaw | hannaverdickt',
+  '+3292103400 -> centralediensten | sporthallenterwallen | zwembadterwallen',
+  '+32473433735 -> antaresbodybrainbeauty | fitcentermerelbeke | antaresbeautyenwellnesscenter',
+  '+3292322188 -> oxydenttandartsenpraktijkmerelbeke | vrombaut | tandartsenpraktijkmerelbeke',
+  '+32474878725 -> thuisverplegingsegerspeggy | tvkt | thuisverplegingmerelbeke',
+  '+32477904782 -> out2day | partystart | feestzone',
+  '+3293306549 -> automotivetools | factorbikes | greaseandgoodness',
+  '+3293302026 -> jlracggent | jaguaracggent | landroveracggent',
+  '+3222744835 -> myforce | tourismmarketinggroup | dezeepboeren | opiusdistillery',
+  '+3292324600 -> gevelisolatieporbel | psfporbelsteelframe | hellebuyckguidoco'
+]
+
+Eerste 12 twijfelparen:
+  169 Jaguar Acg Gent (bizzy lijst merelbeke) <-> Land Rover Acg Gent (bizzy lijst merelbeke): zelfde telefoon (centraal nummer, telt minder) + zelfde e-mail + zelfde domein + zelfde adres + naam lijkt deels (57%)
+  139 Compact Pt (bizzy lijst merelbeke) <-> CPT - Compact Personal Training (ondernemingen contactgegevens met telefoonnummers): zelfde gsm + zelfde domein + zelfde adres + naam lijkt deels (40%)
+  130 Duverco (bizzy lijst merelbeke) <-> Optiek Vermeulen (ondernemingen contactgegevens met telefoonnummers): zelfde telefoon + zelfde e-mail + zelfde domein
+  130 Ohana (bizzy lijst merelbeke) <-> Bronn Privé Wellness (ondernemingen contactgegevens met telefoonnummers): zelfde gsm + zelfde e-mail + zelfde domein
+  127 Alex Casteels (Merelbeke api is) <-> Casteels Vastgoed (bizzy lijst merelbeke): zelfde telefoon + zelfde adres + naam lijkt deels (53%) + contactpersoon lijkt op bedrijfsnaam
+  109 De Zoete Zonde eventzaal- WE ZIJN GEEN BRASSERIE MEER (Merelbeke api is) <-> De Zoete Zonde, Munte (bizzy lijst merelbeke): zelfde gsm + zelfde adres + naam lijkt deels (57%)
+  107 Winterloods (bizzy lijst merelbeke) <-> Zomerloods (bizzy lijst merelbeke): zelfde telefoon + zelfde adres + naam lijkt deels (54%)
+  105 Fintro-Merelbeke-Miglia-Van Den Broecke (Merelbeke api is) <-> Fintro Rente Merelbeke (ondernemingen contactgegevens met telefoonnummers): zelfde telefoon + zelfde adres + naam lijkt deels (49%)
+  104 Padel Uvyn (Merelbeke api is) <-> Tennisbesnaringen Uvyn (Merelbeke api is): zelfde gsm + zelfde adres + naam lijkt deels (48%)
+  103 Kapsalon Rudy (Merelbeke api is) <-> Coiffure Rudy (bizzy lijst merelbeke): zelfde telefoon + zelfde adres + naam lijkt deels (47%)
+  102 Delhaize Flora (Merelbeke api is) <-> Delflor (bizzy lijst merelbeke): zelfde telefoon + zelfde adres + naam lijkt deels (46%)
+  102 Namgrass Kunstgras Gent (Merelbeke api is) <-> Namgrass | Namsports (bizzy lijst merelbeke): zelfde telefoon + zelfde adres + naam lijkt deels (45%)
+
+Automatisch samengevoegd (eerste 15 groepen):
+  nr 1 "Advocaat Merelbeke - Hanna Verdickt" (Merelbeke api is) + "Hanna Verdickt" (bizzy lijst merelbeke): zelfde adres + gelijkaardige naam (87%) + contactpersoon lijkt op bedrijfsnaam
+  nr 2 "Advocaat en Bemiddelaar Peter Vanlerberghe" (Merelbeke api is) + "Vanlerberghe, Peter" (bizzy lijst merelbeke): zelfde adres + gelijkaardige naam (79%) + contactpersoon lijkt op bedrijfsnaam
+  nr 4 "Mortier / Lieve" (Merelbeke api is) + "Mortier, Lieve" (bizzy lijst merelbeke): zelfde telefoon + zelfde adres + zelfde naam + contactpersoon lijkt op bedrijfsnaam
+  nr 6 "Advocatenkantoor Bram Van Acker" (Merelbeke api is) + "Van Acker Bram" (bizzy lijst merelbeke): zelfde gsm + zelfde adres + gelijkaardige naam (92%) + contactpersoon lijkt op bedrijfsnaam
+  nr 9 "Advocaat Merelbeke" (Merelbeke api is) + "Advocaat Merelbeke" (bizzy lijst merelbeke): zelfde telefoon (centraal nummer, telt minder) + zelfde adres + zelfde naam
+  nr 12 "BatiLaw" (Merelbeke api is) + "Batilaw" (bizzy lijst merelbeke): zelfde adres + zelfde naam
+  nr 14 "Mepharma bv (Apotheker Filip Van Driessche)" (Merelbeke api is) + "Mepharma" (bizzy lijst merelbeke): zelfde telefoon + zelfde adres + gelijkaardige naam (67%) + contactpersoon lijkt op bedrijfsnaam
+  nr 17 "Apotheek Vanthuyne" (Merelbeke api is) + "Apotheek Vanthuyne" (bizzy lijst merelbeke): zelfde telefoon + zelfde adres + zelfde naam
+  nr 18 "Apotheek Lachaert" (Merelbeke api is) + "Apotheek Eva Lachaert" (bizzy lijst merelbeke): zelfde telefoon + zelfde adres + gelijkaardige naam (88%)
+  nr 20 "Apotheek De Wachter" (Merelbeke api is) + "Apotheek De Wachter" (bizzy lijst merelbeke): zelfde telefoon + zelfde naam
+  nr 23 "Apotheek Storme" (Merelbeke api is) + "Apotheek Storme" (bizzy lijst merelbeke): zelfde telefoon + zelfde adres + zelfde naam
+  nr 24 "Apotheek Bottelare BV" (Merelbeke api is) + "Apotheek Bottelare Bv" (bizzy lijst merelbeke): zelfde telefoon + zelfde adres + zelfde naam
+  nr 26 "Architectenbureau De Jaegher Jolien" (Merelbeke api is) + "Architectenbureau Jolien De Jaegher" (bizzy lijst merelbeke): zelfde gsm + zelfde naam + contactpersoon lijkt op bedrijfsnaam
+  nr 27 "Ra-Ma architecten" (Merelbeke api is) + "Ra-ma Architecten" (bizzy lijst merelbeke): zelfde gsm + zelfde adres + zelfde naam
+  nr 28 "Poutrelles Architecten" (Merelbeke api is) + "Poutrelles Architecten" (bizzy lijst merelbeke): zelfde gsm + zelfde adres + zelfde naam
+
+Rijen met waarschuwingen: 1 [
+  'bestaande klanten merelbeke rij 24: BTW "be 0414 842 083": BTW-nummer klopt niet (controlegetal)'
+]

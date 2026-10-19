@@ -1,0 +1,39 @@
+{
+  "modus": "node",
+  "soort": "uniek",
+  "aantal": 1000,
+  "seed": 12345,
+  "fasen": {
+    "inlezen": 6.774709000000001,
+    "koppelen": 10.456124999999993,
+    "normaliseren": 20.994792000000004,
+    "voorbereiden": 24.319958999999997,
+    "kandidaten": 2.43504200000001,
+    "scoren": 0.3640000000000043,
+    "groeperen": 3.816250000000011,
+    "werkmap": 7.663540999999995,
+    "serialiseren": 64.08195799999999
+  },
+  "totaalMs": 117.11254199999999,
+  "piekRssBytes": 192757760,
+  "geheugenMethode": "os-maxrss",
+  "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+  "browserBlokkadeMs": null,
+  "timerVertragingMs": null,
+  "responsiviteitMethode": "niet-van-toepassing",
+  "kandidaten": 50,
+  "compacteGroepen": 0,
+  "scores": 50,
+  "overgeslagenSleutels": 0,
+  "exportBytes": 1057076,
+  "groepen": 950,
+  "kwaliteitscontrole": {
+    "groepen": 950,
+    "bronrijen": 1000,
+    "oorspronkelijkeCellen": 7000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "meetversie": 1,
+  "exportSha256": "20b17471149793ba6a25cd0a222d3e401e05901ea106e61fd8e7cfc6ed971bed"
+}

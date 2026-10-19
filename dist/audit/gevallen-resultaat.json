@@ -1,0 +1,118 @@
+{
+  "negatieveBeslissing": {
+    "groepen": [
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "afgekeurdPaarTochSamen": true
+  },
+  "geblokkeerdeZelfde": [
+    {
+      "beslissingen": 0,
+      "review": 1,
+      "groepen": 2
+    },
+    {
+      "beslissingen": 1,
+      "review": 1,
+      "groepen": 2
+    },
+    {
+      "beslissingen": 2,
+      "review": 0,
+      "groepen": 2
+    }
+  ],
+  "export": {
+    "extraAanwezig": false,
+    "herimportMappingNr": "huisnummer",
+    "herimportMappingAdres": "straat",
+    "origineelAdres": "Teststraat 42",
+    "nieuwAdres": "Teststraat 42 1"
+  },
+  "overflow": {
+    "telefoonsInGroep": 4,
+    "emailsInGroep": 3,
+    "vierdeTelefoonInWorkbook": false,
+    "derdeEmailInWorkbook": false
+  },
+  "bucket": [
+    {
+      "rijen": 400,
+      "paren": 79800,
+      "groepen": 1,
+      "overgeslagen": 0
+    },
+    {
+      "rijen": 401,
+      "paren": 0,
+      "groepen": 401,
+      "overgeslagen": 3
+    }
+  ],
+  "legeKolomkop": {
+    "header": [
+      "Company",
+      "Telefoon"
+    ],
+    "rows": [
+      [
+        "Audit Delta",
+        "020000000"
+      ]
+    ],
+    "rowNumbers": [
+      2
+    ],
+    "headerRowIndex": 0
+  },
+  "excelOffset": {
+    "verwachteRij": 6,
+    "werkelijkeRij": 2
+  },
+  "bijnaConstant": {
+    "gemarkeerd": true,
+    "emailTelt": true,
+    "samengevoegdeGroepen": 1
+  },
+  "normalisatie": {
+    "emailMetSpaties": [],
+    "dubbeleSpatieTelefoon": {
+      "phones": [],
+      "kinds": {},
+      "warnings": [
+        {
+          "waarde": "020000000 030000000",
+          "reden": "ongeldige lengte"
+        }
+      ]
+    }
+  },
+  "testsetGate": {
+    "ongeldigBeoordelingsbestand": true,
+    "exitcode": 0,
+    "geslaagd": true
+  },
+  "gemisteKandidaat": {
+    "exitcode": 0,
+    "regels": [
+      "Beoordeeld: 1 paren (1 niet meer teruggevonden na wijzigingen in de lijsten)",
+      "Foute automatische samenvoegingen: 0 (doel 0)",
+      "Gemiste dubbels (tool zegt uniek, jullie zeggen zelfde): 0"
+    ]
+  },
+  "benchmarkBtw": {
+    "cijfers": 11,
+    "geldig": false
+  },
+  "fixturePrivacy": {
+    "exacteContactwaardenUitPrivelijstenInTests": 15
+  },
+  "runnerExit": {
+    "exitcode": 0,
+    "nok": 4
+  }
+}

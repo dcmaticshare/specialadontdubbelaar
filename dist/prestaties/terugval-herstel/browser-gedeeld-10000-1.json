@@ -1,0 +1,80 @@
+{
+  "modus": "browser",
+  "soort": "gedeeld",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 61,
+  "longtasks": [
+    {
+      "start": 81.39999997615814,
+      "duur": 61
+    },
+    {
+      "start": 230.20000004768372,
+      "duur": 126
+    },
+    {
+      "start": 412.5,
+      "duur": 54
+    },
+    {
+      "start": 1302.7999999523163,
+      "duur": 115
+    },
+    {
+      "start": 1594.7000000476837,
+      "duur": 464
+    }
+  ],
+  "timerVertragingMs": 463.60000002384186,
+  "fasen": {
+    "inlezen": 24.300000071525574,
+    "koppelen": 123.90000009536743,
+    "normaliseren": 155.10000002384186,
+    "voorbereiden": 894.7000000476837,
+    "kandidaten": 41.10000002384186,
+    "scoren": 697.2000000476837,
+    "groeperen": 102.5,
+    "werkmap": 43.299999952316284,
+    "serialiseren": 464.2999999523163
+  },
+  "faseBlokkades": {
+    "inlezen": 61,
+    "koppelen": 126,
+    "normaliseren": 54,
+    "voorbereiden": 115,
+    "kandidaten": 0,
+    "scoren": 115,
+    "groeperen": 115,
+    "werkmap": 0,
+    "serialiseren": 464
+  },
+  "aantallen": {
+    "kandidaten": 245008,
+    "compacteGroepen": 5000,
+    "scores": 245000,
+    "overgeslagenSleutels": 2
+  },
+  "groepen": 5000,
+  "totaalMs": 1653.0000001192093,
+  "browserBlokkadeMs": 464,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 245008,
+  "compacteGroepen": 5000,
+  "scores": 245000,
+  "overgeslagenSleutels": 2,
+  "exportBytes": 9555049,
+  "kwaliteitscontrole": {
+    "groepen": 5000,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "f9ea46cab20c88d45ff1f69868a2cf955ff43b71e8a5467817bb4881a3b2eb1a"
+}

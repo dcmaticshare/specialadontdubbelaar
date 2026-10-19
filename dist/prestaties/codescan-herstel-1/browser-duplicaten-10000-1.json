@@ -1,0 +1,84 @@
+{
+  "modus": "browser",
+  "soort": "duplicaten",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 31,
+  "longtasks": [
+    {
+      "start": 109.59999990463257,
+      "duur": 65
+    },
+    {
+      "start": 236.5,
+      "duur": 114
+    },
+    {
+      "start": 424.1999999284744,
+      "duur": 54
+    },
+    {
+      "start": 658.5,
+      "duur": 181
+    },
+    {
+      "start": 1013.2999999523163,
+      "duur": 78
+    },
+    {
+      "start": 1118.3999999761581,
+      "duur": 537
+    }
+  ],
+  "timerVertragingMs": 534.2999999523163,
+  "fasen": {
+    "inlezen": 30.700000047683716,
+    "koppelen": 111,
+    "normaliseren": 146.39999997615814,
+    "voorbereiden": 232.30000007152557,
+    "kandidaten": 16.100000023841858,
+    "scoren": 67.5,
+    "groeperen": 86.5,
+    "werkmap": 78.29999995231628,
+    "serialiseren": 536.2999999523163
+  },
+  "faseBlokkades": {
+    "inlezen": 0,
+    "koppelen": 114,
+    "normaliseren": 54,
+    "voorbereiden": 54,
+    "kandidaten": 0,
+    "scoren": 0,
+    "groeperen": 181,
+    "werkmap": 78,
+    "serialiseren": 537
+  },
+  "aantallen": {
+    "kandidaten": 120000,
+    "compacteGroepen": 0,
+    "scores": 120000,
+    "overgeslagenSleutels": 0
+  },
+  "groepen": 400,
+  "totaalMs": 1075.1000000238419,
+  "browserBlokkadeMs": 537,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 120000,
+  "compacteGroepen": 0,
+  "scores": 120000,
+  "overgeslagenSleutels": 0,
+  "exportBytes": 11567356,
+  "kwaliteitscontrole": {
+    "groepen": 400,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "27dee9d0974c2befd4e7fd9648716bda1cb6218496ccec1d3fe5e680544be9fd"
+}

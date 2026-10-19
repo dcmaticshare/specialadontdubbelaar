@@ -1,0 +1,12 @@
+ℹ tests 294
+ℹ suites 0
+ℹ pass 294
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2565.962042
+Gebouwd: dist/Lead-ontdubbelaar.html (1217 kB), versie 0.1.0, 2026-10-17, 17 modules
+Gebouwd: dist/Lead-ontdubbelaar.html (1217 kB), versie 0.1.0, 2026-10-17, 17 modules
+Gebouwd: dist/Lead-ontdubbelaar.dev.html (1217 kB), versie 0.1.0, 2026-10-17, 17 modules [DEV, connect-src self]
+Productie- en ontwikkel-HTML: CSP, hashes, bibliotheek en offline bronnen OK.

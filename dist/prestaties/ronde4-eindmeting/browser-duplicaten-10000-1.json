@@ -1,0 +1,84 @@
+{
+  "modus": "browser",
+  "soort": "duplicaten",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 55,
+  "longtasks": [
+    {
+      "start": 86,
+      "duur": 65
+    },
+    {
+      "start": 241,
+      "duur": 131
+    },
+    {
+      "start": 423.09999990463257,
+      "duur": 59
+    },
+    {
+      "start": 869.6999999284744,
+      "duur": 113
+    },
+    {
+      "start": 1483.2999999523163,
+      "duur": 230
+    },
+    {
+      "start": 1748.3999999761581,
+      "duur": 686
+    }
+  ],
+  "timerVertragingMs": 667.3999999761581,
+  "fasen": {
+    "inlezen": 26.200000047683716,
+    "koppelen": 129,
+    "normaliseren": 189.90000009536743,
+    "voorbereiden": 445.7000000476837,
+    "kandidaten": 15.100000023841858,
+    "scoren": 231.29999995231628,
+    "groeperen": 94.79999995231628,
+    "werkmap": 229.89999997615814,
+    "serialiseren": 686.3999999761581
+  },
+  "faseBlokkades": {
+    "inlezen": 65,
+    "koppelen": 131,
+    "normaliseren": 59,
+    "voorbereiden": 113,
+    "kandidaten": 0,
+    "scoren": 0,
+    "groeperen": 113,
+    "werkmap": 230,
+    "serialiseren": 686
+  },
+  "aantallen": {
+    "kandidaten": 120000,
+    "compacteGroepen": 0,
+    "scores": 120000,
+    "overgeslagenSleutels": 0
+  },
+  "groepen": 400,
+  "totaalMs": 1612,
+  "browserBlokkadeMs": 686,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 120000,
+  "compacteGroepen": 0,
+  "scores": 120000,
+  "overgeslagenSleutels": 0,
+  "exportBytes": 11567343,
+  "kwaliteitscontrole": {
+    "groepen": 400,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "5d665b74417b73654d52db191d819e809c16dbd02452a28dbc193554e82f962f"
+}

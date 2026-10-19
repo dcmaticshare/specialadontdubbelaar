@@ -1,0 +1,92 @@
+{
+  "modus": "browser",
+  "soort": "gedeeld",
+  "aantal": 50000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 353,
+  "longtasks": [
+    {
+      "start": 176.20000004768372,
+      "duur": 317
+    },
+    {
+      "start": 498.2000000476837,
+      "duur": 92
+    },
+    {
+      "start": 627.7000000476837,
+      "duur": 600
+    },
+    {
+      "start": 1279,
+      "duur": 293
+    },
+    {
+      "start": 2292.100000023842,
+      "duur": 289
+    },
+    {
+      "start": 8385.100000023842,
+      "duur": 672
+    },
+    {
+      "start": 9176.100000023842,
+      "duur": 1430
+    },
+    {
+      "start": 10631.200000047684,
+      "duur": 3694
+    }
+  ],
+  "timerVertragingMs": 3688.100000023842,
+  "fasen": {
+    "inlezen": 94.10000002384186,
+    "koppelen": 598.2000000476837,
+    "normaliseren": 1007.1000000238419,
+    "voorbereiden": 7109.300000071526,
+    "kandidaten": 289.39999997615814,
+    "scoren": 5802.399999976158,
+    "groeperen": 649.1000000238419,
+    "werkmap": 1420.6000000238419,
+    "serialiseren": 3694.1999999284744
+  },
+  "faseBlokkades": {
+    "inlezen": 317,
+    "koppelen": 600,
+    "normaliseren": 293,
+    "voorbereiden": 672,
+    "kandidaten": 289,
+    "scoren": 672,
+    "groeperen": 672,
+    "werkmap": 1430,
+    "serialiseren": 3694
+  },
+  "aantallen": {
+    "kandidaten": 1225284,
+    "compacteGroepen": 25000,
+    "scores": 1225020,
+    "overgeslagenSleutels": 2
+  },
+  "groepen": 25000,
+  "totaalMs": 13565.50000011921,
+  "browserBlokkadeMs": 3694,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 1225284,
+  "compacteGroepen": 25000,
+  "scores": 1225020,
+  "overgeslagenSleutels": 2,
+  "exportBytes": 48587444,
+  "kwaliteitscontrole": {
+    "groepen": 25000,
+    "bronrijen": 50000,
+    "oorspronkelijkeCellen": 350000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "c0351f765089fd00cff9a4aa1a6530ebcd0279f79c1802ab73775c760734d736"
+}

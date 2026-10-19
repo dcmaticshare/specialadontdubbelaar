@@ -1,0 +1,25 @@
+✔ B05: bestaand paar buiten kandidaatselectie telt als gemist, niet als verdwenen rij (21.178625ms)
+✔ B05: fouten door transitieve groepen tellen ook als de eindpunten niet zeker dubbel scoren (9.7275ms)
+✔ B05: leeg wordt expliciet afgewezen (2.908875ms)
+✔ B05: ongeldig label wordt expliciet afgewezen (2.68675ms)
+✔ B05: ontbrekend paar wordt expliciet afgewezen (2.625333ms)
+✔ B05: dubbel paar wordt expliciet afgewezen (2.554458ms)
+✔ B05: vreemde record-ID wordt expliciet afgewezen (2.53425ms)
+✔ B05: verkeerde dataset wordt expliciet afgewezen (2.544959ms)
+✔ B05: omgewisselde rij wordt expliciet afgewezen (2.556584ms)
+✔ B05: extra paar wordt expliciet afgewezen (2.650334ms)
+✔ B05: verdwenen en veranderde bronrijen zijn datasetfouten (6.364541ms)
+✔ B05: dubbele inhoud behoudt verschillende test-ID’s en bronvolgorde verandert geen identiteit (5.3245ms)
+✔ B05: lege of vervalste manifesten worden niet groen (2.630708ms)
+✔ B05: tegenstrijdige grondwaarheid wordt afgewezen (2.684583ms)
+✔ B05: kandidaatselectie, paarscores en eindgroepen worden afzonderlijk bewaakt (2.895958ms)
+✔ B05: ontbrekende directe verbinding binnen een compacte groep is geen gemiste kandidaat (14.314875ms)
+✔ B05: samen te beoordelen paar is geen gemiste dubbel, maar blijft zichtbaar als werk (2.800833ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 179.454458

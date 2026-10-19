@@ -1,0 +1,4 @@
+"Naam";"Telefoon";"E-mail";"Adres";"Opmerkingen";"Contactpersoon"
+"Fabelwinkel";"020001001; 030001002; 040001003; 050001004";"a@fabel.invalid; b@fabel.invalid; c@fabel.invalid";"Teststraat 42 bus 3";"=BEWAAR-MIJ";"Mira Testmans"
+"Fabelwinkel BV";"020001001; 060001005";"d@fabel.invalid";"Andere straat 17";"TWEEDE-WAARDE";"Norian Fabelman"
+"<img src=x onerror=alert(1)>";"";"";"Verzinselweg 9";"TEKST-BLIJFT-TEKST";""

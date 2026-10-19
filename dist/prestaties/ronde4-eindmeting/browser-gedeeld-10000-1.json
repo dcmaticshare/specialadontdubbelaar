@@ -1,0 +1,84 @@
+{
+  "modus": "browser",
+  "soort": "gedeeld",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 81,
+  "longtasks": [
+    {
+      "start": 91.39999997615814,
+      "duur": 66
+    },
+    {
+      "start": 240.5,
+      "duur": 145
+    },
+    {
+      "start": 439.10000002384186,
+      "duur": 61
+    },
+    {
+      "start": 1759.1000000238419,
+      "duur": 125
+    },
+    {
+      "start": 1997.8999999761581,
+      "duur": 233
+    },
+    {
+      "start": 2256.8000000715256,
+      "duur": 691
+    }
+  ],
+  "timerVertragingMs": 683,
+  "fasen": {
+    "inlezen": 26,
+    "koppelen": 142.90000009536743,
+    "normaliseren": 189.60000002384186,
+    "voorbereiden": 1324.5,
+    "kandidaten": 46.699999928474426,
+    "scoren": 1079.5,
+    "groeperen": 111.5,
+    "werkmap": 233.29999995231628,
+    "serialiseren": 690.8999999761581
+  },
+  "faseBlokkades": {
+    "inlezen": 66,
+    "koppelen": 145,
+    "normaliseren": 61,
+    "voorbereiden": 125,
+    "kandidaten": 0,
+    "scoren": 125,
+    "groeperen": 125,
+    "werkmap": 233,
+    "serialiseren": 691
+  },
+  "aantallen": {
+    "kandidaten": 245008,
+    "compacteGroepen": 5000,
+    "scores": 245000,
+    "overgeslagenSleutels": 2
+  },
+  "groepen": 5000,
+  "totaalMs": 2529.100000023842,
+  "browserBlokkadeMs": 691,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 245008,
+  "compacteGroepen": 5000,
+  "scores": 245000,
+  "overgeslagenSleutels": 2,
+  "exportBytes": 9555037,
+  "kwaliteitscontrole": {
+    "groepen": 5000,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "a21857b22c5481bd239a9635beabcee7cca914e692e153cb27a7b89b705a72d6"
+}

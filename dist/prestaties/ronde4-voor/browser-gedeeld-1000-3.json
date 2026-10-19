@@ -1,0 +1,64 @@
+{
+  "modus": "browser",
+  "soort": "gedeeld",
+  "aantal": 1000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 17,
+  "longtasks": [
+    {
+      "start": 388.2999999523163,
+      "duur": 77
+    }
+  ],
+  "timerVertragingMs": 73.10000002384186,
+  "fasen": {
+    "inlezen": 3.399999976158142,
+    "koppelen": 17.600000023841858,
+    "normaliseren": 15.799999952316284,
+    "voorbereiden": 107.89999997615814,
+    "kandidaten": 5.200000047683716,
+    "scoren": 85.79999995231628,
+    "groeperen": 18.299999952316284,
+    "werkmap": 14.399999976158142,
+    "serialiseren": 61.89999997615814
+  },
+  "faseBlokkades": {
+    "inlezen": 0,
+    "koppelen": 0,
+    "normaliseren": 0,
+    "voorbereiden": 0,
+    "kandidaten": 0,
+    "scoren": 0,
+    "groeperen": 0,
+    "werkmap": 77,
+    "serialiseren": 77
+  },
+  "aantallen": {
+    "kandidaten": 24500,
+    "compacteGroepen": 500,
+    "scores": 24500,
+    "overgeslagenSleutels": 2
+  },
+  "groepen": 500,
+  "totaalMs": 223.4999998807907,
+  "browserBlokkadeMs": 77,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 24500,
+  "compacteGroepen": 500,
+  "scores": 24500,
+  "overgeslagenSleutels": 2,
+  "exportBytes": 929177,
+  "kwaliteitscontrole": {
+    "groepen": 500,
+    "bronrijen": 1000,
+    "oorspronkelijkeCellen": 7000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "0828aa8ad12299fe6df2e077b1a932f9e591ae19354289ee15dd9c7aa0a1d539"
+}

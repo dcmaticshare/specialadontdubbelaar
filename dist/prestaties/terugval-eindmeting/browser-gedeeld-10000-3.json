@@ -1,0 +1,80 @@
+{
+  "modus": "browser",
+  "soort": "gedeeld",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 62,
+  "longtasks": [
+    {
+      "start": 79.5,
+      "duur": 64
+    },
+    {
+      "start": 223.10000002384186,
+      "duur": 123
+    },
+    {
+      "start": 389,
+      "duur": 56
+    },
+    {
+      "start": 1297.1000000238419,
+      "duur": 150
+    },
+    {
+      "start": 1653.2000000476837,
+      "duur": 504
+    }
+  ],
+  "timerVertragingMs": 503.40000009536743,
+  "fasen": {
+    "inlezen": 25.100000023841858,
+    "koppelen": 120.79999995231628,
+    "normaliseren": 157.90000009536743,
+    "voorbereiden": 913.1000000238419,
+    "kandidaten": 42.59999990463257,
+    "scoren": 711.7999999523163,
+    "groeperen": 136.69999992847443,
+    "werkmap": 43.699999928474426,
+    "serialiseren": 503.89999997615814
+  },
+  "faseBlokkades": {
+    "inlezen": 0,
+    "koppelen": 123,
+    "normaliseren": 56,
+    "voorbereiden": 150,
+    "kandidaten": 0,
+    "scoren": 150,
+    "groeperen": 150,
+    "werkmap": 0,
+    "serialiseren": 504
+  },
+  "aantallen": {
+    "kandidaten": 245008,
+    "compacteGroepen": 5000,
+    "scores": 245000,
+    "overgeslagenSleutels": 2
+  },
+  "groepen": 5000,
+  "totaalMs": 1743.299999833107,
+  "browserBlokkadeMs": 504,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 245008,
+  "compacteGroepen": 5000,
+  "scores": 245000,
+  "overgeslagenSleutels": 2,
+  "exportBytes": 9555042,
+  "kwaliteitscontrole": {
+    "groepen": 5000,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "9e701df958d7a51a59596dba8a4bdd492f1a7f3cb8d912d34568d5506bfee47f"
+}

@@ -1,0 +1,317 @@
+{
+  "node/uniek/1000": {
+    "totaalMs": 500,
+    "fasen": {
+      "inlezen": 50,
+      "koppelen": 50,
+      "normaliseren": 50,
+      "kandidaten": 50,
+      "scoren": 50,
+      "voorbereiden": 50,
+      "groeperen": 50,
+      "werkmap": 50,
+      "serialiseren": 150
+    },
+    "kandidaten": 50,
+    "exportBytes": 1110016,
+    "piekRssBytes": 268435456
+  },
+  "node/duplicaten/1000": {
+    "totaalMs": 500,
+    "fasen": {
+      "inlezen": 50,
+      "koppelen": 50,
+      "normaliseren": 50,
+      "kandidaten": 50,
+      "scoren": 50,
+      "voorbereiden": 100,
+      "groeperen": 50,
+      "werkmap": 50,
+      "serialiseren": 150
+    },
+    "kandidaten": 12000,
+    "exportBytes": 1097728,
+    "piekRssBytes": 268435456
+  },
+  "node/gedeeld/1000": {
+    "totaalMs": 500,
+    "fasen": {
+      "inlezen": 50,
+      "koppelen": 50,
+      "normaliseren": 50,
+      "kandidaten": 50,
+      "scoren": 200,
+      "voorbereiden": 250,
+      "groeperen": 50,
+      "werkmap": 50,
+      "serialiseren": 150
+    },
+    "kandidaten": 24500,
+    "exportBytes": 975872,
+    "piekRssBytes": 402653184
+  },
+  "node/uniek/10000": {
+    "totaalMs": 1600,
+    "fasen": {
+      "inlezen": 50,
+      "koppelen": 150,
+      "normaliseren": 350,
+      "kandidaten": 50,
+      "scoren": 50,
+      "voorbereiden": 400,
+      "groeperen": 100,
+      "werkmap": 100,
+      "serialiseren": 850
+    },
+    "kandidaten": 517,
+    "exportBytes": 11504640,
+    "piekRssBytes": 805306368
+  },
+  "node/duplicaten/10000": {
+    "totaalMs": 1800,
+    "fasen": {
+      "inlezen": 50,
+      "koppelen": 150,
+      "normaliseren": 300,
+      "kandidaten": 50,
+      "scoren": 200,
+      "voorbereiden": 550,
+      "groeperen": 200,
+      "werkmap": 150,
+      "serialiseren": 850
+    },
+    "kandidaten": 120000,
+    "exportBytes": 12146688,
+    "piekRssBytes": 1006632960
+  },
+  "node/gedeeld/10000": {
+    "totaalMs": 3300,
+    "fasen": {
+      "inlezen": 50,
+      "koppelen": 150,
+      "normaliseren": 300,
+      "kandidaten": 150,
+      "scoren": 1600,
+      "voorbereiden": 1950,
+      "groeperen": 250,
+      "werkmap": 100,
+      "serialiseren": 900
+    },
+    "kandidaten": 245008,
+    "exportBytes": 10033152,
+    "piekRssBytes": 1140850688
+  },
+  "node/uniek/50000": {
+    "totaalMs": 8500,
+    "fasen": {
+      "inlezen": 250,
+      "koppelen": 600,
+      "normaliseren": 1650,
+      "kandidaten": 350,
+      "scoren": 50,
+      "voorbereiden": 2000,
+      "groeperen": 250,
+      "werkmap": 450,
+      "serialiseren": 5000
+    },
+    "kandidaten": 2667,
+    "exportBytes": 58911744,
+    "piekRssBytes": 2415919104
+  },
+  "node/duplicaten/50000": {
+    "totaalMs": 10800,
+    "fasen": {
+      "inlezen": 250,
+      "koppelen": 550,
+      "normaliseren": 1500,
+      "kandidaten": 250,
+      "scoren": 900,
+      "voorbereiden": 2650,
+      "groeperen": 1250,
+      "werkmap": 850,
+      "serialiseren": 5500
+    },
+    "kandidaten": 600000,
+    "exportBytes": 63158272,
+    "piekRssBytes": 3758096384
+  },
+  "node/gedeeld/50000": {
+    "totaalMs": 18600,
+    "fasen": {
+      "inlezen": 200,
+      "koppelen": 500,
+      "normaliseren": 1350,
+      "kandidaten": 600,
+      "scoren": 8400,
+      "voorbereiden": 10300,
+      "groeperen": 1200,
+      "werkmap": 400,
+      "serialiseren": 6250
+    },
+    "kandidaten": 1225284,
+    "exportBytes": 51017728,
+    "piekRssBytes": 4563402752
+  },
+  "browser/uniek/1000": {
+    "totaalMs": 500,
+    "fasen": {
+      "inlezen": 50,
+      "koppelen": 50,
+      "normaliseren": 50,
+      "kandidaten": 50,
+      "scoren": 50,
+      "voorbereiden": 50,
+      "groeperen": 50,
+      "werkmap": 50,
+      "serialiseren": 100
+    },
+    "kandidaten": 50,
+    "exportBytes": 1110016,
+    "browserBlokkadeMs": 200,
+    "timerVertragingMs": 200
+  },
+  "browser/duplicaten/1000": {
+    "totaalMs": 500,
+    "fasen": {
+      "inlezen": 50,
+      "koppelen": 50,
+      "normaliseren": 50,
+      "kandidaten": 50,
+      "scoren": 50,
+      "voorbereiden": 100,
+      "groeperen": 50,
+      "werkmap": 50,
+      "serialiseren": 100
+    },
+    "kandidaten": 12000,
+    "exportBytes": 1097728,
+    "browserBlokkadeMs": 200,
+    "timerVertragingMs": 200
+  },
+  "browser/gedeeld/1000": {
+    "totaalMs": 500,
+    "fasen": {
+      "inlezen": 50,
+      "koppelen": 50,
+      "normaliseren": 50,
+      "kandidaten": 50,
+      "scoren": 100,
+      "voorbereiden": 150,
+      "groeperen": 50,
+      "werkmap": 50,
+      "serialiseren": 100
+    },
+    "kandidaten": 24500,
+    "exportBytes": 975872,
+    "browserBlokkadeMs": 200,
+    "timerVertragingMs": 200
+  },
+  "browser/uniek/10000": {
+    "totaalMs": 1400,
+    "fasen": {
+      "inlezen": 50,
+      "koppelen": 250,
+      "normaliseren": 300,
+      "kandidaten": 50,
+      "scoren": 50,
+      "voorbereiden": 350,
+      "groeperen": 50,
+      "werkmap": 100,
+      "serialiseren": 750
+    },
+    "kandidaten": 517,
+    "exportBytes": 11504640,
+    "browserBlokkadeMs": 700,
+    "timerVertragingMs": 600
+  },
+  "browser/duplicaten/10000": {
+    "totaalMs": 1700,
+    "fasen": {
+      "inlezen": 50,
+      "koppelen": 200,
+      "normaliseren": 250,
+      "kandidaten": 50,
+      "scoren": 100,
+      "voorbereiden": 400,
+      "groeperen": 150,
+      "werkmap": 150,
+      "serialiseren": 800
+    },
+    "kandidaten": 120000,
+    "exportBytes": 12146688,
+    "browserBlokkadeMs": 700,
+    "timerVertragingMs": 700
+  },
+  "browser/gedeeld/10000": {
+    "totaalMs": 2500,
+    "fasen": {
+      "inlezen": 50,
+      "koppelen": 200,
+      "normaliseren": 250,
+      "kandidaten": 100,
+      "scoren": 1050,
+      "voorbereiden": 1350,
+      "groeperen": 200,
+      "werkmap": 100,
+      "serialiseren": 700
+    },
+    "kandidaten": 245008,
+    "exportBytes": 10033152,
+    "browserBlokkadeMs": 600,
+    "timerVertragingMs": 600
+  },
+  "browser/uniek/50000": {
+    "totaalMs": 7400,
+    "fasen": {
+      "inlezen": 150,
+      "koppelen": 1100,
+      "normaliseren": 1400,
+      "kandidaten": 250,
+      "scoren": 50,
+      "voorbereiden": 1600,
+      "groeperen": 200,
+      "werkmap": 350,
+      "serialiseren": 4100
+    },
+    "kandidaten": 2667,
+    "exportBytes": 58911744,
+    "browserBlokkadeMs": 3400,
+    "timerVertragingMs": 3400
+  },
+  "browser/duplicaten/50000": {
+    "totaalMs": 8200,
+    "fasen": {
+      "inlezen": 150,
+      "koppelen": 900,
+      "normaliseren": 1250,
+      "kandidaten": 150,
+      "scoren": 500,
+      "voorbereiden": 1850,
+      "groeperen": 800,
+      "werkmap": 550,
+      "serialiseren": 4000
+    },
+    "kandidaten": 600000,
+    "exportBytes": 63158272,
+    "browserBlokkadeMs": 3400,
+    "timerVertragingMs": 3400
+  },
+  "browser/gedeeld/50000": {
+    "totaalMs": 13600,
+    "fasen": {
+      "inlezen": 150,
+      "koppelen": 950,
+      "normaliseren": 1200,
+      "kandidaten": 450,
+      "scoren": 5850,
+      "voorbereiden": 7450,
+      "groeperen": 950,
+      "werkmap": 300,
+      "serialiseren": 4000
+    },
+    "kandidaten": 1225284,
+    "exportBytes": 51017728,
+    "browserBlokkadeMs": 3300,
+    "timerVertragingMs": 3300
+  }
+}

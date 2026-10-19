@@ -1,0 +1,3 @@
+{"soort":"uniek","aantal":1000,"totaalMs":190.70329100000004,"fasen":{"inlezen":5.350375,"koppelen":16.721125,"normaliseren":27.976,"voorbereiden":34.21125000000001,"kandidaten":3.6912090000000006,"scoren":0.5464170000000053,"groeperen":4.676582999999994,"werkmap":31.188208000000003,"serialiseren":98.55575000000002},"piekRssBytes":202653696,"kandidaten":50,"exportBytes":1057076}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Verkennend resultaat: /Users/dieter/Documents/Xcode/Specialad Ontdubbeling/dist/prestaties/verkennend-1792239046557/meting.json. Dit is geen volledige prestatiepoort.

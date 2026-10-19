@@ -1,0 +1,80 @@
+{
+  "modus": "browser",
+  "soort": "gedeeld",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 61,
+  "longtasks": [
+    {
+      "start": 96,
+      "duur": 63
+    },
+    {
+      "start": 239.20000004768372,
+      "duur": 123
+    },
+    {
+      "start": 422.39999997615814,
+      "duur": 59
+    },
+    {
+      "start": 1308.7000000476837,
+      "duur": 142
+    },
+    {
+      "start": 1636.5,
+      "duur": 466
+    }
+  ],
+  "timerVertragingMs": 455.89999997615814,
+  "fasen": {
+    "inlezen": 26.299999952316284,
+    "koppelen": 121.19999992847443,
+    "normaliseren": 159.89999997615814,
+    "voorbereiden": 890.7999999523163,
+    "kandidaten": 43.699999928474426,
+    "scoren": 686.1000000238419,
+    "groeperen": 128.89999997615814,
+    "werkmap": 42.89999997615814,
+    "serialiseren": 465.7999999523163
+  },
+  "faseBlokkades": {
+    "inlezen": 63,
+    "koppelen": 123,
+    "normaliseren": 59,
+    "voorbereiden": 142,
+    "kandidaten": 0,
+    "scoren": 142,
+    "groeperen": 142,
+    "werkmap": 0,
+    "serialiseren": 466
+  },
+  "aantallen": {
+    "kandidaten": 245008,
+    "compacteGroepen": 5000,
+    "scores": 245000,
+    "overgeslagenSleutels": 2
+  },
+  "groepen": 5000,
+  "totaalMs": 1675.8999997377396,
+  "browserBlokkadeMs": 466,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 245008,
+  "compacteGroepen": 5000,
+  "scores": 245000,
+  "overgeslagenSleutels": 2,
+  "exportBytes": 9555042,
+  "kwaliteitscontrole": {
+    "groepen": 5000,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "ea1102da2faa086e49acbecade57cf89569c95bc7608c0f8d3bd86c80495d91d"
+}

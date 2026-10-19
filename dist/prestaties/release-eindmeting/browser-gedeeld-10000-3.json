@@ -1,0 +1,80 @@
+{
+  "modus": "browser",
+  "soort": "gedeeld",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 61,
+  "longtasks": [
+    {
+      "start": 86.10000002384186,
+      "duur": 64
+    },
+    {
+      "start": 240.29999995231628,
+      "duur": 127
+    },
+    {
+      "start": 423.60000002384186,
+      "duur": 57
+    },
+    {
+      "start": 1340.5,
+      "duur": 113
+    },
+    {
+      "start": 1637.2999999523163,
+      "duur": 488
+    }
+  ],
+  "timerVertragingMs": 484.39999997615814,
+  "fasen": {
+    "inlezen": 25.09999990463257,
+    "koppelen": 124.70000004768372,
+    "normaliseren": 162.10000002384186,
+    "voorbereiden": 921.3999999761581,
+    "kandidaten": 43.89999997615814,
+    "scoren": 714.1999999284744,
+    "groeperen": 100.79999995231628,
+    "werkmap": 45.40000009536743,
+    "serialiseren": 488.3000000715256
+  },
+  "faseBlokkades": {
+    "inlezen": 0,
+    "koppelen": 127,
+    "normaliseren": 57,
+    "voorbereiden": 113,
+    "kandidaten": 0,
+    "scoren": 113,
+    "groeperen": 113,
+    "werkmap": 0,
+    "serialiseren": 488
+  },
+  "aantallen": {
+    "kandidaten": 245008,
+    "compacteGroepen": 5000,
+    "scores": 245000,
+    "overgeslagenSleutels": 2
+  },
+  "groepen": 5000,
+  "totaalMs": 1705.7000000476837,
+  "browserBlokkadeMs": 488,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 245008,
+  "compacteGroepen": 5000,
+  "scores": 245000,
+  "overgeslagenSleutels": 2,
+  "exportBytes": 9555049,
+  "kwaliteitscontrole": {
+    "groepen": 5000,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "bf53d827530606a32e72e09f4b30ba17f2e0e041413641d576a0b02dab7ed2dd"
+}

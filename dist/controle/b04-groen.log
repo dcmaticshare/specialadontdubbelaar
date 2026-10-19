@@ -1,0 +1,35 @@
+✔ B01: driehoek respecteert A–B verschillend, uploadvolgorde A,B,C (13.284541ms)
+✔ B01: driehoek respecteert A–B verschillend, uploadvolgorde A,C,B (4.559959ms)
+✔ B01: driehoek respecteert A–B verschillend, uploadvolgorde B,A,C (3.022792ms)
+✔ B01: driehoek respecteert A–B verschillend, uploadvolgorde B,C,A (3.09275ms)
+✔ B01: driehoek respecteert A–B verschillend, uploadvolgorde C,A,B (2.815542ms)
+✔ B01: driehoek respecteert A–B verschillend, uploadvolgorde C,B,A (2.927042ms)
+✔ B01: uitsluiting buiten de kandidaatparen blokkeert ook een keten (2.887917ms)
+✔ B06: onuitvoerbare handmatige samenvoeging blijft als conflict in controlelijst (3.129459ms)
+✔ B01: tegenstrijdige handmatige keten verbergt geen conflict (3.122458ms)
+✔ B01: besluit geldt voor alle leden van de twee getoonde groepen, ook zonder paarscore (3.123417ms)
+✔ B06: schermbesluit wordt atomair geweigerd bij BTW-conflict, zonder succeslog (2.759416ms)
+✔ B01: ontkoppelen houdt alle groepsleden apart, ook na opnieuw beoordelen via een derde (2.801333ms)
+✔ invarianten: 40 vaste seeds met ketens, BTW-conflicten en menselijke uitsluitingen (116.084666ms)
+✔ B04: 399 identieke rijen blijven één bedrijf (345.091167ms)
+✔ B04: 400 identieke rijen blijven één bedrijf (307.004291ms)
+✔ B04: 401 identieke rijen blijven één bedrijf (23.615583ms)
+✔ B04: 2000 identieke rijen blijven één bedrijf (262.741625ms)
+✔ B04: een gelijk geldig BTW-nummer werkt ook bij totaal andere namen (13.218333ms)
+✔ B04: 401 exacte namen met gedeeld Telefoon, zonder BTW (21.783125ms)
+✔ B04: 401 exacte namen met gedeeld E-mail, zonder BTW (22.917709ms)
+✔ B04: 401 exacte namen met gedeeld Website, zonder BTW (21.242834ms)
+✔ B04: 401 exacte namen met gedeeld Adres, zonder BTW (21.901583ms)
+✔ B04/B01: uitgesloten vertegenwoordiger laat de overige 400 dubbels samenkomen (false) (21.985709ms)
+✔ B04/B01: uitgesloten vertegenwoordiger laat de overige 400 dubbels samenkomen (true) (19.111125ms)
+✔ B04: sterk gedeelde algemene signalen koppelen geen verschillende BTW-nummers (40.385917ms)
+✔ B04: algemeen domein en ongeldig BTW-nummer worden geen sterke identificatoren (7.720375ms)
+✔ B04/B01: een grote groep blijft na ontkoppelen apart (290.985083ms)
+ℹ tests 27
+ℹ suites 0
+ℹ pass 27
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1551.607333

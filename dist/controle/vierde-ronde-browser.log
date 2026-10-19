@@ -1,0 +1,15 @@
+Gebouwd: dist/Lead-ontdubbelaar.html (1089 kB), versie 0.1.0, 2026-10-17, 13 modules
+B07 constante contactkolommen en postcode: OK
+B07 verschillende postcodes bij een gemeentelijst: OK
+B10 opslag ontbreekt: OK
+B10 opslag ongeldige-json: OK
+B10 opslag object: OK
+B10 opslag null: OK
+B10 opslag ongeldig-lid: OK
+B10 opslag ongeldig-veld: OK
+B10 opslag oude-lijst: OK
+B10 opslag huidig: OK
+B10 opslag onbekende-versie: OK
+B10 onbeschikbare opslag: OK
+B11 contactspaties, waarschuwingen, download en herimport: OK
+{"browser":"155.0.8059.84","uitkomst":"OK","controles":["gegevensbehoud","tekstcellen","tekstinjectie","herimport en nieuwe lijst","groepsbesluit","ontkoppelen","BTW-afwijzing","401 gelijke rijen","constante contactkolommen en postcode","profielherstel en opnieuw voorstellen","onbeschikbare profielopslag","contactnormalisatie en herimport","offline CSP"],"netwerkverzoeken":0,"consolefouten":0}

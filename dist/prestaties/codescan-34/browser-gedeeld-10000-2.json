@@ -1,0 +1,80 @@
+{
+  "modus": "browser",
+  "soort": "gedeeld",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 61,
+  "longtasks": [
+    {
+      "start": 87.10000002384186,
+      "duur": 58
+    },
+    {
+      "start": 210.60000002384186,
+      "duur": 114
+    },
+    {
+      "start": 377.8000000715256,
+      "duur": 50
+    },
+    {
+      "start": 1247.5,
+      "duur": 130
+    },
+    {
+      "start": 1557.3000000715256,
+      "duur": 443
+    }
+  ],
+  "timerVertragingMs": 435.10000002384186,
+  "fasen": {
+    "inlezen": 26.199999928474426,
+    "koppelen": 110.80000007152557,
+    "normaliseren": 158.10000002384186,
+    "voorbereiden": 873.5,
+    "kandidaten": 41.39999997615814,
+    "scoren": 673.1999999284744,
+    "groeperen": 106.10000002384186,
+    "werkmap": 40.60000002384186,
+    "serialiseren": 442.39999997615814
+  },
+  "faseBlokkades": {
+    "inlezen": 0,
+    "koppelen": 114,
+    "normaliseren": 50,
+    "voorbereiden": 130,
+    "kandidaten": 0,
+    "scoren": 130,
+    "groeperen": 130,
+    "werkmap": 0,
+    "serialiseren": 443
+  },
+  "aantallen": {
+    "kandidaten": 245008,
+    "compacteGroepen": 5000,
+    "scores": 245000,
+    "overgeslagenSleutels": 2
+  },
+  "groepen": 5000,
+  "totaalMs": 1599.6000000238419,
+  "browserBlokkadeMs": 443,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 245008,
+  "compacteGroepen": 5000,
+  "scores": 245000,
+  "overgeslagenSleutels": 2,
+  "exportBytes": 9555044,
+  "kwaliteitscontrole": {
+    "groepen": 5000,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "5db7bf6a3118d406574b2c99d3801a6ad2ed22ab81f4eba38cf0571fe6e0b437"
+}

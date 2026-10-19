@@ -1,0 +1,84 @@
+{
+  "modus": "browser",
+  "soort": "duplicaten",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 29,
+  "longtasks": [
+    {
+      "start": 78.30000007152557,
+      "duur": 58
+    },
+    {
+      "start": 226.60000002384186,
+      "duur": 117
+    },
+    {
+      "start": 392.7000000476837,
+      "duur": 54
+    },
+    {
+      "start": 623.3999999761581,
+      "duur": 97
+    },
+    {
+      "start": 936.2000000476837,
+      "duur": 63
+    },
+    {
+      "start": 1025.3000000715256,
+      "duur": 525
+    }
+  ],
+  "timerVertragingMs": 516.6999999284744,
+  "fasen": {
+    "inlezen": 23.299999952316284,
+    "koppelen": 114.69999992847443,
+    "normaliseren": 152.60000002384186,
+    "voorbereiden": 229.79999995231628,
+    "kandidaten": 13.699999928474426,
+    "scoren": 63.199999928474426,
+    "groeperen": 78.39999997615814,
+    "werkmap": 62.700000047683716,
+    "serialiseren": 525.2999999523163
+  },
+  "faseBlokkades": {
+    "inlezen": 0,
+    "koppelen": 117,
+    "normaliseren": 54,
+    "voorbereiden": 54,
+    "kandidaten": 0,
+    "scoren": 0,
+    "groeperen": 97,
+    "werkmap": 63,
+    "serialiseren": 525
+  },
+  "aantallen": {
+    "kandidaten": 120000,
+    "compacteGroepen": 0,
+    "scores": 120000,
+    "overgeslagenSleutels": 0
+  },
+  "groepen": 400,
+  "totaalMs": 1034.1999998092651,
+  "browserBlokkadeMs": 525,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 120000,
+  "compacteGroepen": 0,
+  "scores": 120000,
+  "overgeslagenSleutels": 0,
+  "exportBytes": 11567354,
+  "kwaliteitscontrole": {
+    "groepen": 400,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "a0006248701beddf637e93bbb5a6c47f24053742119dc653709146cf3e558492"
+}

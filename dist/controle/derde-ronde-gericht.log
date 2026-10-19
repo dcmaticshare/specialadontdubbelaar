@@ -1,0 +1,41 @@
+✔ B07: constante E-mail levert geen kandidaat of punten, ook bij andere schrijfwijze (16.242791ms)
+✔ B07: constante Telefoon levert geen kandidaat of punten, ook bij andere schrijfwijze (3.912833ms)
+✔ B07: constante Website levert geen kandidaat of punten, ook bij andere schrijfwijze (5.226209ms)
+✔ B07: constante Contactpersoon levert geen kandidaat of punten, ook bij andere schrijfwijze (3.325792ms)
+✔ B07: constante postcode blijft bruikbaar en verlaagt punten bij een andere postcode (4.508833ms)
+✔ B07: geldige BTW, adres en identieke bedrijfsnamen behouden hun vergelijkingsrol (20.790667ms)
+✔ B10: ongeldige profielvorm {} valt terug op voorstel (0.491416ms)
+✔ B10: ongeldige profielvorm null valt terug op voorstel (0.053458ms)
+✔ B10: ongeldige profielvorm [null] valt terug op voorstel (0.054042ms)
+✔ B10: ongeldige profielvorm [{"signature":"naam","mapping":null}] valt terug op voorstel (0.068375ms)
+✔ B10: ongeldige profielvorm [{"signature":"naam","mapping":{"naam":"bestaat-niet"}}] valt terug op voorstel (0.151875ms)
+✔ B10: expliciet nieuw voorstel negeert een geldig bewaard profiel (0.084291ms)
+✔ B10: ontbrekende, kapotte en oude opslag wordt veilig gelezen en hersteld (0.235625ms)
+✔ B11: dubbele spaties, tabs en regeleinden scheiden volledige telefoons vóór opschonen (7.498792ms)
+✔ B11: alleen spaties direct rond @ worden hersteld; afgebroken lokale naam wordt niet geraden (3.201041ms)
+✔ B11: export en herimport behouden gesplitste contacten, waarschuwingen en originele celtekst (24.0405ms)
+✔ B07: grens 19 gevulde rijen, 0 afwijkend contactgegeven (3.498834ms)
+✔ B07: grens 20 gevulde rijen, 1 afwijkend contactgegeven (3.647375ms)
+✔ B07: grens 20 gevulde rijen, 2 afwijkend contactgegeven (3.4325ms)
+✔ B07: uitsluiting geldt per bronkolom; tweede contactkolom en onafhankelijke bron blijven bruikbaar (19.031ms)
+✔ B07: gekoppelde persoonsnaamvelden vallen samen weg; een constant adres blijft bruikbaar (3.2035ms)
+✔ B07: actuele koppeling en bronrijen winnen van verouderde detectiegegevens (5.631875ms)
+✔ B10: profielvelden en opslagversie worden gesloten gevalideerd; geldige buren blijven behouden (0.248125ms)
+✔ B10: onbeschikbare opslag blokkeert voorstel of verwerking niet (0.096625ms)
+✔ B10: meerdere profielen, herhaalde handtekening en bovengrens blijven geldig (0.174375ms)
+✔ B11: telefoonopmaak blijft veilig: 02  000 00 00 (0.039834ms)
+✔ B11: telefoonopmaak blijft veilig: 02/000.00.00 (0.016292ms)
+✔ B11: telefoonopmaak blijft veilig: 020000000 / 030000000 (0.016667ms)
+✔ B11: telefoonopmaak blijft veilig: 020000000 - 030000000 (0.014208ms)
+✔ B11: telefoonopmaak blijft veilig: 020000000 of 030000000 (0.018333ms)
+✔ B11: telefoonopmaak blijft veilig: 3,2479E+10 (0.018208ms)
+✔ B11: e-mailspaties en gedeeltelijk verworpen cellen geven voorspelbare contacten (1.9215ms)
+✔ B07/B04: een afwijkende rij met eigen of leeg contact maakt echte herhaalde bedrijfsrijen niet verdacht (23.363208ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 276.733708

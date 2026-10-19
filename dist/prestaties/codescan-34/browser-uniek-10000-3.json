@@ -1,0 +1,84 @@
+{
+  "modus": "browser",
+  "soort": "uniek",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 31,
+  "longtasks": [
+    {
+      "start": 100.30000007152557,
+      "duur": 65
+    },
+    {
+      "start": 241.20000004768372,
+      "duur": 140
+    },
+    {
+      "start": 424.2000000476837,
+      "duur": 61
+    },
+    {
+      "start": 634.5,
+      "duur": 61
+    },
+    {
+      "start": 916.8999999761581,
+      "duur": 51
+    },
+    {
+      "start": 995,
+      "duur": 522
+    }
+  ],
+  "timerVertragingMs": 523.3000000715256,
+  "fasen": {
+    "inlezen": 30.200000047683716,
+    "koppelen": 137,
+    "normaliseren": 183.30000007152557,
+    "voorbereiden": 210.89999997615814,
+    "kandidaten": 24.90000009536743,
+    "scoren": 1.899999976158142,
+    "groeperen": 41,
+    "werkmap": 51.200000047683716,
+    "serialiseren": 521.3999999761581
+  },
+  "faseBlokkades": {
+    "inlezen": 65,
+    "koppelen": 140,
+    "normaliseren": 61,
+    "voorbereiden": 61,
+    "kandidaten": 0,
+    "scoren": 61,
+    "groeperen": 61,
+    "werkmap": 51,
+    "serialiseren": 522
+  },
+  "aantallen": {
+    "kandidaten": 517,
+    "compacteGroepen": 0,
+    "scores": 500,
+    "overgeslagenSleutels": 0
+  },
+  "groepen": 9500,
+  "totaalMs": 991.7000000476837,
+  "browserBlokkadeMs": 522,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 517,
+  "compacteGroepen": 0,
+  "scores": 500,
+  "overgeslagenSleutels": 0,
+  "exportBytes": 10956505,
+  "kwaliteitscontrole": {
+    "groepen": 9500,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "ac56a613164d2b493590365133573adbf929a489ae6c86a1dd844cee0671e368"
+}

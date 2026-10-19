@@ -1,0 +1,23 @@
+{
+  "literal": {
+    "textVisible": true,
+    "images": 0,
+    "executed": false
+  },
+  "fetchBlocked": true,
+  "csp": [
+    "connect-src"
+  ],
+  "routedNetwork": 0,
+  "corruptProfile": {
+    "mappingScreen": 0,
+    "errors": [
+      "profiles.find is not a function"
+    ]
+  },
+  "hashChecks": [
+    true,
+    true,
+    true
+  ]
+}

@@ -1,0 +1,46 @@
+✔ prestatieharness aanvaardt een volledig geldig rapport (1.288209ms)
+✔ prestatieharness faalt bij bewust overschreden totaalMs (0.923208ms)
+✔ prestatieharness faalt bij bewust overschreden piekRssBytes (0.218583ms)
+✔ prestatieharness faalt bij bewust overschreden kandidaten (0.231042ms)
+✔ prestatieharness faalt bij bewust overschreden exportBytes (0.23425ms)
+✔ prestatieharness faalt bij bewust overschreden browserBlokkadeMs (0.203334ms)
+✔ prestatieharness faalt bij bewust overschreden timerVertragingMs (2.493083ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => r.samples.pop() (0.215542ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => r.samples.push(r.samples[0]) (0.203ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].fasen.scoren = null; } (0.355584ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { delete r.samples[0].fasen.inlezen; } (0.312917ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].fasen.groeperen = -1; } (0.19675ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].fasen.kandidaten = NaN; } (0.41975ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].fasen.serialiseren = Infinity; } (0.255875ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].fasen.normaliseren = 10000; } (0.240167ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].kwaliteitscontrole.gegevensbehoud = false; } (0.292917ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].kwaliteitscontrole.groepen--; } (0.263791ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].seed++; } (0.191625ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].piekRssBytes = null; } (0.895333ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.referentie.node = 'verkeerd'; } (0.186333ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { delete r.referentie.browser; } (0.199334ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { delete r.samples[27].browserBlokkadeMs; } (0.192666ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[27].geheugenMethode = 'verzonnen'; } (0.168875ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { delete r.bronSha256; } (0.1905ms)
+✔ prestatieharness weigert ontbrekende en ongeldige budgetten (0.410875ms)
+✔ B12: benchmark-BTW heeft tien cijfers en een onafhankelijke modulo-97-controle (23.803916ms)
+✔ B12: benchmark-BTW bereikt het geldige pad van de normalisatie (0.187833ms)
+✔ B12: ongeldige BTW-indices worden geweigerd (0.105833ms)
+✔ generator uniek: herhaalbare 1k/10k/50k-invoer met onafhankelijke identiteit (167.616541ms)
+✔ generator uniek: echte CSV-inleesketen, verwachte groepen en exportbehoud (407.561708ms)
+✔ generator duplicaten: herhaalbare 1k/10k/50k-invoer met onafhankelijke identiteit (134.519875ms)
+✔ generator duplicaten: echte CSV-inleesketen, verwachte groepen en exportbehoud (415.567625ms)
+✔ generator gedeeld: herhaalbare 1k/10k/50k-invoer met onafhankelijke identiteit (172.61025ms)
+✔ generator gedeeld: echte CSV-inleesketen, verwachte groepen en exportbehoud (508.41725ms)
+✔ onafhankelijke groepscontrole vindt verlies, dubbel tellen, foute samenvoeging en splitsing (0.413834ms)
+✔ export verwerkt een rijstroom met exacte tekstwaarden zonder tussentabel (0.082875ms)
+✔ rijstroom behoudt de Excel-limieten en kapt nooit celtekst af (0.139958ms)
+✔ strengheidsaantallen blijven juist wanneer een aangepaste stand ook de zekere grens wijzigt (4.255708ms)
+ℹ tests 38
+ℹ suites 0
+ℹ pass 38
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1928.852333

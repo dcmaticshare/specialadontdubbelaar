@@ -1,0 +1,125 @@
+{
+  "format": 1,
+  "dataset": "173c87bb8bd81d8a33cc3189bb828d3c7ad631375c960b4caee934cf6af563a3",
+  "sources": [
+    {
+      "file": "bron.csv",
+      "sheet": "CSV",
+      "header": [
+        "Naam",
+        "Telefoon",
+        "Adres",
+        "BTW"
+      ],
+      "mapping": [
+        "bedrijfsnaam",
+        "telefoon",
+        "adres",
+        "btw"
+      ],
+      "nearConstant": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "rows": 5
+    }
+  ],
+  "records": [
+    {
+      "id": "R-51b0dd87b2bdd861698bbb56a02a32a5e5dce8037851930bbefa8e5e39c7d7de",
+      "file": "bron.csv",
+      "sheet": "CSV",
+      "row": 3,
+      "hash": "a82b82f8ecbdd7a00e12df5e69c139e94a063dc234f61e139aa0c4c2f21f31c8"
+    },
+    {
+      "id": "R-8c1ac9b20979f0f69f8a04086320d90183613885dd26352296e4d818bd9992e6",
+      "file": "bron.csv",
+      "sheet": "CSV",
+      "row": 2,
+      "hash": "45645e5c165b783de536dcf56232bf722fe4d54a03d6ab1ce8ded3947b4d5cb1"
+    },
+    {
+      "id": "R-8de75db6be12b0797a2dd365e3ed8308f3c444761a5bc77793f9e5d0902004b4",
+      "file": "bron.csv",
+      "sheet": "CSV",
+      "row": 6,
+      "hash": "49aa5f0e0743934021365d790612dcdd59edeabbe0cf1fbd60bba9a3dbadd3c8"
+    },
+    {
+      "id": "R-afe0b7fafc98f4974cf1fa8b8afbcf63ea7a7cf8129d935e05f2459c26894693",
+      "file": "bron.csv",
+      "sheet": "CSV",
+      "row": 4,
+      "hash": "f828bbdbfb10bd9dd084ab61eb8f5f17c586d25b87885d7127d03b0594b6361f"
+    },
+    {
+      "id": "R-fc077e5e40905521eed164ebf1ff5226dd65fae5ff304be7c1af609111b6caf5",
+      "file": "bron.csv",
+      "sheet": "CSV",
+      "row": 5,
+      "hash": "4dd8dd7522c873f5d1aa9421b591126b96e9ce3c686954c497e689329976fafb"
+    }
+  ],
+  "pairs": [
+    {
+      "id": "P-1ddfe56a24f303babd4cfd84c51f54eab37debdfc4fae364147465cb77d12933",
+      "a": "R-8c1ac9b20979f0f69f8a04086320d90183613885dd26352296e4d818bd9992e6",
+      "b": "R-51b0dd87b2bdd861698bbb56a02a32a5e5dce8037851930bbefa8e5e39c7d7de"
+    },
+    {
+      "id": "P-6a0567fc5d412ba7471c1273c06f1667e6ea56a12d580aaee201a326d88f3bf7",
+      "a": "R-8c1ac9b20979f0f69f8a04086320d90183613885dd26352296e4d818bd9992e6",
+      "b": "R-afe0b7fafc98f4974cf1fa8b8afbcf63ea7a7cf8129d935e05f2459c26894693"
+    },
+    {
+      "id": "P-e035bf3120481cb04fe30611077f52c955c6cbeffe82f5f8796c7461d37aa0c0",
+      "a": "R-8c1ac9b20979f0f69f8a04086320d90183613885dd26352296e4d818bd9992e6",
+      "b": "R-fc077e5e40905521eed164ebf1ff5226dd65fae5ff304be7c1af609111b6caf5"
+    },
+    {
+      "id": "P-b45216b1de99253df5a3661e88891b5605a97ec58f27a5e9c4bd85b95d964afd",
+      "a": "R-8c1ac9b20979f0f69f8a04086320d90183613885dd26352296e4d818bd9992e6",
+      "b": "R-8de75db6be12b0797a2dd365e3ed8308f3c444761a5bc77793f9e5d0902004b4"
+    },
+    {
+      "id": "P-5feb51559f61a3f1b2d7d167751d626959dec47fefbca328fe3ec3e6983fdc9f",
+      "a": "R-51b0dd87b2bdd861698bbb56a02a32a5e5dce8037851930bbefa8e5e39c7d7de",
+      "b": "R-afe0b7fafc98f4974cf1fa8b8afbcf63ea7a7cf8129d935e05f2459c26894693"
+    },
+    {
+      "id": "P-edd33709aecd682cdc36f317939567b38e394d6616c5b7e97f8e621928454309",
+      "a": "R-51b0dd87b2bdd861698bbb56a02a32a5e5dce8037851930bbefa8e5e39c7d7de",
+      "b": "R-fc077e5e40905521eed164ebf1ff5226dd65fae5ff304be7c1af609111b6caf5"
+    },
+    {
+      "id": "P-b586c6a20a81011ce48c019174f95ca228f2dd5a9cb76fbaced6877adc3df1e7",
+      "a": "R-51b0dd87b2bdd861698bbb56a02a32a5e5dce8037851930bbefa8e5e39c7d7de",
+      "b": "R-8de75db6be12b0797a2dd365e3ed8308f3c444761a5bc77793f9e5d0902004b4"
+    },
+    {
+      "id": "P-b156ca3d69048f37f2cdf51ff8a0d9e508d06610b6f498488e9d648e13f01574",
+      "a": "R-afe0b7fafc98f4974cf1fa8b8afbcf63ea7a7cf8129d935e05f2459c26894693",
+      "b": "R-fc077e5e40905521eed164ebf1ff5226dd65fae5ff304be7c1af609111b6caf5"
+    },
+    {
+      "id": "P-59d7e076f9e7d2c13e740f29a15fa3eaabda0953d5179e1fa6b85feaf8d5348a",
+      "a": "R-afe0b7fafc98f4974cf1fa8b8afbcf63ea7a7cf8129d935e05f2459c26894693",
+      "b": "R-8de75db6be12b0797a2dd365e3ed8308f3c444761a5bc77793f9e5d0902004b4"
+    },
+    {
+      "id": "P-eafb26b7e98e941a98af16315e91d5665a62ca1d0ff71bf36f31b1b88f9dddab",
+      "a": "R-fc077e5e40905521eed164ebf1ff5226dd65fae5ff304be7c1af609111b6caf5",
+      "b": "R-8de75db6be12b0797a2dd365e3ed8308f3c444761a5bc77793f9e5d0902004b4"
+    }
+  ],
+  "limits": {
+    "fouteSamenvoegingen": 0,
+    "foutePaarscores": 0,
+    "gemisteDubbels": 0,
+    "gemisteKandidaten": 0
+  },
+  "id": "aca651a947782928306f0cdd4337625f069d7b5c21567ca1864382da86d3c89e"
+}

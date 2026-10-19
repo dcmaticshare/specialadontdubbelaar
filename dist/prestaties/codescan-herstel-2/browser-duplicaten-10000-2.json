@@ -1,0 +1,80 @@
+{
+  "modus": "browser",
+  "soort": "duplicaten",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 27,
+  "longtasks": [
+    {
+      "start": 99.69999992847443,
+      "duur": 60
+    },
+    {
+      "start": 225.19999992847443,
+      "duur": 99
+    },
+    {
+      "start": 591.5,
+      "duur": 167
+    },
+    {
+      "start": 917.8999999761581,
+      "duur": 60
+    },
+    {
+      "start": 1006.2999999523163,
+      "duur": 496
+    }
+  ],
+  "timerVertragingMs": 485.60000002384186,
+  "fasen": {
+    "inlezen": 28.600000023841858,
+    "koppelen": 96.89999997615814,
+    "normaliseren": 131.09999990463257,
+    "voorbereiden": 216.09999990463257,
+    "kandidaten": 20.399999976158142,
+    "scoren": 64.19999992847443,
+    "groeperen": 80.20000004768372,
+    "werkmap": 60.299999952316284,
+    "serialiseren": 494.89999997615814
+  },
+  "faseBlokkades": {
+    "inlezen": 60,
+    "koppelen": 99,
+    "normaliseren": 0,
+    "voorbereiden": 167,
+    "kandidaten": 0,
+    "scoren": 167,
+    "groeperen": 167,
+    "werkmap": 60,
+    "serialiseren": 496
+  },
+  "aantallen": {
+    "kandidaten": 120000,
+    "compacteGroepen": 0,
+    "scores": 120000,
+    "overgeslagenSleutels": 0
+  },
+  "groepen": 400,
+  "totaalMs": 976.9999998807907,
+  "browserBlokkadeMs": 496,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 120000,
+  "compacteGroepen": 0,
+  "scores": 120000,
+  "overgeslagenSleutels": 0,
+  "exportBytes": 11567356,
+  "kwaliteitscontrole": {
+    "groepen": 400,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "a7be8973ec2d5c5c83098cb538bf01bb83e589e6dea4784e1d040d3f6cc960a0"
+}

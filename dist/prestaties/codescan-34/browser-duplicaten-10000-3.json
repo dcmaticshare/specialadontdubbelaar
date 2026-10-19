@@ -1,0 +1,84 @@
+{
+  "modus": "browser",
+  "soort": "duplicaten",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 32,
+  "longtasks": [
+    {
+      "start": 112.10000002384186,
+      "duur": 67
+    },
+    {
+      "start": 254.60000002384186,
+      "duur": 129
+    },
+    {
+      "start": 436.60000002384186,
+      "duur": 55
+    },
+    {
+      "start": 694.8000000715256,
+      "duur": 181
+    },
+    {
+      "start": 1082.5,
+      "duur": 85
+    },
+    {
+      "start": 1194.8000000715256,
+      "duur": 533
+    }
+  ],
+  "timerVertragingMs": 524.2999999523163,
+  "fasen": {
+    "inlezen": 31.299999952316284,
+    "koppelen": 125.89999997615814,
+    "normaliseren": 169.89999997615814,
+    "voorbereiden": 256.7000000476837,
+    "kandidaten": 17.100000023841858,
+    "scoren": 69.20000004768372,
+    "groeperen": 89.89999997615814,
+    "werkmap": 84.80000007152557,
+    "serialiseren": 532
+  },
+  "faseBlokkades": {
+    "inlezen": 0,
+    "koppelen": 129,
+    "normaliseren": 55,
+    "voorbereiden": 55,
+    "kandidaten": 0,
+    "scoren": 0,
+    "groeperen": 181,
+    "werkmap": 85,
+    "serialiseren": 533
+  },
+  "aantallen": {
+    "kandidaten": 120000,
+    "compacteGroepen": 0,
+    "scores": 120000,
+    "overgeslagenSleutels": 0
+  },
+  "groepen": 400,
+  "totaalMs": 1120.6000000238419,
+  "browserBlokkadeMs": 533,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 120000,
+  "compacteGroepen": 0,
+  "scores": 120000,
+  "overgeslagenSleutels": 0,
+  "exportBytes": 11567351,
+  "kwaliteitscontrole": {
+    "groepen": 400,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "83763b5cf14ed59ad0e4b2b422b32991db1f038bdfb245ea67a20dc1ffff14f5"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "tijd": 1792241872.0321238,
+    "bouwprocessen": 1,
+    "bouwCpu": 0.5,
+    "hoogsteCpu": 44.0
+  },
+  {
+    "tijd": 1792241877.075763,
+    "bouwprocessen": 1,
+    "bouwCpu": 0.0,
+    "hoogsteCpu": 58.3
+  },
+  {
+    "tijd": 1792241882.127481,
+    "bouwprocessen": 1,
+    "bouwCpu": 0.5,
+    "hoogsteCpu": 87.2
+  },
+  {
+    "tijd": 1792241887.172894,
+    "bouwprocessen": 1,
+    "bouwCpu": 0.5,
+    "hoogsteCpu": 57.3
+  },
+  {
+    "tijd": 1792241892.2118342,
+    "bouwprocessen": 1,
+    "bouwCpu": 1.5,
+    "hoogsteCpu": 44.5
+  },
+  {
+    "tijd": 1792241897.253442,
+    "bouwprocessen": 1,
+    "bouwCpu": 4.0,
+    "hoogsteCpu": 39.2
+  },
+  {
+    "tijd": 1792241902.289351,
+    "bouwprocessen": 1,
+    "bouwCpu": 0.2,
+    "hoogsteCpu": 98.2
+  }
+]

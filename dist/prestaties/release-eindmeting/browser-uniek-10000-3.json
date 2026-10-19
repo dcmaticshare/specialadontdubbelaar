@@ -1,0 +1,76 @@
+{
+  "modus": "browser",
+  "soort": "uniek",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 28,
+  "longtasks": [
+    {
+      "start": 85.69999992847443,
+      "duur": 66
+    },
+    {
+      "start": 244.59999990463257,
+      "duur": 141
+    },
+    {
+      "start": 443.39999997615814,
+      "duur": 67
+    },
+    {
+      "start": 859.2999999523163,
+      "duur": 522
+    }
+  ],
+  "timerVertragingMs": 523.5,
+  "fasen": {
+    "inlezen": 24.90000009536743,
+    "koppelen": 138.89999997615814,
+    "normaliseren": 181,
+    "voorbereiden": 209.30000007152557,
+    "kandidaten": 26,
+    "scoren": 1.9000000953674316,
+    "groeperen": 23.300000071525574,
+    "werkmap": 45.10000002384186,
+    "serialiseren": 522.2999999523163
+  },
+  "faseBlokkades": {
+    "inlezen": 66,
+    "koppelen": 141,
+    "normaliseren": 67,
+    "voorbereiden": 67,
+    "kandidaten": 0,
+    "scoren": 0,
+    "groeperen": 0,
+    "werkmap": 0,
+    "serialiseren": 522
+  },
+  "aantallen": {
+    "kandidaten": 517,
+    "compacteGroepen": 0,
+    "scores": 500,
+    "overgeslagenSleutels": 0
+  },
+  "groepen": 9500,
+  "totaalMs": 963.8000001907349,
+  "browserBlokkadeMs": 522,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 517,
+  "compacteGroepen": 0,
+  "scores": 500,
+  "overgeslagenSleutels": 0,
+  "exportBytes": 10956509,
+  "kwaliteitscontrole": {
+    "groepen": 9500,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "afa9edc16f8c62de5bd67a2a83d5ea38fc6de9bae185f335abb88a78919abfbe"
+}

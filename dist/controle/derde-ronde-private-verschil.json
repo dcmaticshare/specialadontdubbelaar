@@ -1,0 +1,41 @@
+{
+  "samenvatting": {
+    "rijen": 1357,
+    "uniekeLeads": 1128,
+    "automatischSamengevoegd": 214,
+    "samengevoegdDoorMens": 0,
+    "teControleren": 98,
+    "groepen": 1128
+  },
+  "gelijkeGroepsleden": true,
+  "gelijkeKandidaten": true,
+  "gelijkeTwijfelparenEnScores": true,
+  "gewijzigdePaarscores": 2,
+  "scoreVerschillen": [
+    {
+      "voor": 135,
+      "na": 120,
+      "besluitVoor": "zeker",
+      "besluitNa": "zeker",
+      "redenVoor": "zelfde gsm + zelfde adres + zelfde naam",
+      "redenNa": "zelfde gsm + zelfde adres, andere postcode + zelfde naam",
+      "zelfdeGroepVoor": true,
+      "zelfdeGroepNa": true
+    },
+    {
+      "voor": 190,
+      "na": 175,
+      "besluitVoor": "zeker",
+      "besluitNa": "zeker",
+      "redenVoor": "zelfde BTW-nummer + zelfde e-mail + zelfde domein + zelfde adres + zelfde naam + zelfde contactpersoon",
+      "redenNa": "zelfde BTW-nummer + zelfde e-mail + zelfde domein + zelfde adres, andere postcode + zelfde naam + zelfde contactpersoon",
+      "zelfdeGroepVoor": true,
+      "zelfdeGroepNa": true
+    }
+  ],
+  "gewijzigdeNormalisatievelden": {
+    "postcodeUsable": 1276
+  },
+  "waarschuwingenVoor": 1,
+  "waarschuwingenNa": 1
+}

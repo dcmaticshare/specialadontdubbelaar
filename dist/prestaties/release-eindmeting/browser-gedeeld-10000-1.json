@@ -1,0 +1,80 @@
+{
+  "modus": "browser",
+  "soort": "gedeeld",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 60,
+  "longtasks": [
+    {
+      "start": 75.40000009536743,
+      "duur": 57
+    },
+    {
+      "start": 216.80000007152557,
+      "duur": 123
+    },
+    {
+      "start": 382.7000000476837,
+      "duur": 55
+    },
+    {
+      "start": 1245.4000000953674,
+      "duur": 100
+    },
+    {
+      "start": 1527.8000000715256,
+      "duur": 459
+    }
+  ],
+  "timerVertragingMs": 454.2000000476837,
+  "fasen": {
+    "inlezen": 23.200000047683716,
+    "koppelen": 121.29999995231628,
+    "normaliseren": 152.40000009536743,
+    "voorbereiden": 867,
+    "kandidaten": 40.09999990463257,
+    "scoren": 673.6999999284744,
+    "groeperen": 89.79999995231628,
+    "werkmap": 42.59999990463257,
+    "serialiseren": 458.89999997615814
+  },
+  "faseBlokkades": {
+    "inlezen": 0,
+    "koppelen": 123,
+    "normaliseren": 55,
+    "voorbereiden": 100,
+    "kandidaten": 0,
+    "scoren": 100,
+    "groeperen": 100,
+    "werkmap": 0,
+    "serialiseren": 459
+  },
+  "aantallen": {
+    "kandidaten": 245008,
+    "compacteGroepen": 5000,
+    "scores": 245000,
+    "overgeslagenSleutels": 2
+  },
+  "groepen": 5000,
+  "totaalMs": 1602.799999833107,
+  "browserBlokkadeMs": 459,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 245008,
+  "compacteGroepen": 5000,
+  "scores": 245000,
+  "overgeslagenSleutels": 2,
+  "exportBytes": 9555048,
+  "kwaliteitscontrole": {
+    "groepen": 5000,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "d968988c612c775bc3c365022125a792f29b141943c1ab888e3fbdecf5125d8b"
+}

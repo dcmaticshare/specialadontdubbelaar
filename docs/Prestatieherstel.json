@@ -1,0 +1,3731 @@
+{
+  "versie": 1,
+  "toelichting": "Voor: eindmeting ronde 4. Na: volledig herhaalde eindmeting van compacte werkbladen en browserpauzes met achtergrondprioriteit. Drie herhalingen per geval; tijden in ms, geheugen en bestand in bytes. De eerdere baseline blijft ongewijzigd.",
+  "referentie": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M5 Pro",
+    "geheugenBytes": 25769803776,
+    "node": "24.19.0",
+    "browser": "155.0.8059.84",
+    "playwright": "1.62.1"
+  },
+  "besturingssysteem": {
+    "release": "27.0.0",
+    "versie": "Darwin Kernel Version 27.0.0: Tue Aug 11 21:06:40 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6050"
+  },
+  "voor": {
+    "bronSha256": "9ffd7d7178b0e1c5bcd72281d173fdaae952568c1819758fc6eb1ba7d9c2c9f6",
+    "datum": "2026-10-17T11:58:56.095Z",
+    "gevallen": {
+      "node/uniek/1000": {
+        "totaalMs": [
+          150.842,
+          157.722,
+          155.08
+        ],
+        "piekRssBytes": [
+          201441280,
+          200998912,
+          200753152
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          50,
+          50,
+          50
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          50,
+          50,
+          50
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          1057076,
+          1057076,
+          1057076
+        ],
+        "fasenMs": {
+          "inlezen": [
+            4.347,
+            6.371,
+            4.189
+          ],
+          "koppelen": [
+            12.578,
+            10.325,
+            12.934
+          ],
+          "normaliseren": [
+            23.537,
+            24.001,
+            23.281
+          ],
+          "kandidaten": [
+            2.589,
+            2.726,
+            2.413
+          ],
+          "scoren": [
+            0.373,
+            0.38,
+            0.383
+          ],
+          "voorbereiden": [
+            28.171,
+            28.783,
+            29.143
+          ],
+          "groeperen": [
+            4.032,
+            3.973,
+            3.775
+          ],
+          "werkmap": [
+            21.51,
+            23.285,
+            20.797
+          ],
+          "serialiseren": [
+            80.204,
+            84.985,
+            84.242
+          ]
+        }
+      },
+      "node/duplicaten/1000": {
+        "totaalMs": [
+          183.81,
+          176.068,
+          173.556
+        ],
+        "piekRssBytes": [
+          216219648,
+          217546752,
+          217186304
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          12000,
+          12000,
+          12000
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          12000,
+          12000,
+          12000
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          1044838,
+          1044838,
+          1044838
+        ],
+        "fasenMs": {
+          "inlezen": [
+            6.77,
+            4.493,
+            4.654
+          ],
+          "koppelen": [
+            9.751,
+            11.622,
+            11.332
+          ],
+          "normaliseren": [
+            24.661,
+            22.854,
+            23.577
+          ],
+          "kandidaten": [
+            3.31,
+            3.2,
+            3.245
+          ],
+          "scoren": [
+            13.521,
+            13.763,
+            14.882
+          ],
+          "voorbereiden": [
+            43.864,
+            42.181,
+            44.31
+          ],
+          "groeperen": [
+            13.967,
+            13.802,
+            14.181
+          ],
+          "werkmap": [
+            19.897,
+            20.395,
+            19.862
+          ],
+          "serialiseren": [
+            89.561,
+            83.575,
+            79.217
+          ]
+        }
+      },
+      "node/gedeeld/1000": {
+        "totaalMs": [
+          277.324,
+          270.588,
+          274.22
+        ],
+        "piekRssBytes": [
+          286932992,
+          283197440,
+          283230208
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          24500,
+          24500,
+          24500
+        ],
+        "compacteGroepen": [
+          500,
+          500,
+          500
+        ],
+        "scores": [
+          24500,
+          24500,
+          24500
+        ],
+        "overgeslagenSleutels": [
+          2,
+          2,
+          2
+        ],
+        "exportBytes": [
+          929164,
+          929164,
+          929164
+        ],
+        "fasenMs": {
+          "inlezen": [
+            6.524,
+            4.896,
+            6.793
+          ],
+          "koppelen": [
+            9.446,
+            11.76,
+            9.135
+          ],
+          "normaliseren": [
+            22.674,
+            23.706,
+            23.592
+          ],
+          "kandidaten": [
+            5.853,
+            6.067,
+            5.865
+          ],
+          "scoren": [
+            106.497,
+            107.851,
+            111.124
+          ],
+          "voorbereiden": [
+            136.273,
+            140.032,
+            143.232
+          ],
+          "groeperen": [
+            21.784,
+            14.347,
+            13.468
+          ],
+          "werkmap": [
+            34.22,
+            20.831,
+            20.151
+          ],
+          "serialiseren": [
+            69.077,
+            78.722,
+            81.44
+          ]
+        }
+      },
+      "node/uniek/10000": {
+        "totaalMs": [
+          1740.476,
+          1543.545,
+          1608.18
+        ],
+        "piekRssBytes": [
+          678985728,
+          678051840,
+          677494784
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          517,
+          517,
+          517
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          500,
+          500,
+          500
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          10956496,
+          10956496,
+          10956496
+        ],
+        "fasenMs": {
+          "inlezen": [
+            27.187,
+            27.761,
+            26.161
+          ],
+          "koppelen": [
+            77.02,
+            78.346,
+            78.965
+          ],
+          "normaliseren": [
+            253.198,
+            213.548,
+            212.986
+          ],
+          "kandidaten": [
+            35.509,
+            30.273,
+            28.02
+          ],
+          "scoren": [
+            2.409,
+            2.022,
+            1.928
+          ],
+          "voorbereiden": [
+            298.89,
+            250.396,
+            248.234
+          ],
+          "groeperen": [
+            35.53,
+            32.607,
+            32.394
+          ],
+          "werkmap": [
+            406.113,
+            359.429,
+            380.694
+          ],
+          "serialiseren": [
+            895.736,
+            795.006,
+            841.732
+          ]
+        }
+      },
+      "node/duplicaten/10000": {
+        "totaalMs": [
+          1620.988,
+          1563.873,
+          1558.422
+        ],
+        "piekRssBytes": [
+          813121536,
+          814137344,
+          827490304
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          120000,
+          120000,
+          120000
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          120000,
+          120000,
+          120000
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          11567342,
+          11567342,
+          11567342
+        ],
+        "fasenMs": {
+          "inlezen": [
+            28.072,
+            29.635,
+            25.674
+          ],
+          "koppelen": [
+            72.116,
+            70.684,
+            68.55
+          ],
+          "normaliseren": [
+            202.224,
+            192.602,
+            193.945
+          ],
+          "kandidaten": [
+            28.502,
+            22.952,
+            24.034
+          ],
+          "scoren": [
+            126.337,
+            124.794,
+            124.767
+          ],
+          "voorbereiden": [
+            359.469,
+            344.355,
+            346.833
+          ],
+          "groeperen": [
+            116.817,
+            116.549,
+            111.676
+          ],
+          "werkmap": [
+            274.8,
+            254.25,
+            249.118
+          ],
+          "serialiseren": [
+            769.713,
+            748.4,
+            756.57
+          ]
+        }
+      },
+      "node/gedeeld/10000": {
+        "totaalMs": [
+          2815.128,
+          2687.681,
+          2577.677
+        ],
+        "piekRssBytes": [
+          889733120,
+          900218880,
+          909197312
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          245008,
+          245008,
+          245008
+        ],
+        "compacteGroepen": [
+          5000,
+          5000,
+          5000
+        ],
+        "scores": [
+          245000,
+          245000,
+          245000
+        ],
+        "overgeslagenSleutels": [
+          2,
+          2,
+          2
+        ],
+        "exportBytes": [
+          9555036,
+          9555036,
+          9555036
+        ],
+        "fasenMs": {
+          "inlezen": [
+            27.532,
+            27.203,
+            27.347
+          ],
+          "koppelen": [
+            70.675,
+            69.207,
+            70.946
+          ],
+          "normaliseren": [
+            195.069,
+            186.648,
+            187.224
+          ],
+          "kandidaten": [
+            69.063,
+            62.97,
+            64.14
+          ],
+          "scoren": [
+            1083.616,
+            1074.334,
+            1074.783
+          ],
+          "voorbereiden": [
+            1350.172,
+            1326.358,
+            1331.472
+          ],
+          "groeperen": [
+            143.664,
+            130.913,
+            127.882
+          ],
+          "werkmap": [
+            311.89,
+            277.809,
+            258.77
+          ],
+          "serialiseren": [
+            911.196,
+            856.191,
+            761.261
+          ]
+        }
+      },
+      "node/uniek/50000": {
+        "totaalMs": [
+          11040.692,
+          10331.457,
+          10335.897
+        ],
+        "piekRssBytes": [
+          2252521472,
+          3215261696,
+          2278014976
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          2667,
+          2667,
+          2667
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          2500,
+          2500,
+          2500
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          56105621,
+          56105621,
+          56105621
+        ],
+        "fasenMs": {
+          "inlezen": [
+            142.942,
+            136.47,
+            142.412
+          ],
+          "koppelen": [
+            386.881,
+            364.882,
+            374.649
+          ],
+          "normaliseren": [
+            1082.721,
+            1008.859,
+            1075.817
+          ],
+          "kandidaten": [
+            212.507,
+            197.454,
+            227.741
+          ],
+          "scoren": [
+            6.645,
+            6.789,
+            7.247
+          ],
+          "voorbereiden": [
+            1304.282,
+            1215.519,
+            1313.463
+          ],
+          "groeperen": [
+            149.505,
+            151.022,
+            154.225
+          ],
+          "werkmap": [
+            2617.608,
+            2067.074,
+            2436.741
+          ],
+          "serialiseren": [
+            6439.474,
+            6396.49,
+            5914.406
+          ]
+        }
+      },
+      "node/duplicaten/50000": {
+        "totaalMs": [
+          11090.819,
+          10772.02,
+          11895.056
+        ],
+        "piekRssBytes": [
+          2906783744,
+          3181101056,
+          3114844160
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          600000,
+          600000,
+          600000
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          600000,
+          600000,
+          600000
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          60150200,
+          60150200,
+          60150200
+        ],
+        "fasenMs": {
+          "inlezen": [
+            139.632,
+            132.009,
+            144.251
+          ],
+          "koppelen": [
+            358.355,
+            341.24,
+            384.3
+          ],
+          "normaliseren": [
+            1054.689,
+            970.824,
+            1040.451
+          ],
+          "kandidaten": [
+            130.928,
+            149.645,
+            126.325
+          ],
+          "scoren": [
+            559.079,
+            567.633,
+            561.527
+          ],
+          "voorbereiden": [
+            1745.378,
+            1690.282,
+            1730.472
+          ],
+          "groeperen": [
+            819.099,
+            823.598,
+            896.122
+          ],
+          "werkmap": [
+            2095.121,
+            1859.893,
+            2060.898
+          ],
+          "serialiseren": [
+            5933.234,
+            5924.999,
+            6679.013
+          ]
+        }
+      },
+      "node/gedeeld/50000": {
+        "totaalMs": [
+          21425.917,
+          16852.41,
+          17510.749
+        ],
+        "piekRssBytes": [
+          3971186688,
+          4252549120,
+          3778084864
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          1225284,
+          1225284,
+          1225284
+        ],
+        "compacteGroepen": [
+          25000,
+          25000,
+          25000
+        ],
+        "scores": [
+          1225020,
+          1225020,
+          1225020
+        ],
+        "overgeslagenSleutels": [
+          2,
+          2,
+          2
+        ],
+        "exportBytes": [
+          48587438,
+          48587438,
+          48587438
+        ],
+        "fasenMs": {
+          "inlezen": [
+            144.848,
+            123.502,
+            143.26
+          ],
+          "koppelen": [
+            336.847,
+            316.281,
+            336.107
+          ],
+          "normaliseren": [
+            972.769,
+            911.707,
+            926.592
+          ],
+          "kandidaten": [
+            396.195,
+            418.496,
+            420.358
+          ],
+          "scoren": [
+            5732.916,
+            5428.309,
+            5689.62
+          ],
+          "voorbereiden": [
+            7104.34,
+            6760.935,
+            7037.865
+          ],
+          "groeperen": [
+            2097.646,
+            782.332,
+            773.472
+          ],
+          "werkmap": [
+            3418.329,
+            1912.603,
+            1955.876
+          ],
+          "serialiseren": [
+            8323.907,
+            6956.758,
+            7264.169
+          ]
+        }
+      },
+      "browser/uniek/1000": {
+        "totaalMs": [
+          160.4,
+          139.3,
+          141.9
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          77,
+          69,
+          65
+        ],
+        "timerVertragingMs": [
+          73.8,
+          62.2,
+          62.8
+        ],
+        "kandidaten": [
+          50,
+          50,
+          50
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          50,
+          50,
+          50
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          1057077,
+          1057088,
+          1057089
+        ],
+        "fasenMs": {
+          "inlezen": [
+            4.2,
+            3.5,
+            7.9
+          ],
+          "koppelen": [
+            21.3,
+            15.9,
+            17.7
+          ],
+          "normaliseren": [
+            28.6,
+            26.1,
+            26.1
+          ],
+          "kandidaten": [
+            3.2,
+            2.6,
+            2.6
+          ],
+          "scoren": [
+            0.5,
+            0.3,
+            0.4
+          ],
+          "voorbereiden": [
+            33.2,
+            29,
+            29.2
+          ],
+          "groeperen": [
+            4.3,
+            3.5,
+            3.5
+          ],
+          "werkmap": [
+            20.7,
+            18.3,
+            18
+          ],
+          "serialiseren": [
+            76.7,
+            69.1,
+            65.6
+          ]
+        }
+      },
+      "browser/duplicaten/1000": {
+        "totaalMs": [
+          177.1,
+          160.4,
+          165.2
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          79,
+          70,
+          69
+        ],
+        "timerVertragingMs": [
+          73.2,
+          64.7,
+          60.1
+        ],
+        "kandidaten": [
+          12000,
+          12000,
+          12000
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          12000,
+          12000,
+          12000
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          1044840,
+          1044851,
+          1044851
+        ],
+        "fasenMs": {
+          "inlezen": [
+            6,
+            3.9,
+            4
+          ],
+          "koppelen": [
+            17.4,
+            15.3,
+            16.9
+          ],
+          "normaliseren": [
+            26.4,
+            26.4,
+            26.7
+          ],
+          "kandidaten": [
+            3.3,
+            3.2,
+            3.2
+          ],
+          "scoren": [
+            17.6,
+            17.8,
+            17.7
+          ],
+          "voorbereiden": [
+            47.5,
+            47.5,
+            47.6
+          ],
+          "groeperen": [
+            10.4,
+            9.4,
+            9.7
+          ],
+          "werkmap": [
+            16.8,
+            14.4,
+            17.8
+          ],
+          "serialiseren": [
+            79,
+            69.9,
+            69.2
+          ]
+        }
+      },
+      "browser/gedeeld/1000": {
+        "totaalMs": [
+          266,
+          242.7,
+          238.1
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          78,
+          68,
+          67
+        ],
+        "timerVertragingMs": [
+          60.4,
+          61.9,
+          59.6
+        ],
+        "kandidaten": [
+          24500,
+          24500,
+          24500
+        ],
+        "compacteGroepen": [
+          500,
+          500,
+          500
+        ],
+        "scores": [
+          24500,
+          24500,
+          24500
+        ],
+        "overgeslagenSleutels": [
+          2,
+          2,
+          2
+        ],
+        "exportBytes": [
+          929165,
+          929171,
+          929177
+        ],
+        "fasenMs": {
+          "inlezen": [
+            4.1,
+            3.6,
+            3.8
+          ],
+          "koppelen": [
+            19.8,
+            18.8,
+            15.1
+          ],
+          "normaliseren": [
+            27.1,
+            25.6,
+            26.3
+          ],
+          "kandidaten": [
+            6.2,
+            4.9,
+            5
+          ],
+          "scoren": [
+            99,
+            95,
+            92.5
+          ],
+          "voorbereiden": [
+            132.8,
+            125.6,
+            123.9
+          ],
+          "groeperen": [
+            15.1,
+            13.2,
+            13.6
+          ],
+          "werkmap": [
+            16.1,
+            13.7,
+            14
+          ],
+          "serialiseren": [
+            78.1,
+            67.8,
+            67.7
+          ]
+        }
+      },
+      "browser/uniek/10000": {
+        "totaalMs": [
+          1540.8,
+          1304.2,
+          1379.2
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          785,
+          684,
+          723
+        ],
+        "timerVertragingMs": [
+          779.9,
+          680.3,
+          704.5
+        ],
+        "kandidaten": [
+          517,
+          517,
+          517
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          500,
+          500,
+          500
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          10956497,
+          10956503,
+          10956509
+        ],
+        "fasenMs": {
+          "inlezen": [
+            25.6,
+            24.3,
+            26
+          ],
+          "koppelen": [
+            156.7,
+            130.4,
+            139.1
+          ],
+          "normaliseren": [
+            215.4,
+            202.1,
+            202.6
+          ],
+          "kandidaten": [
+            27.2,
+            22.3,
+            25
+          ],
+          "scoren": [
+            2.2,
+            1.6,
+            1.7
+          ],
+          "voorbereiden": [
+            253.1,
+            236.1,
+            238.6
+          ],
+          "groeperen": [
+            43.6,
+            21.8,
+            22.9
+          ],
+          "werkmap": [
+            276.3,
+            207.3,
+            229
+          ],
+          "serialiseren": [
+            785.5,
+            684.3,
+            723.6
+          ]
+        }
+      },
+      "browser/duplicaten/10000": {
+        "totaalMs": [
+          1612,
+          1490.9,
+          1567.8
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          686,
+          619,
+          668
+        ],
+        "timerVertragingMs": [
+          667.4,
+          613.7,
+          654.7
+        ],
+        "kandidaten": [
+          120000,
+          120000,
+          120000
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          120000,
+          120000,
+          120000
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          11567343,
+          11567349,
+          11567355
+        ],
+        "fasenMs": {
+          "inlezen": [
+            26.2,
+            24.1,
+            24.7
+          ],
+          "koppelen": [
+            129,
+            117.2,
+            121.5
+          ],
+          "normaliseren": [
+            189.9,
+            186.7,
+            180
+          ],
+          "kandidaten": [
+            15.1,
+            14.9,
+            16.5
+          ],
+          "scoren": [
+            231.3,
+            252.4,
+            240.8
+          ],
+          "voorbereiden": [
+            445.7,
+            463.9,
+            446.7
+          ],
+          "groeperen": [
+            94.8,
+            73.6,
+            78.6
+          ],
+          "werkmap": [
+            229.9,
+            192.4,
+            228.4
+          ],
+          "serialiseren": [
+            686.4,
+            619.7,
+            667.9
+          ]
+        }
+      },
+      "browser/gedeeld/10000": {
+        "totaalMs": [
+          2529.1,
+          2390.6,
+          2444.7
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          691,
+          633,
+          668
+        ],
+        "timerVertragingMs": [
+          683,
+          616.2,
+          655.7
+        ],
+        "kandidaten": [
+          245008,
+          245008,
+          245008
+        ],
+        "compacteGroepen": [
+          5000,
+          5000,
+          5000
+        ],
+        "scores": [
+          245000,
+          245000,
+          245000
+        ],
+        "overgeslagenSleutels": [
+          2,
+          2,
+          2
+        ],
+        "exportBytes": [
+          9555037,
+          9555043,
+          9555049
+        ],
+        "fasenMs": {
+          "inlezen": [
+            26,
+            25,
+            25.9
+          ],
+          "koppelen": [
+            142.9,
+            124.7,
+            127.2
+          ],
+          "normaliseren": [
+            189.6,
+            179.1,
+            183
+          ],
+          "kandidaten": [
+            46.7,
+            40.3,
+            42.4
+          ],
+          "scoren": [
+            1079.5,
+            1073.4,
+            1048.2
+          ],
+          "voorbereiden": [
+            1324.5,
+            1301.7,
+            1282.2
+          ],
+          "groeperen": [
+            111.5,
+            96.9,
+            99.6
+          ],
+          "werkmap": [
+            233.3,
+            209.5,
+            242
+          ],
+          "serialiseren": [
+            690.9,
+            632.8,
+            667.8
+          ]
+        }
+      },
+      "browser/uniek/50000": {
+        "totaalMs": [
+          7968.5,
+          7761.7,
+          8069.4
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          3869,
+          3850,
+          3938
+        ],
+        "timerVertragingMs": [
+          3862.7,
+          3851.9,
+          3934.1
+        ],
+        "kandidaten": [
+          2667,
+          2667,
+          2667
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          2500,
+          2500,
+          2500
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          56105622,
+          56105628,
+          56105634
+        ],
+        "fasenMs": {
+          "inlezen": [
+            98,
+            96.4,
+            110.5
+          ],
+          "koppelen": [
+            790.8,
+            712.4,
+            832.9
+          ],
+          "normaliseren": [
+            1159.6,
+            1139.6,
+            1174.9
+          ],
+          "kandidaten": [
+            183.2,
+            173.1,
+            174.4
+          ],
+          "scoren": [
+            5.4,
+            5.5,
+            5.5
+          ],
+          "voorbereiden": [
+            1357.5,
+            1327.6,
+            1364.3
+          ],
+          "groeperen": [
+            119.8,
+            113.5,
+            117.4
+          ],
+          "werkmap": [
+            1733,
+            1661.4,
+            1706.2
+          ],
+          "serialiseren": [
+            3869.4,
+            3850.4,
+            3938.1
+          ]
+        }
+      },
+      "browser/duplicaten/50000": {
+        "totaalMs": [
+          8563.3,
+          8421.7,
+          8953.7
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          3723,
+          3556,
+          3785
+        ],
+        "timerVertragingMs": [
+          3720.4,
+          3554.9,
+          3781
+        ],
+        "kandidaten": [
+          600000,
+          600000,
+          600000
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          600000,
+          600000,
+          600000
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          60150213,
+          60150207,
+          60150209
+        ],
+        "fasenMs": {
+          "inlezen": [
+            94.8,
+            96,
+            99
+          ],
+          "koppelen": [
+            577.8,
+            579,
+            640.1
+          ],
+          "normaliseren": [
+            1002.5,
+            1019.5,
+            1095
+          ],
+          "kandidaten": [
+            94.5,
+            91.2,
+            110.6
+          ],
+          "scoren": [
+            1124.3,
+            1210.9,
+            1182.9
+          ],
+          "voorbereiden": [
+            2231,
+            2332.6,
+            2398.8
+          ],
+          "groeperen": [
+            506.8,
+            497.6,
+            552.9
+          ],
+          "werkmap": [
+            1430,
+            1359.9,
+            1477.3
+          ],
+          "serialiseren": [
+            3722.9,
+            3556.6,
+            3785.6
+          ]
+        }
+      },
+      "browser/gedeeld/50000": {
+        "totaalMs": [
+          13527,
+          13565.5,
+          13776.8
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          3635,
+          3694,
+          3598
+        ],
+        "timerVertragingMs": [
+          3625.1,
+          3688.1,
+          3579.2
+        ],
+        "kandidaten": [
+          1225284,
+          1225284,
+          1225284
+        ],
+        "compacteGroepen": [
+          25000,
+          25000,
+          25000
+        ],
+        "scores": [
+          1225020,
+          1225020,
+          1225020
+        ],
+        "overgeslagenSleutels": [
+          2,
+          2,
+          2
+        ],
+        "exportBytes": [
+          48587451,
+          48587444,
+          48587447
+        ],
+        "fasenMs": {
+          "inlezen": [
+            93.5,
+            94.1,
+            97.4
+          ],
+          "koppelen": [
+            643.7,
+            598.2,
+            650.2
+          ],
+          "normaliseren": [
+            1013.1,
+            1007.1,
+            1051.8
+          ],
+          "kandidaten": [
+            320.5,
+            289.4,
+            361
+          ],
+          "scoren": [
+            5687.1,
+            5802.4,
+            5835.2
+          ],
+          "voorbereiden": [
+            7039.9,
+            7109.3,
+            7265.8
+          ],
+          "groeperen": [
+            648.6,
+            649.1,
+            678.3
+          ],
+          "werkmap": [
+            1466.5,
+            1420.6,
+            1486.9
+          ],
+          "serialiseren": [
+            3634.8,
+            3694.2,
+            3598.2
+          ]
+        }
+      }
+    }
+  },
+  "na": {
+    "bronSha256": "f6e9f88340552a79fb42fb9857e8697c23f908b67c7f9c38d3bbf49087259b45",
+    "rapportSha256": "46fea58027ff05ad7cc4a0bc0b2fbf602bf08627ca5406652bd5702e17dbc2bc",
+    "datum": "2026-10-17T12:58:51.687Z",
+    "gevallen": {
+      "node/uniek/1000": {
+        "totaalMs": [
+          138.482,
+          119.338,
+          121.046
+        ],
+        "piekRssBytes": [
+          192495616,
+          191709184,
+          192987136
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          50,
+          50,
+          50
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          50,
+          50,
+          50
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          1057076,
+          1057076,
+          1057076
+        ],
+        "fasenMs": {
+          "inlezen": [
+            7.069,
+            4.425,
+            6.162
+          ],
+          "koppelen": [
+            11.567,
+            12.128,
+            9.513
+          ],
+          "normaliseren": [
+            25.399,
+            22.891,
+            23.61
+          ],
+          "kandidaten": [
+            3.126,
+            2.803,
+            2.559
+          ],
+          "scoren": [
+            0.583,
+            0.42,
+            0.404
+          ],
+          "voorbereiden": [
+            32.127,
+            27.868,
+            29.429
+          ],
+          "groeperen": [
+            5.01,
+            3.8,
+            3.746
+          ],
+          "werkmap": [
+            9.408,
+            7.795,
+            7.808
+          ],
+          "serialiseren": [
+            73.3,
+            63.32,
+            64.387
+          ]
+        }
+      },
+      "node/duplicaten/1000": {
+        "totaalMs": [
+          166.534,
+          149.38,
+          153.554
+        ],
+        "piekRssBytes": [
+          203898880,
+          211927040,
+          204308480
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          12000,
+          12000,
+          12000
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          12000,
+          12000,
+          12000
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          1044838,
+          1044838,
+          1044838
+        ],
+        "fasenMs": {
+          "inlezen": [
+            7.388,
+            4.04,
+            5.687
+          ],
+          "koppelen": [
+            10.596,
+            10.628,
+            9.029
+          ],
+          "normaliseren": [
+            26.205,
+            22.035,
+            23.405
+          ],
+          "kandidaten": [
+            3.448,
+            3.148,
+            3.313
+          ],
+          "scoren": [
+            15.059,
+            13.294,
+            14.724
+          ],
+          "voorbereiden": [
+            47.114,
+            40.833,
+            43.841
+          ],
+          "groeperen": [
+            13.174,
+            12.918,
+            12.238
+          ],
+          "werkmap": [
+            11.678,
+            8.226,
+            10.601
+          ],
+          "serialiseren": [
+            76.584,
+            72.734,
+            72.157
+          ]
+        }
+      },
+      "node/gedeeld/1000": {
+        "totaalMs": [
+          262.052,
+          227.995,
+          254.112
+        ],
+        "piekRssBytes": [
+          304644096,
+          275972096,
+          309968896
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          24500,
+          24500,
+          24500
+        ],
+        "compacteGroepen": [
+          500,
+          500,
+          500
+        ],
+        "scores": [
+          24500,
+          24500,
+          24500
+        ],
+        "overgeslagenSleutels": [
+          2,
+          2,
+          2
+        ],
+        "exportBytes": [
+          929164,
+          929164,
+          929164
+        ],
+        "fasenMs": {
+          "inlezen": [
+            4.86,
+            4.343,
+            6.107
+          ],
+          "koppelen": [
+            12.712,
+            11.079,
+            9.103
+          ],
+          "normaliseren": [
+            23.931,
+            22.126,
+            22.433
+          ],
+          "kandidaten": [
+            6.973,
+            5.85,
+            5.58
+          ],
+          "scoren": [
+            105.786,
+            103.501,
+            105.816
+          ],
+          "voorbereiden": [
+            139.132,
+            133.86,
+            136.225
+          ],
+          "groeperen": [
+            21.721,
+            13.409,
+            21.399
+          ],
+          "werkmap": [
+            11.34,
+            6.722,
+            10.269
+          ],
+          "serialiseren": [
+            72.287,
+            58.581,
+            71.009
+          ]
+        }
+      },
+      "node/uniek/10000": {
+        "totaalMs": [
+          1028.821,
+          998.777,
+          986.016
+        ],
+        "piekRssBytes": [
+          593608704,
+          593133568,
+          618086400
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          517,
+          517,
+          517
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          500,
+          500,
+          500
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          10956496,
+          10956496,
+          10956496
+        ],
+        "fasenMs": {
+          "inlezen": [
+            27.731,
+            27.461,
+            26.992
+          ],
+          "koppelen": [
+            81.091,
+            76.644,
+            74.835
+          ],
+          "normaliseren": [
+            223.833,
+            208.997,
+            203.891
+          ],
+          "kandidaten": [
+            32.786,
+            29.946,
+            28.166
+          ],
+          "scoren": [
+            1.954,
+            1.916,
+            1.82
+          ],
+          "voorbereiden": [
+            261,
+            245.153,
+            236.331
+          ],
+          "groeperen": [
+            33.817,
+            32.367,
+            33.287
+          ],
+          "werkmap": [
+            59.788,
+            58.84,
+            55.895
+          ],
+          "serialiseren": [
+            565.394,
+            558.313,
+            558.676
+          ]
+        }
+      },
+      "node/duplicaten/10000": {
+        "totaalMs": [
+          1181.022,
+          1190.929,
+          1179.891
+        ],
+        "piekRssBytes": [
+          783564800,
+          783761408,
+          782663680
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          120000,
+          120000,
+          120000
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          120000,
+          120000,
+          120000
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          11567342,
+          11567342,
+          11567342
+        ],
+        "fasenMs": {
+          "inlezen": [
+            27,
+            25.452,
+            29.522
+          ],
+          "koppelen": [
+            66.008,
+            67.011,
+            70.918
+          ],
+          "normaliseren": [
+            190.417,
+            193.612,
+            195.463
+          ],
+          "kandidaten": [
+            22.545,
+            24.774,
+            22.669
+          ],
+          "scoren": [
+            116.712,
+            118.508,
+            116.266
+          ],
+          "voorbereiden": [
+            333.523,
+            340.737,
+            337.732
+          ],
+          "groeperen": [
+            116.543,
+            115.785,
+            114.854
+          ],
+          "werkmap": [
+            78.651,
+            79.169,
+            77.255
+          ],
+          "serialiseren": [
+            559.297,
+            562.776,
+            549.611
+          ]
+        }
+      },
+      "node/gedeeld/10000": {
+        "totaalMs": [
+          2100.516,
+          2150.41,
+          2055.059
+        ],
+        "piekRssBytes": [
+          862224384,
+          862699520,
+          851935232
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          245008,
+          245008,
+          245008
+        ],
+        "compacteGroepen": [
+          5000,
+          5000,
+          5000
+        ],
+        "scores": [
+          245000,
+          245000,
+          245000
+        ],
+        "overgeslagenSleutels": [
+          2,
+          2,
+          2
+        ],
+        "exportBytes": [
+          9555036,
+          9555036,
+          9555036
+        ],
+        "fasenMs": {
+          "inlezen": [
+            26.271,
+            26.621,
+            23.799
+          ],
+          "koppelen": [
+            65.641,
+            67.89,
+            63.193
+          ],
+          "normaliseren": [
+            191.214,
+            190.786,
+            185.14
+          ],
+          "kandidaten": [
+            66.713,
+            61.105,
+            64.078
+          ],
+          "scoren": [
+            1032.666,
+            1036.633,
+            1005.444
+          ],
+          "voorbereiden": [
+            1296.937,
+            1293.325,
+            1257.062
+          ],
+          "groeperen": [
+            123.334,
+            137.51,
+            122.869
+          ],
+          "werkmap": [
+            49.96,
+            55.501,
+            52.586
+          ],
+          "serialiseren": [
+            538.373,
+            569.562,
+            535.549
+          ]
+        }
+      },
+      "node/uniek/50000": {
+        "totaalMs": [
+          5308.882,
+          5609.336,
+          5487.655
+        ],
+        "piekRssBytes": [
+          1766146048,
+          1916551168,
+          1738473472
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          2667,
+          2667,
+          2667
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          2500,
+          2500,
+          2500
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          56105621,
+          56105621,
+          56105621
+        ],
+        "fasenMs": {
+          "inlezen": [
+            134.341,
+            140.764,
+            129.183
+          ],
+          "koppelen": [
+            353.53,
+            368.925,
+            351.345
+          ],
+          "normaliseren": [
+            989.686,
+            1141.109,
+            1036.837
+          ],
+          "kandidaten": [
+            200.696,
+            222.171,
+            225.346
+          ],
+          "scoren": [
+            6.468,
+            6.988,
+            7.155
+          ],
+          "voorbereiden": [
+            1199.251,
+            1372.673,
+            1271.775
+          ],
+          "groeperen": [
+            147.345,
+            154.22,
+            156.596
+          ],
+          "werkmap": [
+            246.329,
+            291.905,
+            272.308
+          ],
+          "serialiseren": [
+            3228.086,
+            3280.849,
+            3306.449
+          ]
+        }
+      },
+      "node/duplicaten/50000": {
+        "totaalMs": [
+          6849.495,
+          7177.58,
+          7168.073
+        ],
+        "piekRssBytes": [
+          2984296448,
+          2981871616,
+          2960031744
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          600000,
+          600000,
+          600000
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          600000,
+          600000,
+          600000
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          60150200,
+          60150200,
+          60150200
+        ],
+        "fasenMs": {
+          "inlezen": [
+            127.818,
+            130.647,
+            148.206
+          ],
+          "koppelen": [
+            337.488,
+            359.569,
+            337.346
+          ],
+          "normaliseren": [
+            946.684,
+            986.935,
+            984.713
+          ],
+          "kandidaten": [
+            130.727,
+            170.04,
+            153.473
+          ],
+          "scoren": [
+            577.258,
+            619.215,
+            573.575
+          ],
+          "voorbereiden": [
+            1657.091,
+            1778.12,
+            1713.96
+          ],
+          "groeperen": [
+            683.356,
+            721.572,
+            824.46
+          ],
+          "werkmap": [
+            417.899,
+            549.63,
+            479.875
+          ],
+          "serialiseren": [
+            3625.844,
+            3638.043,
+            3664.226
+          ]
+        }
+      },
+      "node/gedeeld/50000": {
+        "totaalMs": [
+          11638.907,
+          12386.078,
+          11712.466
+        ],
+        "piekRssBytes": [
+          3540451328,
+          3223912448,
+          3605626880
+        ],
+        "browserBlokkadeMs": [
+          null,
+          null,
+          null
+        ],
+        "timerVertragingMs": [
+          null,
+          null,
+          null
+        ],
+        "kandidaten": [
+          1225284,
+          1225284,
+          1225284
+        ],
+        "compacteGroepen": [
+          25000,
+          25000,
+          25000
+        ],
+        "scores": [
+          1225020,
+          1225020,
+          1225020
+        ],
+        "overgeslagenSleutels": [
+          2,
+          2,
+          2
+        ],
+        "exportBytes": [
+          48587438,
+          48587438,
+          48587438
+        ],
+        "fasenMs": {
+          "inlezen": [
+            130.995,
+            125.058,
+            119.162
+          ],
+          "koppelen": [
+            312.378,
+            305.805,
+            308.644
+          ],
+          "normaliseren": [
+            888.802,
+            889.242,
+            897.819
+          ],
+          "kandidaten": [
+            350.939,
+            365.828,
+            374.77
+          ],
+          "scoren": [
+            5550.381,
+            5584.08,
+            5537.245
+          ],
+          "voorbereiden": [
+            6792.501,
+            6841.547,
+            6814.087
+          ],
+          "groeperen": [
+            728.762,
+            710.831,
+            784.523
+          ],
+          "werkmap": [
+            249.021,
+            238.212,
+            246.727
+          ],
+          "serialiseren": [
+            3425.248,
+            4164.626,
+            3439.324
+          ]
+        }
+      },
+      "browser/uniek/1000": {
+        "totaalMs": [
+          119.9,
+          127.9,
+          119.7
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          58,
+          59,
+          58
+        ],
+        "timerVertragingMs": [
+          58.2,
+          50.7,
+          58.9
+        ],
+        "kandidaten": [
+          50,
+          50,
+          50
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          50,
+          50,
+          50
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          1057089,
+          1057088,
+          1057082
+        ],
+        "fasenMs": {
+          "inlezen": [
+            3.8,
+            8.9,
+            3.4
+          ],
+          "koppelen": [
+            17.6,
+            18.7,
+            16.4
+          ],
+          "normaliseren": [
+            26.3,
+            25.6,
+            26.7
+          ],
+          "kandidaten": [
+            2.3,
+            2.2,
+            2.8
+          ],
+          "scoren": [
+            0.3,
+            0.3,
+            0.5
+          ],
+          "voorbereiden": [
+            29,
+            28.3,
+            30.1
+          ],
+          "groeperen": [
+            3.7,
+            3.7,
+            3.8
+          ],
+          "werkmap": [
+            7.8,
+            8.7,
+            8.2
+          ],
+          "serialiseren": [
+            58,
+            59.6,
+            57.8
+          ]
+        }
+      },
+      "browser/duplicaten/1000": {
+        "totaalMs": [
+          139.3,
+          141.7,
+          140.3
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          63,
+          64,
+          59
+        ],
+        "timerVertragingMs": [
+          57,
+          62.2,
+          50
+        ],
+        "kandidaten": [
+          12000,
+          12000,
+          12000
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          12000,
+          12000,
+          12000
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          1044851,
+          1044851,
+          1044844
+        ],
+        "fasenMs": {
+          "inlezen": [
+            3.6,
+            3.5,
+            6.3
+          ],
+          "koppelen": [
+            15,
+            15.1,
+            16.7
+          ],
+          "normaliseren": [
+            25.1,
+            25.9,
+            26
+          ],
+          "kandidaten": [
+            2.3,
+            2.5,
+            2.5
+          ],
+          "scoren": [
+            8.8,
+            9.7,
+            9.5
+          ],
+          "voorbereiden": [
+            36.4,
+            38.1,
+            38.1
+          ],
+          "groeperen": [
+            9.7,
+            10.3,
+            10.2
+          ],
+          "werkmap": [
+            11.6,
+            10.6,
+            10.2
+          ],
+          "serialiseren": [
+            63,
+            64.1,
+            58.8
+          ]
+        }
+      },
+      "browser/gedeeld/1000": {
+        "totaalMs": [
+          201.4,
+          195.4,
+          194.2
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          59,
+          60,
+          59
+        ],
+        "timerVertragingMs": [
+          58.2,
+          53.3,
+          52.9
+        ],
+        "kandidaten": [
+          24500,
+          24500,
+          24500
+        ],
+        "compacteGroepen": [
+          500,
+          500,
+          500
+        ],
+        "scores": [
+          24500,
+          24500,
+          24500
+        ],
+        "overgeslagenSleutels": [
+          2,
+          2,
+          2
+        ],
+        "exportBytes": [
+          929177,
+          929177,
+          929170
+        ],
+        "fasenMs": {
+          "inlezen": [
+            5.5,
+            3.9,
+            4
+          ],
+          "koppelen": [
+            19.9,
+            16,
+            15.6
+          ],
+          "normaliseren": [
+            25.7,
+            26.2,
+            25
+          ],
+          "kandidaten": [
+            4.9,
+            5.1,
+            4.8
+          ],
+          "scoren": [
+            64.7,
+            64.6,
+            65.3
+          ],
+          "voorbereiden": [
+            95.4,
+            96.5,
+            95.3
+          ],
+          "groeperen": [
+            14.4,
+            13.2,
+            13.5
+          ],
+          "werkmap": [
+            6.9,
+            6.1,
+            7
+          ],
+          "serialiseren": [
+            59.3,
+            59.7,
+            58.8
+          ]
+        }
+      },
+      "browser/uniek/10000": {
+        "totaalMs": [
+          905.2,
+          906.1,
+          924.5
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          484,
+          485,
+          489
+        ],
+        "timerVertragingMs": [
+          474.3,
+          478.2,
+          479.4
+        ],
+        "kandidaten": [
+          517,
+          517,
+          517
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          500,
+          500,
+          500
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          10956509,
+          10956509,
+          10956502
+        ],
+        "fasenMs": {
+          "inlezen": [
+            22.9,
+            23.2,
+            24.7
+          ],
+          "koppelen": [
+            134.6,
+            135.5,
+            137.7
+          ],
+          "normaliseren": [
+            170.2,
+            169.9,
+            179.9
+          ],
+          "kandidaten": [
+            21.2,
+            24.1,
+            21.8
+          ],
+          "scoren": [
+            1.7,
+            1.7,
+            1.8
+          ],
+          "voorbereiden": [
+            193.6,
+            196.2,
+            203.9
+          ],
+          "groeperen": [
+            21.5,
+            21.8,
+            22.2
+          ],
+          "werkmap": [
+            48.4,
+            44.3,
+            46.8
+          ],
+          "serialiseren": [
+            484.2,
+            485.1,
+            489.2
+          ]
+        }
+      },
+      "browser/duplicaten/10000": {
+        "totaalMs": [
+          1026.4,
+          1042.7,
+          1085.1
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          509,
+          517,
+          519
+        ],
+        "timerVertragingMs": [
+          502.3,
+          511.3,
+          500.1
+        ],
+        "kandidaten": [
+          120000,
+          120000,
+          120000
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          120000,
+          120000,
+          120000
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          11567343,
+          11567355,
+          11567348
+        ],
+        "fasenMs": {
+          "inlezen": [
+            24.3,
+            24.8,
+            27
+          ],
+          "koppelen": [
+            115.9,
+            114.6,
+            124.8
+          ],
+          "normaliseren": [
+            154.8,
+            152.4,
+            162
+          ],
+          "kandidaten": [
+            13.7,
+            13.5,
+            14.3
+          ],
+          "scoren": [
+            63.3,
+            65.3,
+            66
+          ],
+          "voorbereiden": [
+            232.2,
+            231.6,
+            242.6
+          ],
+          "groeperen": [
+            83.9,
+            89.6,
+            96.2
+          ],
+          "werkmap": [
+            60.7,
+            65.4,
+            75.3
+          ],
+          "serialiseren": [
+            509.4,
+            516.7,
+            519.2
+          ]
+        }
+      },
+      "browser/gedeeld/10000": {
+        "totaalMs": [
+          1653.1,
+          1621.8,
+          1598.5
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          463,
+          448,
+          445
+        ],
+        "timerVertragingMs": [
+          451.3,
+          440.8,
+          432.9
+        ],
+        "kandidaten": [
+          245008,
+          245008,
+          245008
+        ],
+        "compacteGroepen": [
+          5000,
+          5000,
+          5000
+        ],
+        "scores": [
+          245000,
+          245000,
+          245000
+        ],
+        "overgeslagenSleutels": [
+          2,
+          2,
+          2
+        ],
+        "exportBytes": [
+          9555037,
+          9555049,
+          9555042
+        ],
+        "fasenMs": {
+          "inlezen": [
+            23.4,
+            24,
+            23.8
+          ],
+          "koppelen": [
+            120,
+            119.4,
+            121
+          ],
+          "normaliseren": [
+            152.8,
+            155.7,
+            154.3
+          ],
+          "kandidaten": [
+            38.9,
+            38.6,
+            41.1
+          ],
+          "scoren": [
+            696.8,
+            686.8,
+            679
+          ],
+          "voorbereiden": [
+            889.6,
+            882,
+            875.3
+          ],
+          "groeperen": [
+            114.5,
+            107.8,
+            91
+          ],
+          "werkmap": [
+            42.3,
+            40,
+            42.3
+          ],
+          "serialiseren": [
+            463.3,
+            448.6,
+            445.1
+          ]
+        }
+      },
+      "browser/uniek/50000": {
+        "totaalMs": [
+          4776.5,
+          4663.5,
+          4884.4
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          2595,
+          2537,
+          2720
+        ],
+        "timerVertragingMs": [
+          2593.6,
+          2518.6,
+          2716.9
+        ],
+        "kandidaten": [
+          2667,
+          2667,
+          2667
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          2500,
+          2500,
+          2500
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          56105622,
+          56105634,
+          56105627
+        ],
+        "fasenMs": {
+          "inlezen": [
+            95.7,
+            97.2,
+            93.1
+          ],
+          "koppelen": [
+            702,
+            684.5,
+            688.3
+          ],
+          "normaliseren": [
+            884.8,
+            902.8,
+            884.4
+          ],
+          "kandidaten": [
+            163.6,
+            145,
+            158.7
+          ],
+          "scoren": [
+            5.5,
+            5.3,
+            5.3
+          ],
+          "voorbereiden": [
+            1054.3,
+            1053.6,
+            1049.6
+          ],
+          "groeperen": [
+            117.6,
+            110,
+            112.3
+          ],
+          "werkmap": [
+            211.8,
+            181,
+            221.2
+          ],
+          "serialiseren": [
+            2595.1,
+            2537.2,
+            2719.9
+          ]
+        }
+      },
+      "browser/duplicaten/50000": {
+        "totaalMs": [
+          5233.5,
+          5450.4,
+          5324.6
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          2575,
+          2666,
+          2618
+        ],
+        "timerVertragingMs": [
+          2574.1,
+          2653.4,
+          2630.5
+        ],
+        "kandidaten": [
+          600000,
+          600000,
+          600000
+        ],
+        "compacteGroepen": [
+          0,
+          0,
+          0
+        ],
+        "scores": [
+          600000,
+          600000,
+          600000
+        ],
+        "overgeslagenSleutels": [
+          0,
+          0,
+          0
+        ],
+        "exportBytes": [
+          60150201,
+          60150213,
+          60150206
+        ],
+        "fasenMs": {
+          "inlezen": [
+            89.6,
+            95.3,
+            92.7
+          ],
+          "koppelen": [
+            563.7,
+            581.6,
+            561.1
+          ],
+          "normaliseren": [
+            772.5,
+            806.4,
+            790.7
+          ],
+          "kandidaten": [
+            98.4,
+            98.4,
+            95.5
+          ],
+          "scoren": [
+            295.4,
+            317.5,
+            298.6
+          ],
+          "voorbereiden": [
+            1166.8,
+            1222.8,
+            1185.4
+          ],
+          "groeperen": [
+            492.8,
+            525.5,
+            504
+          ],
+          "werkmap": [
+            345.5,
+            359.3,
+            365.7
+          ],
+          "serialiseren": [
+            2575.1,
+            2665.9,
+            2615.7
+          ]
+        }
+      },
+      "browser/gedeeld/50000": {
+        "totaalMs": [
+          9022.5,
+          8965.5,
+          8792.6
+        ],
+        "piekRssBytes": [
+          null,
+          null,
+          null
+        ],
+        "browserBlokkadeMs": [
+          2634,
+          2544,
+          2423
+        ],
+        "timerVertragingMs": [
+          2635.3,
+          2536,
+          2423.7
+        ],
+        "kandidaten": [
+          1225284,
+          1225284,
+          1225284
+        ],
+        "compacteGroepen": [
+          25000,
+          25000,
+          25000
+        ],
+        "scores": [
+          1225020,
+          1225020,
+          1225020
+        ],
+        "overgeslagenSleutels": [
+          2,
+          2,
+          2
+        ],
+        "exportBytes": [
+          48587439,
+          48587451,
+          48587444
+        ],
+        "fasenMs": {
+          "inlezen": [
+            91,
+            93.6,
+            107.3
+          ],
+          "koppelen": [
+            590.3,
+            579.4,
+            600.1
+          ],
+          "normaliseren": [
+            771.8,
+            759.2,
+            754.3
+          ],
+          "kandidaten": [
+            286.2,
+            286.1,
+            279.3
+          ],
+          "scoren": [
+            3866.6,
+            3887.9,
+            3844.8
+          ],
+          "voorbereiden": [
+            4925.2,
+            4933.9,
+            4879.9
+          ],
+          "groeperen": [
+            600.4,
+            625.3,
+            604.6
+          ],
+          "werkmap": [
+            181.5,
+            189.6,
+            178.3
+          ],
+          "serialiseren": [
+            2634.1,
+            2543.7,
+            2422.4
+          ]
+        }
+      }
+    }
+  },
+  "budgetten": {
+    "node/uniek/1000": {
+      "totaalMs": 500,
+      "fasen": {
+        "inlezen": 50,
+        "koppelen": 50,
+        "normaliseren": 50,
+        "kandidaten": 50,
+        "scoren": 50,
+        "voorbereiden": 50,
+        "groeperen": 50,
+        "werkmap": 50,
+        "serialiseren": 150
+      },
+      "kandidaten": 50,
+      "exportBytes": 1110016,
+      "piekRssBytes": 268435456
+    },
+    "node/duplicaten/1000": {
+      "totaalMs": 500,
+      "fasen": {
+        "inlezen": 50,
+        "koppelen": 50,
+        "normaliseren": 50,
+        "kandidaten": 50,
+        "scoren": 50,
+        "voorbereiden": 100,
+        "groeperen": 50,
+        "werkmap": 50,
+        "serialiseren": 150
+      },
+      "kandidaten": 12000,
+      "exportBytes": 1097728,
+      "piekRssBytes": 268435456
+    },
+    "node/gedeeld/1000": {
+      "totaalMs": 500,
+      "fasen": {
+        "inlezen": 50,
+        "koppelen": 50,
+        "normaliseren": 50,
+        "kandidaten": 50,
+        "scoren": 200,
+        "voorbereiden": 250,
+        "groeperen": 50,
+        "werkmap": 50,
+        "serialiseren": 150
+      },
+      "kandidaten": 24500,
+      "exportBytes": 975872,
+      "piekRssBytes": 402653184
+    },
+    "node/uniek/10000": {
+      "totaalMs": 1600,
+      "fasen": {
+        "inlezen": 50,
+        "koppelen": 150,
+        "normaliseren": 350,
+        "kandidaten": 50,
+        "scoren": 50,
+        "voorbereiden": 400,
+        "groeperen": 100,
+        "werkmap": 100,
+        "serialiseren": 850
+      },
+      "kandidaten": 517,
+      "exportBytes": 11504640,
+      "piekRssBytes": 805306368
+    },
+    "node/duplicaten/10000": {
+      "totaalMs": 1800,
+      "fasen": {
+        "inlezen": 50,
+        "koppelen": 150,
+        "normaliseren": 300,
+        "kandidaten": 50,
+        "scoren": 200,
+        "voorbereiden": 550,
+        "groeperen": 200,
+        "werkmap": 150,
+        "serialiseren": 850
+      },
+      "kandidaten": 120000,
+      "exportBytes": 12146688,
+      "piekRssBytes": 1006632960
+    },
+    "node/gedeeld/10000": {
+      "totaalMs": 3300,
+      "fasen": {
+        "inlezen": 50,
+        "koppelen": 150,
+        "normaliseren": 300,
+        "kandidaten": 150,
+        "scoren": 1600,
+        "voorbereiden": 1950,
+        "groeperen": 250,
+        "werkmap": 100,
+        "serialiseren": 900
+      },
+      "kandidaten": 245008,
+      "exportBytes": 10033152,
+      "piekRssBytes": 1140850688
+    },
+    "node/uniek/50000": {
+      "totaalMs": 8500,
+      "fasen": {
+        "inlezen": 250,
+        "koppelen": 600,
+        "normaliseren": 1650,
+        "kandidaten": 350,
+        "scoren": 50,
+        "voorbereiden": 2000,
+        "groeperen": 250,
+        "werkmap": 450,
+        "serialiseren": 5000
+      },
+      "kandidaten": 2667,
+      "exportBytes": 58911744,
+      "piekRssBytes": 2415919104
+    },
+    "node/duplicaten/50000": {
+      "totaalMs": 10800,
+      "fasen": {
+        "inlezen": 250,
+        "koppelen": 550,
+        "normaliseren": 1500,
+        "kandidaten": 250,
+        "scoren": 900,
+        "voorbereiden": 2650,
+        "groeperen": 1250,
+        "werkmap": 850,
+        "serialiseren": 5500
+      },
+      "kandidaten": 600000,
+      "exportBytes": 63158272,
+      "piekRssBytes": 3758096384
+    },
+    "node/gedeeld/50000": {
+      "totaalMs": 18600,
+      "fasen": {
+        "inlezen": 200,
+        "koppelen": 500,
+        "normaliseren": 1350,
+        "kandidaten": 600,
+        "scoren": 8400,
+        "voorbereiden": 10300,
+        "groeperen": 1200,
+        "werkmap": 400,
+        "serialiseren": 6250
+      },
+      "kandidaten": 1225284,
+      "exportBytes": 51017728,
+      "piekRssBytes": 4563402752
+    },
+    "browser/uniek/1000": {
+      "totaalMs": 500,
+      "fasen": {
+        "inlezen": 50,
+        "koppelen": 50,
+        "normaliseren": 50,
+        "kandidaten": 50,
+        "scoren": 50,
+        "voorbereiden": 50,
+        "groeperen": 50,
+        "werkmap": 50,
+        "serialiseren": 100
+      },
+      "kandidaten": 50,
+      "exportBytes": 1110016,
+      "browserBlokkadeMs": 200,
+      "timerVertragingMs": 200
+    },
+    "browser/duplicaten/1000": {
+      "totaalMs": 500,
+      "fasen": {
+        "inlezen": 50,
+        "koppelen": 50,
+        "normaliseren": 50,
+        "kandidaten": 50,
+        "scoren": 50,
+        "voorbereiden": 100,
+        "groeperen": 50,
+        "werkmap": 50,
+        "serialiseren": 100
+      },
+      "kandidaten": 12000,
+      "exportBytes": 1097728,
+      "browserBlokkadeMs": 200,
+      "timerVertragingMs": 200
+    },
+    "browser/gedeeld/1000": {
+      "totaalMs": 500,
+      "fasen": {
+        "inlezen": 50,
+        "koppelen": 50,
+        "normaliseren": 50,
+        "kandidaten": 50,
+        "scoren": 100,
+        "voorbereiden": 150,
+        "groeperen": 50,
+        "werkmap": 50,
+        "serialiseren": 100
+      },
+      "kandidaten": 24500,
+      "exportBytes": 975872,
+      "browserBlokkadeMs": 200,
+      "timerVertragingMs": 200
+    },
+    "browser/uniek/10000": {
+      "totaalMs": 1400,
+      "fasen": {
+        "inlezen": 50,
+        "koppelen": 250,
+        "normaliseren": 300,
+        "kandidaten": 50,
+        "scoren": 50,
+        "voorbereiden": 350,
+        "groeperen": 50,
+        "werkmap": 100,
+        "serialiseren": 750
+      },
+      "kandidaten": 517,
+      "exportBytes": 11504640,
+      "browserBlokkadeMs": 700,
+      "timerVertragingMs": 600
+    },
+    "browser/duplicaten/10000": {
+      "totaalMs": 1700,
+      "fasen": {
+        "inlezen": 50,
+        "koppelen": 200,
+        "normaliseren": 250,
+        "kandidaten": 50,
+        "scoren": 100,
+        "voorbereiden": 400,
+        "groeperen": 150,
+        "werkmap": 150,
+        "serialiseren": 800
+      },
+      "kandidaten": 120000,
+      "exportBytes": 12146688,
+      "browserBlokkadeMs": 700,
+      "timerVertragingMs": 700
+    },
+    "browser/gedeeld/10000": {
+      "totaalMs": 2500,
+      "fasen": {
+        "inlezen": 50,
+        "koppelen": 200,
+        "normaliseren": 250,
+        "kandidaten": 100,
+        "scoren": 1050,
+        "voorbereiden": 1350,
+        "groeperen": 200,
+        "werkmap": 100,
+        "serialiseren": 700
+      },
+      "kandidaten": 245008,
+      "exportBytes": 10033152,
+      "browserBlokkadeMs": 600,
+      "timerVertragingMs": 600
+    },
+    "browser/uniek/50000": {
+      "totaalMs": 7400,
+      "fasen": {
+        "inlezen": 150,
+        "koppelen": 1100,
+        "normaliseren": 1400,
+        "kandidaten": 250,
+        "scoren": 50,
+        "voorbereiden": 1600,
+        "groeperen": 200,
+        "werkmap": 350,
+        "serialiseren": 4100
+      },
+      "kandidaten": 2667,
+      "exportBytes": 58911744,
+      "browserBlokkadeMs": 3400,
+      "timerVertragingMs": 3400
+    },
+    "browser/duplicaten/50000": {
+      "totaalMs": 8200,
+      "fasen": {
+        "inlezen": 150,
+        "koppelen": 900,
+        "normaliseren": 1250,
+        "kandidaten": 150,
+        "scoren": 500,
+        "voorbereiden": 1850,
+        "groeperen": 800,
+        "werkmap": 550,
+        "serialiseren": 4000
+      },
+      "kandidaten": 600000,
+      "exportBytes": 63158272,
+      "browserBlokkadeMs": 3400,
+      "timerVertragingMs": 3400
+    },
+    "browser/gedeeld/50000": {
+      "totaalMs": 13600,
+      "fasen": {
+        "inlezen": 150,
+        "koppelen": 950,
+        "normaliseren": 1200,
+        "kandidaten": 450,
+        "scoren": 5850,
+        "voorbereiden": 7450,
+        "groeperen": 950,
+        "werkmap": 300,
+        "serialiseren": 4000
+      },
+      "kandidaten": 1225284,
+      "exportBytes": 51017728,
+      "browserBlokkadeMs": 3300,
+      "timerVertragingMs": 3300
+    }
+  }
+}

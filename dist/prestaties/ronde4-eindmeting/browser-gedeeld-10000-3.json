@@ -1,0 +1,84 @@
+{
+  "modus": "browser",
+  "soort": "gedeeld",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 81,
+  "longtasks": [
+    {
+      "start": 101.5,
+      "duur": 66
+    },
+    {
+      "start": 248.70000004768372,
+      "duur": 129
+    },
+    {
+      "start": 430.7000000476837,
+      "duur": 57
+    },
+    {
+      "start": 1708.5,
+      "duur": 110
+    },
+    {
+      "start": 1974.6000000238419,
+      "duur": 242
+    },
+    {
+      "start": 2243.3000000715256,
+      "duur": 668
+    }
+  ],
+  "timerVertragingMs": 655.7000000476837,
+  "fasen": {
+    "inlezen": 25.899999976158142,
+    "koppelen": 127.19999992847443,
+    "normaliseren": 183,
+    "voorbereiden": 1282.2000000476837,
+    "kandidaten": 42.39999997615814,
+    "scoren": 1048.2000000476837,
+    "groeperen": 99.60000002384186,
+    "werkmap": 242,
+    "serialiseren": 667.8000000715256
+  },
+  "faseBlokkades": {
+    "inlezen": 0,
+    "koppelen": 129,
+    "normaliseren": 57,
+    "voorbereiden": 110,
+    "kandidaten": 0,
+    "scoren": 110,
+    "groeperen": 110,
+    "werkmap": 242,
+    "serialiseren": 668
+  },
+  "aantallen": {
+    "kandidaten": 245008,
+    "compacteGroepen": 5000,
+    "scores": 245000,
+    "overgeslagenSleutels": 2
+  },
+  "groepen": 5000,
+  "totaalMs": 2444.7000000476837,
+  "browserBlokkadeMs": 668,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 245008,
+  "compacteGroepen": 5000,
+  "scores": 245000,
+  "overgeslagenSleutels": 2,
+  "exportBytes": 9555049,
+  "kwaliteitscontrole": {
+    "groepen": 5000,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "274afb7978e93300d1ab59bba15698a5696431f8505744579e2bc5d810b37939"
+}

@@ -1,0 +1,4 @@
+PRESTATIECONTROLE MISLUKT:
+node/gedeeld/50000/1: fasen.koppelen 560.808375 > budget 550
+node/gedeeld/50000/1: fasen.kandidaten 711.3410410000001 > budget 650
+node/duplicaten/50000/2: fasen.groeperen 1792.5436670000004 > budget 1350

@@ -1,0 +1,27 @@
+✔ verwerking van begin tot einde: samenvoegen en twijfelpaar (10.028625ms)
+✔ twijfelparen blijven apart met "Mogelijk dubbel met"; beslissing "zelfde" voegt samen (9.758833ms)
+✔ elke rij staat precies één keer in het logboek (7.026916ms)
+✔ resultaatbestand: tabbladen, uploadformaat, beslissingen (19.507916ms)
+✔ één lijst alleen: dubbels binnen de lijst (3.043458ms)
+✔ B12: benchmark-BTW heeft tien cijfers en een onafhankelijke modulo-97-controle (26.741583ms)
+✔ B12: benchmark-BTW bereikt het geldige pad van de normalisatie (0.205542ms)
+✔ B12: ongeldige BTW-indices worden geweigerd (0.115167ms)
+✔ generator uniek: herhaalbare 1k/10k/50k-invoer met onafhankelijke identiteit (173.792292ms)
+✔ generator uniek: echte CSV-inleesketen, verwachte groepen en exportbehoud (403.34075ms)
+✔ generator duplicaten: herhaalbare 1k/10k/50k-invoer met onafhankelijke identiteit (139.262625ms)
+✔ generator duplicaten: echte CSV-inleesketen, verwachte groepen en exportbehoud (373.29125ms)
+✔ generator gedeeld: herhaalbare 1k/10k/50k-invoer met onafhankelijke identiteit (176.040125ms)
+✔ generator gedeeld: echte CSV-inleesketen, verwachte groepen en exportbehoud (473.69675ms)
+✔ onafhankelijke groepscontrole vindt verlies, dubbel tellen, foute samenvoeging en splitsing (0.362291ms)
+✔ export verwerkt een rijstroom met exacte tekstwaarden zonder tussentabel (1.059042ms)
+✔ compacte werkbladen bewaren blokgrenzen, brede rijen, lege cellen en Excel-opmaak (10.928083ms)
+✔ rijstroom behoudt de Excel-limieten en kapt nooit celtekst af (0.149333ms)
+✔ strengheidsaantallen blijven juist wanneer een aangepaste stand ook de zekere grens wijzigt (4.494584ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1896.182209

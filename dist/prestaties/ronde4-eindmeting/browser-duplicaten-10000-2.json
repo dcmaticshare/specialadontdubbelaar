@@ -1,0 +1,84 @@
+{
+  "modus": "browser",
+  "soort": "duplicaten",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 55,
+  "longtasks": [
+    {
+      "start": 83.10000002384186,
+      "duur": 62
+    },
+    {
+      "start": 226,
+      "duur": 119
+    },
+    {
+      "start": 391.3000000715256,
+      "duur": 57
+    },
+    {
+      "start": 855.9000000953674,
+      "duur": 93
+    },
+    {
+      "start": 1453.5,
+      "duur": 192
+    },
+    {
+      "start": 1673.2000000476837,
+      "duur": 619
+    }
+  ],
+  "timerVertragingMs": 613.7000000476837,
+  "fasen": {
+    "inlezen": 24.100000023841858,
+    "koppelen": 117.19999992847443,
+    "normaliseren": 186.70000004768372,
+    "voorbereiden": 463.89999997615814,
+    "kandidaten": 14.899999976158142,
+    "scoren": 252.40000009536743,
+    "groeperen": 73.60000002384186,
+    "werkmap": 192.39999997615814,
+    "serialiseren": 619.7000000476837
+  },
+  "faseBlokkades": {
+    "inlezen": 62,
+    "koppelen": 119,
+    "normaliseren": 57,
+    "voorbereiden": 93,
+    "kandidaten": 0,
+    "scoren": 0,
+    "groeperen": 93,
+    "werkmap": 192,
+    "serialiseren": 619
+  },
+  "aantallen": {
+    "kandidaten": 120000,
+    "compacteGroepen": 0,
+    "scores": 120000,
+    "overgeslagenSleutels": 0
+  },
+  "groepen": 400,
+  "totaalMs": 1490.8999999761581,
+  "browserBlokkadeMs": 619,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 120000,
+  "compacteGroepen": 0,
+  "scores": 120000,
+  "overgeslagenSleutels": 0,
+  "exportBytes": 11567349,
+  "kwaliteitscontrole": {
+    "groepen": 400,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "39a0d49d8b8e56c7d63fb84c0d8c4bcdedf541f22232d6b1fc351fb9225ed6dd"
+}

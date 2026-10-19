@@ -1,0 +1,24 @@
+Gebouwd: dist/Lead-ontdubbelaar.html (1232 kB), versie 0.1.0, 2026-10-17, 18 modules
+Lijstlimiet: 0, 300 en 301 waarschuwingsrijen, zichtbare afkapping, zoeken en volledig Logboek OK.
+Globale fouten: klik, toets, Promise zonder foutobject, render- en opstartfallback en ongewijzigd sessieherstel OK.
+Inleesgrenzen: vroege bestandsgrootte, zichtbare celgrens en gewone verwerking na weigering OK.
+Focus: kolomkeuzes, beide scrollrichtingen, tabvolgorde, sneltoetsen, knoppen en zoekselectie OK.
+Sneltoetsen: native spatie/Enter, tabs, links, ARIA-knoppen, geneste inhoud, invoer en paginatoetsen OK.
+Uitstel: volledige rotatie, herstel, opruimen na samenvoegen en laatste paar OK.
+Kolommen: unieke veldkeuze met melding, extra waarden, meervoudige contacten, beoordelingen, ontkoppelingen, uitstel, exportstatus, herstel en bevestigde wijzigingen OK.
+B07 constante contactkolommen en postcode: OK
+B07 verschillende postcodes bij een gemeentelijst: OK
+B10 opslag ontbreekt: OK
+B10 opslag ongeldige-json: OK
+B10 opslag object: OK
+B10 opslag null: OK
+B10 opslag ongeldig-lid: OK
+B10 opslag ongeldig-veld: OK
+B10 opslag oude-lijst: OK
+B10 opslag huidig: OK
+B10 opslag nieuwere-versie: OK
+B10 onbeschikbare opslag: OK
+B11 contactspaties, waarschuwingen, download en herimport: OK
+Grote groepsbesluiten: bevestigen, annuleren, 1500 leden, compacte sessie na refresh en bovengrens OK.
+Sessie: refresh, browserherstart, beoordelingen, export, wissen, opslagfouten en tabbladconflict OK.
+{"browser":"155.0.8059.84","uitkomst":"OK","controles":["gegevensbehoud","tekstcellen","tekstinjectie","herimport en nieuwe lijst","groepsbesluit","ontkoppelen","BTW-afwijzing","401 gelijke rijen","compacte groepsbesluiten, bevestigen en annuleren, 1500 leden na refresh, bovengrens","constante contactkolommen en postcode","profielherstel en opnieuw voorstellen","onbeschikbare profielopslag","contactnormalisatie en herimport","sessieherstel na refresh en browserherstart, wissen, fouten en tabbladconflict","uitstelrotatie, herstel en opruimen na samenvoegen of strengheid wijzigen","offline CSP","globale klik-, toets- en Promise-fouten; render- en opstartfallback; behoud van het herstelpunt","inleesgrenzen: vroege bestandsgrootte, zichtbare celgrens en verwerking na weigering","enkelvoudige kolomkeuze vervangt eerdere koppeling met melding; contacten, andere bronnen, extra waarden, herstel en annuleren blijven behouden","waarschuwingslijsten: 0, 300 en 301 rijen, zichtbare limiet en volledig Logboek; zoeken buiten de eerste 300 leads"],"netwerkverzoeken":0,"consolefouten":0}

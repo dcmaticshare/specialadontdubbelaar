@@ -1,0 +1,84 @@
+{
+  "modus": "browser",
+  "soort": "duplicaten",
+  "aantal": 10000,
+  "seed": 12345,
+  "browser": "155.0.8059.84",
+  "meetversie": 1,
+  "ticks": 29,
+  "longtasks": [
+    {
+      "start": 86.30000007152557,
+      "duur": 59
+    },
+    {
+      "start": 212.90000009536743,
+      "duur": 117
+    },
+    {
+      "start": 376.60000002384186,
+      "duur": 51
+    },
+    {
+      "start": 614.9000000953674,
+      "duur": 166
+    },
+    {
+      "start": 938.2000000476837,
+      "duur": 61
+    },
+    {
+      "start": 1024.5,
+      "duur": 498
+    }
+  ],
+  "timerVertragingMs": 478.8000000715256,
+  "fasen": {
+    "inlezen": 27.600000023841858,
+    "koppelen": 114.5,
+    "normaliseren": 159.60000002384186,
+    "voorbereiden": 236.90000009536743,
+    "kandidaten": 14.100000023841858,
+    "scoren": 62.800000071525574,
+    "groeperen": 80.60000002384186,
+    "werkmap": 61,
+    "serialiseren": 497
+  },
+  "faseBlokkades": {
+    "inlezen": 59,
+    "koppelen": 117,
+    "normaliseren": 51,
+    "voorbereiden": 51,
+    "kandidaten": 0,
+    "scoren": 0,
+    "groeperen": 166,
+    "werkmap": 61,
+    "serialiseren": 498
+  },
+  "aantallen": {
+    "kandidaten": 120000,
+    "compacteGroepen": 0,
+    "scores": 120000,
+    "overgeslagenSleutels": 0
+  },
+  "groepen": 400,
+  "totaalMs": 1017.6000001430511,
+  "browserBlokkadeMs": 498,
+  "piekRssBytes": null,
+  "geheugenMethode": "niet-beschikbaar",
+  "responsiviteitMethode": "longtask+timer",
+  "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+  "kandidaten": 120000,
+  "compacteGroepen": 0,
+  "scores": 120000,
+  "overgeslagenSleutels": 0,
+  "exportBytes": 11567350,
+  "kwaliteitscontrole": {
+    "groepen": 400,
+    "bronrijen": 10000,
+    "oorspronkelijkeCellen": 70000,
+    "tekstcellen": true,
+    "gegevensbehoud": true
+  },
+  "exportSha256": "41e8799c8bf70232c96fe5361e30e1e09246c02e55e23e7faefcb8481a108830"
+}

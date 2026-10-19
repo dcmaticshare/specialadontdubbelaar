@@ -1,0 +1,68 @@
+{
+  "item": 15,
+  "datum": "2026-10-18",
+  "regressie": {
+    "voor": {
+      "geslaagd": 2,
+      "mislukt": 3
+    },
+    "na": {
+      "geslaagd": 46,
+      "mislukt": 0
+    }
+  },
+  "publiekeKwaliteit": {
+    "gecontroleerd": 10,
+    "zelfde": 2,
+    "verschillend": 8,
+    "fouten": 0
+  },
+  "privateControle": {
+    "records": 1357,
+    "paren": 212,
+    "bronAfwijkingen": 0,
+    "gecontroleerdeOordelen": 0,
+    "legeOordelen": 212,
+    "geslaagd": false,
+    "blokkade": "Alle 212 onafhankelijke oordelen ontbreken; dit is geen private kwaliteitsacceptatie."
+  },
+  "productieBuild": "Geslaagd; SOURCE_DATE_EPOCH=1792195200",
+  "migratie": "Nieuwe manifesten hebben formaat 2; bestaande manifesten blijven intact en leesbaar. Private migratie niet uitgevoerd; plan in docs/Kwaliteitscontrole.md.",
+  "behoud": [
+    {
+      "bestand": "dist/kwaliteit-ronde2/Testset_paren.xlsx",
+      "voorSha256": "97d62d9761d4c2bd02a44b088c0402a3f6974e64114158479d49d5133ba01005",
+      "naSha256": "97d62d9761d4c2bd02a44b088c0402a3f6974e64114158479d49d5133ba01005"
+    },
+    {
+      "bestand": "dist/kwaliteit-ronde2/Testset_beoordeeld.xlsx",
+      "voorSha256": "97d62d9761d4c2bd02a44b088c0402a3f6974e64114158479d49d5133ba01005",
+      "naSha256": "97d62d9761d4c2bd02a44b088c0402a3f6974e64114158479d49d5133ba01005"
+    },
+    {
+      "bestand": "dist/kwaliteit-ronde2/Beoordelingsverklaring.json",
+      "voorSha256": "666f6c8c830db02544ce5741c4d1866e0e66a45b7470580be3eb5ad1d61365c7",
+      "naSha256": "666f6c8c830db02544ce5741c4d1866e0e66a45b7470580be3eb5ad1d61365c7"
+    },
+    {
+      "bestand": "dist/kwaliteit-ronde2/Testset_manifest.json",
+      "voorSha256": "b58f23b4e1fea252efd4bd481953c5e19ffcde4869bf6f82aac21d49588b416a",
+      "naSha256": "b58f23b4e1fea252efd4bd481953c5e19ffcde4869bf6f82aac21d49588b416a"
+    },
+    {
+      "bestand": "docs/Releasecontract.json",
+      "voorSha256": "6098769d8073a2626b62f0284719a2b3a1cd997436dc3e2c6dd20fc5ee502013",
+      "naSha256": "6098769d8073a2626b62f0284719a2b3a1cd997436dc3e2c6dd20fc5ee502013"
+    },
+    {
+      "bestand": "test/fixtures/kwaliteit/manifest.json",
+      "voorSha256": "7630ebf1b35daeac786347580ff43f7460920d190bbdb17945e9c63cb4f1e6a6",
+      "naSha256": "7630ebf1b35daeac786347580ff43f7460920d190bbdb17945e9c63cb4f1e6a6"
+    },
+    {
+      "bestand": "test/fixtures/kwaliteit/beoordelingen.json",
+      "voorSha256": "ea9e8ed33cb7648d2bb5cac91f1058ffd0ab5a295b2dc599600df9038c86c3cd",
+      "naSha256": "ea9e8ed33cb7648d2bb5cac91f1058ffd0ab5a295b2dc599600df9038c86c3cd"
+    }
+  ]
+}

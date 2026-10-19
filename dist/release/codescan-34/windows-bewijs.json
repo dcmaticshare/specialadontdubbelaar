@@ -1,0 +1,4 @@
+{
+  "ok": false,
+  "fout": "ENOENT: no such file or directory, open 'dist/windows-acceptatie/windows-bewijs.json'"
+}

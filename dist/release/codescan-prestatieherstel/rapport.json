@@ -1,0 +1,53 @@
+{
+  "versie": 1,
+  "datum": "2026-10-18T19:58:28.056Z",
+  "bronSha256": "28659bdef8f111453d954156af9472ed01c6a231cebd9b96ad2236e2f10f0428",
+  "htmlSha256": "7363ca639fea230afe0c70a7682dda3fd8aeac00df46da20cd09cc878033199a",
+  "ok": false,
+  "controles": {
+    "openbaar": {
+      "ok": true,
+      "exitcode": 0,
+      "bewijsSha256": "0b8e65a2785d99ce0f229e36e55eb0acd221a7fef07ce998908887238b821f64",
+      "log": "openbaar.log"
+    },
+    "synthetischeKwaliteit": {
+      "ok": true,
+      "exitcode": 0,
+      "bewijsSha256": "47036ff7fed99628e0987619b408bd2a4f5a20f0215aad5a5c71ca53f1e43732",
+      "log": "synthetischeKwaliteit.log"
+    },
+    "browser": {
+      "ok": true,
+      "exitcode": 0,
+      "bewijsSha256": "b4bb8bc74fc1bf430b8c9238c8ced06c15174a94b7238348f8e02ee7cbc955bf",
+      "log": "browser.log"
+    },
+    "privateVoorbeelden": {
+      "ok": true,
+      "exitcode": 0,
+      "bewijsSha256": "640cebdd25163727aedf52d6971e7ed5164d87d3c8251802010abfc56c422527",
+      "log": "privateVoorbeelden.log"
+    },
+    "privateBeoordelingen": {
+      "ok": false,
+      "exitcode": 1,
+      "bewijsSha256": "4d48e2dcbb4c707c7bb5aa4aa1a8ea29e5c3856429ea253173f79fc571ce2e53"
+    },
+    "prestaties": {
+      "ok": true,
+      "exitcode": 0,
+      "bewijsSha256": "73cc111910d1c10338ca289eff7748d293ef4caf5191da1beaff65f4e04fa22c"
+    },
+    "windows": {
+      "ok": false,
+      "exitcode": 1,
+      "bewijsSha256": "bf517a1e57f295720ec5579240cc35cb8c46ae8d1cdccb32873cfe4f77815caa"
+    }
+  },
+  "invoerSha256": "977d3b96d88abc57571421cea5a95d42b1d26ceb48212f762fef5eede2d3937b",
+  "fouten": [
+    "Verplichte controle ontbreekt of faalt: privateBeoordelingen.",
+    "Verplichte controle ontbreekt of faalt: windows."
+  ]
+}

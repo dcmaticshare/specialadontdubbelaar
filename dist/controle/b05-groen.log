@@ -1,0 +1,55 @@
+✔ B05 CLI: lege beoordeling geeft geen succes (81.375083ms)
+✔ B05 CLI: ongeldig label geeft geen succes (77.404375ms)
+✔ B05 CLI: bestaand paar buiten kandidaten geeft geen succes (75.153417ms)
+✔ B05 CLI: verkeerde kolommen geeft geen succes (75.316166ms)
+✔ B05 private runner: ontbrekende gekende gevallen geven exitcode 1 (74.183166ms)
+✔ B05 gedeelde CLI tools/testset.mjs: ZELFDE, exit 0 (92.048541ms)
+✔ B05 gedeelde CLI tools/testset.mjs: zelfde, exit 1 (86.566958ms)
+✔ B05 gedeelde CLI tools/testset.mjs: ja, exit 1 (87.571875ms)
+✔ B05 gedeelde CLI tools/private/controle-beoordelingen.mjs: ZELFDE, exit 0 (87.803125ms)
+✔ B05 gedeelde CLI tools/private/controle-beoordelingen.mjs: zelfde, exit 1 (88.00075ms)
+✔ B05 gedeelde CLI tools/private/controle-beoordelingen.mjs: ja, exit 1 (86.185375ms)
+✔ B05 CLI: verkeerd XLSX-schema mét geldig manifest wordt geweigerd (83.357542ms)
+✖ B05 CLI: --maak neemt ook paren zonder kandidaat op en laat alle oordelen leeg (84.064542ms)
+✔ B05: bestaand paar buiten kandidaatselectie telt als gemist, niet als verdwenen rij (14.499917ms)
+✔ B05: fouten door transitieve groepen tellen ook als de eindpunten niet zeker dubbel scoren (2.101417ms)
+✔ B05: leeg wordt expliciet afgewezen (2.9805ms)
+✔ B05: ongeldig label wordt expliciet afgewezen (2.830791ms)
+✔ B05: ontbrekend paar wordt expliciet afgewezen (1.757291ms)
+✔ B05: dubbel paar wordt expliciet afgewezen (2.741ms)
+✔ B05: vreemde record-ID wordt expliciet afgewezen (2.7325ms)
+✔ B05: verkeerde dataset wordt expliciet afgewezen (2.729042ms)
+✔ B05: omgewisselde rij wordt expliciet afgewezen (2.751333ms)
+✔ B05: extra paar wordt expliciet afgewezen (1.553916ms)
+✔ B05: verdwenen en veranderde bronrijen zijn datasetfouten (7.547583ms)
+✔ B05: dubbele inhoud behoudt verschillende test-ID’s en bronvolgorde verandert geen identiteit (5.555208ms)
+✔ B05: lege of vervalste manifesten worden niet groen (2.744209ms)
+✔ B05: tegenstrijdige grondwaarheid wordt afgewezen (2.800167ms)
+✔ B05: kandidaatselectie, paarscores en eindgroepen worden afzonderlijk bewaakt (3.044458ms)
+✔ B05: ontbrekende directe verbinding binnen een compacte groep is geen gemiste kandidaat (13.174125ms)
+✔ B05: samen te beoordelen paar is geen gemiste dubbel, maar blijft zichtbaar als werk (2.887208ms)
+✔ B05: versiebeheerde synthetische kwaliteitsset heeft nul fouten (4.295542ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 30
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1159.914208
+
+✖ failing tests:
+
+test at test/kwaliteit-cli.test.mjs:84:1
+✖ B05 CLI: --maak neemt ook paren zonder kandidaat op en laat alle oordelen leeg (84.064542ms)
+  Error: Cannot access file /var/folders/_r/895flrrs0mv___psrp10smpw0000gn/T/lead-kwaliteit-maak-IjFvFr/uit/Testset_paren.xlsx
+      at nr (/Users/dieter/Documents/Xcode/Specialad Ontdubbeling/vendor/xlsx.full.min.js:10:9959)
+      at mk (/Users/dieter/Documents/Xcode/Specialad Ontdubbeling/vendor/xlsx.full.min.js:23:27453)
+      at Object.gk (/Users/dieter/Documents/Xcode/Specialad Ontdubbeling/vendor/xlsx.full.min.js:23:29212)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit-cli.test.mjs:91:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)

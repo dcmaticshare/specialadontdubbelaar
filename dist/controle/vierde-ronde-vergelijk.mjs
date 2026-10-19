@@ -1,0 +1,27 @@
+// Lokaal verschilonderzoek: alleen aantallen, geen echte bronwaarden in de rapportage.
+import { writeFileSync } from 'node:fs';
+import assert from 'node:assert/strict';
+import { loadDir } from '../../tools/lib.mjs';
+import { prepare, assemble } from '../../src/engine/pipeline.js';
+import { scorePair } from '../../src/engine/match.js';
+import { prepare as oldPrepare, assemble as oldAssemble } from './ronde4-vooraf/src/engine/pipeline.js';
+import { suggestMapping as oldMapping } from './ronde4-vooraf/src/io/mapping.js';
+import { scorePair as oldScore } from './ronde4-vooraf/src/engine/match.js';
+const { sources } = await loadDir('testdata');
+const before = await oldPrepare({ sources: sources.map((s) => ({ ...s, ...oldMapping(s) })) });
+const after = await prepare({ sources });
+assert.deepEqual(before.sources.map((s) => s.mapping), after.sources.map((s) => s.mapping));
+const beforeResult = oldAssemble(before), afterResult = assemble(after);
+const groups = (r) => r.groups.map((g) => g.members.join(',')).sort();
+assert.deepEqual(groups(beforeResult), groups(afterResult));
+assert.deepEqual(before.candidates, after.candidates);
+assert.deepEqual(beforeResult.review.map((p) => [p.i, p.j, p.score]), afterResult.review.map((p) => [p.i, p.j, p.score]));
+const differentScores = before.candidates.filter(([i, j]) => JSON.stringify(oldScore(before.records[i], before.records[j], before.index)) !== JSON.stringify(scorePair(after.records[i], after.records[j], after.index)));
+assert.equal(differentScores.length, 0, 'alle paarscores behouden');
+assert.deepEqual(beforeResult.perBron, afterResult.perBron);
+assert.deepEqual(beforeResult.perStrengheid, afterResult.perStrengheid);
+const normChanges = {};
+for (const r of before.records) for (const key of Object.keys(r.norm)) if (JSON.stringify(r.norm[key]) !== JSON.stringify(after.records[r.idx].norm[key])) normChanges[key] = (normChanges[key] || 0) + 1;
+const report = { samenvatting: afterResult.summary, gelijkeGroepsleden: true, gelijkeKandidaten: true, gelijkeTwijfelparenEnScores: true, gewijzigdePaarscores: differentScores.length, scoreVerschillen: differentScores.map(([i,j]) => { const a=oldScore(before.records[i],before.records[j],before.index), b=scorePair(after.records[i],after.records[j],after.index); return { voor: a.score, na: b.score, besluitVoor: a.decision, besluitNa: b.decision, redenVoor: a.reason, redenNa: b.reason, zelfdeGroepVoor: beforeResult.uf.find(i) === beforeResult.uf.find(j), zelfdeGroepNa: afterResult.uf.find(i) === afterResult.uf.find(j) }; }), gewijzigdeNormalisatievelden: normChanges, waarschuwingenVoor: before.records.reduce((n, r) => n+r.warnings.length, 0), waarschuwingenNa: after.records.reduce((n, r) => n+r.warnings.length, 0) };
+writeFileSync('dist/controle/vierde-ronde-private-verschil.json', JSON.stringify(report, null, 2));
+console.log(JSON.stringify(report, null, 2));

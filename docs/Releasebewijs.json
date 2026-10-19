@@ -1,0 +1,27 @@
+{
+  "datum": "2026-10-17T14:53:08.023Z",
+  "publiekeTests": 249,
+  "schoneBronkopieZonderPrivateData": true,
+  "browser": "155.0.8059.84",
+  "prestatiemetingen": 54,
+  "prestatieReferentie": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M5 Pro",
+    "geheugenBytes": 25769803776,
+    "node": "24.19.0",
+    "browser": "155.0.8059.84",
+    "playwright": "1.62.1"
+  },
+  "prestatieBronSha256": "86254f7dcde1470db38750bbbfdf88915c6adfa1789da860fbe4c6b5158fa7d2",
+  "prestatieRapportSha256": "178d47edcf5e65b951ecd3c14d59c168930dad0a99d2fff6f3b2b45f56d58a2e",
+  "releaseBronSha256": "d2ffe7a4848fb2c137a00308f72ef57385f2fa860259b7565c8b3900ed98280c",
+  "htmlSha256": "a6932ad25d63001720363e2d110e5f10b8ff8d7d146f945c8827dabea00128ab",
+  "releaseGeslaagd": false,
+  "releaseBlokkades": [
+    "privateBeoordelingen",
+    "windows"
+  ],
+  "ciGehostUitgevoerd": false,
+  "windowsUitgevoerd": false
+}

@@ -1,0 +1,364 @@
+✖ B05: bestaand paar buiten kandidaatselectie telt als gemist, niet als verdwenen rij (1.600459ms)
+✖ B05: fouten door transitieve groepen tellen ook als de eindpunten niet zeker dubbel scoren (0.123042ms)
+✖ B05: leeg wordt expliciet afgewezen (0.105291ms)
+✖ B05: ongeldig label wordt expliciet afgewezen (0.079209ms)
+✖ B05: ontbrekend paar wordt expliciet afgewezen (0.074083ms)
+✖ B05: dubbel paar wordt expliciet afgewezen (0.081166ms)
+✖ B05: vreemde record-ID wordt expliciet afgewezen (0.067417ms)
+✖ B05: verkeerde dataset wordt expliciet afgewezen (0.061ms)
+✖ B05: omgewisselde rij wordt expliciet afgewezen (0.073375ms)
+✖ B05: extra paar wordt expliciet afgewezen (0.116834ms)
+✖ B05: verdwenen en veranderde bronrijen zijn datasetfouten (0.093875ms)
+✖ B05: dubbele inhoud behoudt verschillende test-ID’s en bronvolgorde verandert geen identiteit (0.071333ms)
+✖ B05: lege of vervalste manifesten worden niet groen (0.085084ms)
+✖ B05: tegenstrijdige grondwaarheid wordt afgewezen (0.085ms)
+✖ B05: kandidaatselectie, paarscores en eindgroepen worden afzonderlijk bewaakt (0.072625ms)
+✖ B05: ontbrekende directe verbinding binnen een compacte groep is geen gemiste kandidaat (0.371917ms)
+✖ B05: samen te beoordelen paar is geen gemiste dubbel, maar blijft zichtbaar als werk (0.065375ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 0
+ℹ fail 17
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 103.797416
+
+✖ failing tests:
+
+test at test/kwaliteit.test.mjs:20:1
+✖ B05: bestaand paar buiten kandidaatselectie telt als gemist, niet als verdwenen rij (1.600459ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:21:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:33:1
+✖ B05: fouten door transitieve groepen tellen ook als de eindpunten niet zeker dubbel scoren (0.123042ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:35:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:43:3
+✖ B05: leeg wordt expliciet afgewezen (0.105291ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:44:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:43:3
+✖ B05: ongeldig label wordt expliciet afgewezen (0.079209ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:44:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:43:3
+✖ B05: ontbrekend paar wordt expliciet afgewezen (0.074083ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:44:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:43:3
+✖ B05: dubbel paar wordt expliciet afgewezen (0.081166ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:44:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:43:3
+✖ B05: vreemde record-ID wordt expliciet afgewezen (0.067417ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:44:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:43:3
+✖ B05: verkeerde dataset wordt expliciet afgewezen (0.061ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:44:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:43:3
+✖ B05: omgewisselde rij wordt expliciet afgewezen (0.073375ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:44:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:43:3
+✖ B05: extra paar wordt expliciet afgewezen (0.116834ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:44:21)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:59:1
+✖ B05: verdwenen en veranderde bronrijen zijn datasetfouten (0.093875ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:60:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:73:1
+✖ B05: dubbele inhoud behoudt verschillende test-ID’s en bronvolgorde verandert geen identiteit (0.071333ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:74:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:84:1
+✖ B05: lege of vervalste manifesten worden niet groen (0.085084ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:85:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:93:1
+✖ B05: tegenstrijdige grondwaarheid wordt afgewezen (0.085ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:95:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:101:1
+✖ B05: kandidaatselectie, paarscores en eindgroepen worden afzonderlijk bewaakt (0.072625ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:103:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:116:1
+✖ B05: ontbrekende directe verbinding binnen een compacte groep is geen gemiste kandidaat (0.371917ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:118:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at test/kwaliteit.test.mjs:125:1
+✖ B05: samen te beoordelen paar is geen gemiste dubbel, maar blijft zichtbaar als werk (0.065375ms)
+  AssertionError [ERR_ASSERTION]: één gedeelde evaluator voor CLI en tests ontbreekt
+      at api (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:8:10)
+      at fixture (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:13:19)
+      at TestContext.<anonymous> (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/test/kwaliteit.test.mjs:126:19)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

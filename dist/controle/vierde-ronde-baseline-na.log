@@ -1,0 +1,342 @@
+✔ B07: constante E-mail levert geen kandidaat of punten, ook bij andere schrijfwijze (16.378417ms)
+✔ B07: constante Telefoon levert geen kandidaat of punten, ook bij andere schrijfwijze (8.261417ms)
+✔ B07: constante Website levert geen kandidaat of punten, ook bij andere schrijfwijze (6.180625ms)
+✔ B07: constante Contactpersoon levert geen kandidaat of punten, ook bij andere schrijfwijze (6.345333ms)
+✔ B07: constante postcode blijft bruikbaar en verlaagt punten bij een andere postcode (5.818542ms)
+✔ B07: geldige BTW, adres en identieke bedrijfsnamen behouden hun vergelijkingsrol (19.778667ms)
+✔ B10: ongeldige profielvorm {} valt terug op voorstel (0.458958ms)
+✔ B10: ongeldige profielvorm null valt terug op voorstel (0.055791ms)
+✔ B10: ongeldige profielvorm [null] valt terug op voorstel (0.058334ms)
+✔ B10: ongeldige profielvorm [{"signature":"naam","mapping":null}] valt terug op voorstel (0.073625ms)
+✔ B10: ongeldige profielvorm [{"signature":"naam","mapping":{"naam":"bestaat-niet"}}] valt terug op voorstel (0.067167ms)
+✔ B10: expliciet nieuw voorstel negeert een geldig bewaard profiel (0.068167ms)
+✔ B10: ontbrekende, kapotte en oude opslag wordt veilig gelezen en hersteld (0.178583ms)
+✔ B11: dubbele spaties, tabs en regeleinden scheiden volledige telefoons vóór opschonen (11.878583ms)
+✔ B11: alleen spaties direct rond @ worden hersteld; afgebroken lokale naam wordt niet geraden (4.409166ms)
+✔ B11: export en herimport behouden gesplitste contacten, waarschuwingen en originele celtekst (29.491667ms)
+✔ B07: grens 19 gevulde rijen, 0 afwijkend contactgegeven (5.259041ms)
+✔ B07: grens 20 gevulde rijen, 1 afwijkend contactgegeven (6.625125ms)
+✔ B07: grens 20 gevulde rijen, 2 afwijkend contactgegeven (4.694042ms)
+✔ B07: uitsluiting geldt per bronkolom; tweede contactkolom en onafhankelijke bron blijven bruikbaar (29.048875ms)
+✔ B07: gekoppelde persoonsnaamvelden vallen samen weg; een constant adres blijft bruikbaar (5.221042ms)
+✔ B07: actuele koppeling en bronrijen winnen van verouderde detectiegegevens (8.528792ms)
+✔ B10: profielvelden en opslagversie worden gesloten gevalideerd; geldige buren blijven behouden (0.375583ms)
+✔ B10: onbeschikbare opslag blokkeert voorstel of verwerking niet (0.147792ms)
+✔ B10: meerdere profielen, herhaalde handtekening en bovengrens blijven geldig (0.276875ms)
+✔ B11: telefoonopmaak blijft veilig: 02  000 00 00 (0.066375ms)
+✔ B11: telefoonopmaak blijft veilig: 02/000.00.00 (0.025167ms)
+✔ B11: telefoonopmaak blijft veilig: 020000000 / 030000000 (0.021958ms)
+✔ B11: telefoonopmaak blijft veilig: 020000000 - 030000000 (0.0215ms)
+✔ B11: telefoonopmaak blijft veilig: 020000000 of 030000000 (0.028791ms)
+✔ B11: telefoonopmaak blijft veilig: 3,2479E+10 (0.028ms)
+✔ B11: e-mailspaties en gedeeltelijk verworpen cellen geven voorspelbare contacten (5.143458ms)
+✔ B07/B04: een afwijkende rij met eigen of leeg contact maakt echte herhaalde bedrijfsrijen niet verdacht (35.159875ms)
+✔ B02: geschreven XLSX bewaart extra kolommen, alle contacten en elke oorspronkelijke cel met herkomst (28.516042ms)
+✔ B02: dubbele kolomkoppen overschrijven geen oorspronkelijke cel (10.125375ms)
+✔ B03: eigen exportmetadata overrulet een oud fout bronprofiel; gewone Nr blijft huisnummer (3.950917ms)
+✔ B03: drie export/importrondes behouden adres en contacten: Teststraat 42 (57.787208ms)
+✔ B03: drie export/importrondes behouden adres en contacten: Teststraat 42 bus 3 (50.740834ms)
+✔ B03: drie export/importrondes behouden adres en contacten: Teststraat 42 C (47.031417ms)
+✔ B02: ingelezen lege laatste kolomkop en Excel-offset houden alle broncellen bereikbaar (8.008417ms)
+✔ B03: apart busveld blijft bewaard; oude export zonder herkomsttabblad wordt herkend (10.693333ms)
+✔ B01: driehoek respecteert A–B verschillend, uploadvolgorde A,B,C (15.150375ms)
+✔ B01: driehoek respecteert A–B verschillend, uploadvolgorde A,C,B (6.978042ms)
+✔ B01: driehoek respecteert A–B verschillend, uploadvolgorde B,A,C (6.311167ms)
+✔ B01: driehoek respecteert A–B verschillend, uploadvolgorde B,C,A (6.797208ms)
+✔ B01: driehoek respecteert A–B verschillend, uploadvolgorde C,A,B (4.978125ms)
+✔ B01: driehoek respecteert A–B verschillend, uploadvolgorde C,B,A (7.036208ms)
+✔ B01: uitsluiting buiten de kandidaatparen blokkeert ook een keten (3.12925ms)
+✔ B06: onuitvoerbare handmatige samenvoeging blijft als conflict in controlelijst (3.141792ms)
+✔ B01: tegenstrijdige handmatige keten verbergt geen conflict (4.325375ms)
+✔ B01: besluit geldt voor alle leden van de twee getoonde groepen, ook zonder paarscore (4.742084ms)
+✔ B06: schermbesluit wordt atomair geweigerd bij BTW-conflict, zonder succeslog (4.348166ms)
+✔ B01: ontkoppelen houdt alle groepsleden apart, ook na opnieuw beoordelen via een derde (3.203ms)
+✔ invarianten: 40 vaste seeds met ketens, BTW-conflicten en menselijke uitsluitingen (178.255667ms)
+✔ B04: 399 identieke rijen blijven één bedrijf (415.600583ms)
+✔ B04: 400 identieke rijen blijven één bedrijf (306.035875ms)
+✔ B04: 401 identieke rijen blijven één bedrijf (22.218333ms)
+✔ B04: 2000 identieke rijen blijven één bedrijf (306.673417ms)
+✔ B04: een gelijk geldig BTW-nummer werkt ook bij totaal andere namen (13.511083ms)
+✔ B04: 401 exacte namen met gedeeld Telefoon, zonder BTW (24.009417ms)
+✔ B04: 401 exacte namen met gedeeld E-mail, zonder BTW (24.732208ms)
+✔ B04: 401 exacte namen met gedeeld Website, zonder BTW (19.812416ms)
+✔ B04: 401 exacte namen met gedeeld Adres, zonder BTW (23.049042ms)
+✔ B04/B01: uitgesloten vertegenwoordiger laat de overige 400 dubbels samenkomen (false) (22.188042ms)
+✔ B04/B01: uitgesloten vertegenwoordiger laat de overige 400 dubbels samenkomen (true) (19.409042ms)
+✔ B04: sterk gedeelde algemene signalen koppelen geen verschillende BTW-nummers (43.027792ms)
+✔ B04: algemeen domein en ongeldig BTW-nummer worden geen sterke identificatoren (12.699209ms)
+✔ B04/B01: een grote groep blijft na ontkoppelen apart (244.648791ms)
+✔ B04: veel verschillende geldige BTW-nummers bij één exact telefoon/naamsignaal blijven apart (27.52475ms)
+✔ B05 CLI: lege beoordeling geeft geen succes (118.09225ms)
+✔ B05 CLI: ongeldig label geeft geen succes (103.620375ms)
+✔ B05 CLI: bestaand paar buiten kandidaten geeft geen succes (90.255334ms)
+✔ B05 CLI: verkeerde kolommen geeft geen succes (94.015625ms)
+✔ B05 private runner: ontbrekende gekende gevallen geven exitcode 1 (91.117792ms)
+✔ B05 gedeelde CLI tools/testset.mjs: ZELFDE, exit 0 (119.708ms)
+✔ B05 gedeelde CLI tools/testset.mjs: zelfde, exit 1 (102.504ms)
+✔ B05 gedeelde CLI tools/testset.mjs: ja, exit 1 (113.160875ms)
+✔ B05 gedeelde CLI tools/private/controle-beoordelingen.mjs: ZELFDE, exit 0 (118.208417ms)
+✔ B05 gedeelde CLI tools/private/controle-beoordelingen.mjs: zelfde, exit 1 (119.773125ms)
+✔ B05 gedeelde CLI tools/private/controle-beoordelingen.mjs: ja, exit 1 (108.511583ms)
+✔ B05 CLI: verkeerd XLSX-schema mét geldig manifest wordt geweigerd (96.452083ms)
+✔ B05 CLI: --maak neemt ook paren zonder kandidaat op en laat alle oordelen leeg (215.039958ms)
+✔ B05: bestaand paar buiten kandidaatselectie telt als gemist, niet als verdwenen rij (26.0165ms)
+✔ B05: fouten door transitieve groepen tellen ook als de eindpunten niet zeker dubbel scoren (7.631875ms)
+✔ B05: leeg wordt expliciet afgewezen (3.641209ms)
+✔ B05: ongeldig label wordt expliciet afgewezen (4.424ms)
+✔ B05: ontbrekend paar wordt expliciet afgewezen (3.247708ms)
+✔ B05: dubbel paar wordt expliciet afgewezen (4.421125ms)
+✔ B05: vreemde record-ID wordt expliciet afgewezen (4.379542ms)
+✔ B05: verkeerde dataset wordt expliciet afgewezen (4.262875ms)
+✔ B05: omgewisselde rij wordt expliciet afgewezen (4.432708ms)
+✔ B05: extra paar wordt expliciet afgewezen (4.429292ms)
+✔ B05: verdwenen en veranderde bronrijen zijn datasetfouten (12.354459ms)
+✔ B05: dubbele inhoud behoudt verschillende test-ID’s en bronvolgorde verandert geen identiteit (11.101458ms)
+✔ B05: lege of vervalste manifesten worden niet groen (4.590958ms)
+✔ B05: tegenstrijdige grondwaarheid wordt afgewezen (4.988209ms)
+✔ B05: kandidaatselectie, paarscores en eindgroepen worden afzonderlijk bewaakt (4.605ms)
+✔ B05: ontbrekende directe verbinding binnen een compacte groep is geen gemiste kandidaat (19.799625ms)
+✔ B05: samen te beoordelen paar is geen gemiste dubbel, maar blijft zichtbaar als werk (4.412166ms)
+✔ B05: versiebeheerde synthetische kwaliteitsset heeft nul fouten (6.675916ms)
+✔ B05: expliciete foutgrenzen worden toegepast en blijven in het manifest vastgelegd (4.635667ms)
+✔ B05: ook een foute zekere paarscore wordt afgekeurd wanneer groepen apart blijven (4.798417ms)
+✔ B05: de private rooktest kan een correcte paarscore in een verkeerde groep niet goedkeuren (4.400917ms)
+✔ Google API-lijst wordt juist gekoppeld (8.770375ms)
+✔ Bizzy-lijst: Naam is bedrijfsnaam, Personen contactpersoon, Stad bijna constant (1.034625ms)
+✔ klantenlijst: bedrijf + naam -> naam is contactpersoon; adres naast huisnummer is straat (0.340208ms)
+✔ Braintoss-lijst: Onderneming, Adres in één veld, Bron is geen website (0.174167ms)
+✔ Voornaam en Achternaam worden samen de contactpersoon (via extractFields + record) (0.117917ms)
+✔ meerdere telefoonkolommen (0.087208ms)
+✔ onbekende kolomnaam wordt aan de inhoud herkend (2.055917ms)
+✔ "nummer" is huisnummer naast een straat, anders telefoon (0.14425ms)
+✔ bronprofiel: zelfde kolomnamen -> zelfde handtekening, profiel wordt toegepast (0.211375ms)
+✔ bijna constante kolom (0.151625ms)
+✔ normalizeHeader (0.05225ms)
+✔ Fabelia (Bizzy) en Fabelia Hair & Beauty Boutique (Braintoss): zeker dubbel (6.17425ms)
+✔ Kokk's en Traiteur Kokk's: zeker dubbel (0.482375ms)
+✔ Padel Zyvo en Tennisbesnaringen Zyvo: te controleren (0.258334ms)
+✔ Vriesloods en Zonneloods: te controleren (0.298583ms)
+✔ Fictara en Denkora: zelfde nummer, ander BTW-nummer: uniek (0.3255ms)
+✔ Wolkora, De Testbouwers en Verzin Distillery delen een centraal nummer: niet samengevoegd (0.255125ms)
+✔ zelfde BTW-nummer beslist altijd (0.134875ms)
+✔ ongeldig BTW-nummer is nooit beslissend (0.101375ms)
+✔ Fabelman, Norian = Norian Fabelman (naamgelijkenis 1) (0.411541ms)
+✔ contactpersoon lijkt op bedrijfsnaam: Nilo Zywan bij Zywan (0.773208ms)
+✔ kleine tikfout in een naamwoord telt niet (1.04975ms)
+✔ totaal verschillende namen krijgen geen naamgelijkenis uit de afgekapte bewerkingsafstand (0.411541ms)
+✔ kandidaatparen: alleen rijen die een sleutel delen (0.550458ms)
+✔ groepen: BTW-bewaking blokkeert een keten A-B-C met verschillend BTW (1.738875ms)
+✔ beslissingen: "zelfde" voegt samen, "verschillend" houdt apart (0.25225ms)
+✔ samenvoegen: meest volledige waarde, eerste lijst wint bij gelijkspel, extra nummers blijven (0.638375ms)
+✔ opvulwaarden worden leeg (0.792167ms)
+✔ gewone waarde blijft, met spaties samengevoegd (0.073375ms)
+✔ typografische apostrof wordt gewone apostrof (0.074709ms)
+✔ leidende komma uit Bizzy-kolom Personen verdwijnt (0.057917ms)
+✔ 0400 00 10 01 en +32 400 00 10 01 geven hetzelfde nummer (0.177125ms)
+✔ 0032 en +32 (0) worden herkend (0.662959ms)
+✔ vast nummer 02 000 10 02 (0.075625ms)
+✔ weggevallen voorloopnul bij 8 of 9 cijfers (0.046ms)
+✔ plus weggevallen: 32400001001 (0.063291ms)
+✔ punten en schuine strepen in een nummer (0.098417ms)
+✔ buitenlands nummer blijft (0.054167ms)
+✔ te kort nummer wordt genegeerd (0.048334ms)
+✔ wetenschappelijke notatie geeft waarschuwing (0.066ms)
+✔ meerdere nummers in één cel splitsen (0.702084ms)
+✔ normalizePhones over meerdere kolommen ontdubbelt (0.103792ms)
+✔ formatPhone geeft leesbaar formaat (0.057084ms)
+✔ BE0123.456.749 en 0123 456 749 geven dezelfde cijfers (0.059084ms)
+✔ 9 cijfers worden aangevuld tot 10 (0.03ms)
+✔ modulo-97-controle (0.038583ms)
+✔ ongeldige lengte geeft geen nummer (0.046875ms)
+✔ formatBtw (0.033125ms)
+✔ e-mail kleine letters, spaties weg (0.235959ms)
+✔ meerdere e-mailadressen splitsen (0.088417ms)
+✔ ongeldig e-mailadres wordt genegeerd (0.043334ms)
+✔ domein uit e-mail, behalve gratis providers (0.08775ms)
+✔ website naar domein (0.15375ms)
+✔ platformen tellen niet als website (0.0325ms)
+✔ geen website bij onzin (0.021458ms)
+✔ straat en nummer uit één veld (0.212583ms)
+✔ reeks huisnummers: eerste nummer (0.037375ms)
+✔ busletter apart (0.035291ms)
+✔ postcode en gemeente achteraan worden genegeerd (0.030333ms)
+✔ adres zonder nummer blijft straat (0.02425ms)
+✔ huisnummerveld (0.1425ms)
+✔ straatsleutel zonder accenten, streepjes, spaties en punten (0.19275ms)
+✔ normalizeAddress met aparte kolommen (0.073ms)
+✔ normalizeAddress met één veld (0.039958ms)
+✔ normalizeAddress straatveld dat het nummer herhaalt (0.04125ms)
+✔ postcode (0.04625ms)
+✔ bedrijfsnaam: kleine letters, accenten weg, rechtsvorm weg (2.702583ms)
+✔ rechtsvormen met punten (0.081375ms)
+✔ apostrof en ampersand (0.083042ms)
+✔ naam met komma: zelfde woorden (0.03925ms)
+✔ lege naam (0.031917ms)
+✔ verwerking van begin tot einde: samenvoegen en twijfelpaar (12.797375ms)
+✔ twijfelparen blijven apart met "Mogelijk dubbel met"; beslissing "zelfde" voegt samen (9.95425ms)
+✔ elke rij staat precies één keer in het logboek (6.413417ms)
+✔ resultaatbestand: tabbladen, uploadformaat, beslissingen (7.977666ms)
+✔ één lijst alleen: dubbels binnen de lijst (3.019875ms)
+✔ prestatieharness aanvaardt een volledig geldig rapport (1.724667ms)
+✔ prestatieharness faalt bij bewust overschreden totaalMs (0.927167ms)
+✔ prestatieharness faalt bij bewust overschreden piekRssBytes (0.258333ms)
+✔ prestatieharness faalt bij bewust overschreden kandidaten (0.4615ms)
+✔ prestatieharness faalt bij bewust overschreden exportBytes (0.466083ms)
+✔ prestatieharness faalt bij bewust overschreden browserBlokkadeMs (0.36975ms)
+✔ prestatieharness faalt bij bewust overschreden timerVertragingMs (1.941834ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => r.samples.pop() (0.361167ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => r.samples.push(r.samples[0]) (0.318709ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].fasen.scoren = null; } (0.353209ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { delete r.samples[0].fasen.inlezen; } (0.306583ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].fasen.groeperen = -1; } (0.307917ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].fasen.kandidaten = NaN; } (2.974708ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].fasen.serialiseren = Infinity; } (5.312542ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].fasen.normaliseren = 10000; } (0.633208ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].kwaliteitscontrole.gegevensbehoud = false; } (0.47275ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].kwaliteitscontrole.groepen--; } (0.362333ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].seed++; } (0.478ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[0].piekRssBytes = null; } (1.497583ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.referentie.node = 'verkeerd'; } (0.398541ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { delete r.referentie.browser; } (0.244625ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { delete r.samples[27].browserBlokkadeMs; } (0.261083ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { r.samples[27].geheugenMethode = 'verzonnen'; } (0.24625ms)
+✔ prestatieharness weigert ontbrekende, ongeldige of onbetrouwbare meting: (r) => { delete r.bronSha256; } (0.25625ms)
+✔ prestatieharness weigert ontbrekende en ongeldige budgetten (0.471625ms)
+✔ B12: benchmark-BTW heeft tien cijfers en een onafhankelijke modulo-97-controle (40.321875ms)
+✔ B12: benchmark-BTW bereikt het geldige pad van de normalisatie (0.207833ms)
+✔ B12: ongeldige BTW-indices worden geweigerd (1.215708ms)
+✔ generator uniek: herhaalbare 1k/10k/50k-invoer met onafhankelijke identiteit (237.292583ms)
+✔ generator uniek: echte CSV-inleesketen, verwachte groepen en exportbehoud (534.491125ms)
+✔ generator duplicaten: herhaalbare 1k/10k/50k-invoer met onafhankelijke identiteit (172.108875ms)
+✔ generator duplicaten: echte CSV-inleesketen, verwachte groepen en exportbehoud (490.957541ms)
+✔ generator gedeeld: herhaalbare 1k/10k/50k-invoer met onafhankelijke identiteit (177.815542ms)
+✔ generator gedeeld: echte CSV-inleesketen, verwachte groepen en exportbehoud (554.489208ms)
+✔ onafhankelijke groepscontrole vindt verlies, dubbel tellen, foute samenvoeging en splitsing (0.6395ms)
+✔ export verwerkt een rijstroom met exacte tekstwaarden zonder tussentabel (0.106042ms)
+✔ rijstroom behoudt de Excel-limieten en kapt nooit celtekst af (0.143625ms)
+✔ strengheidsaantallen blijven juist wanneer een aangepaste stand ook de zekere grens wijzigt (3.341417ms)
+✔ UTF-8 met BOM wordt herkend en de BOM verdwijnt (0.5035ms)
+✔ Windows-1252 wordt herkend (0.349833ms)
+✔ scheidingsteken: puntkomma, komma en tab (0.338792ms)
+✔ CSV met aanhalingstekens en regeleinden (0.427583ms)
+✔ kopregel is de eerste rij met minstens drie gevulde cellen (0.164458ms)
+✔ lege rijen worden overgeslagen, lege kopcellen krijgen een naam (0.058708ms)
+✔ readFile leest een CSV met voorloopnullen als tekst (1.045125ms)
+✔ readFile waarschuwt bij wetenschappelijke notatie (0.15725ms)
+✔ Excel: getallen worden tekst zonder wetenschappelijke notatie, datums als JJJJ-MM-DD (11.869583ms)
+✔ onbekende extensie geeft een duidelijke fout (0.259667ms)
+✔ niveaus: gemiddeld is de standaard en gebruikt de algemene grenzen (0.77325ms)
+✔ beslissing per niveau: alleen de ondergrens schuift, BTW beslist altijd (0.133709ms)
+✔ verwerking: streng toont meer twijfelparen, mild minder; samenvoegingen blijven gelijk (7.965125ms)
+✔ een beslissing blijft gelden na een andere strengheid (6.325459ms)
+ℹ tests 231
+ℹ suites 0
+ℹ pass 231
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2379.986042
+{
+  "ok": true,
+  "errors": [],
+  "violations": [],
+  "counts": {
+    "recordsVerwacht": 5,
+    "recordsGevonden": 5,
+    "verwacht": 10,
+    "gevonden": 10,
+    "gecontroleerd": 10,
+    "zelfde": 2,
+    "verschillend": 8,
+    "kandidaatverbindingen": 2,
+    "compacteGroepen": 0,
+    "gescoordeParen": 2,
+    "controlelijst": 0
+  },
+  "metrics": {
+    "fouteSamenvoegingen": 0,
+    "foutePaarscores": 0,
+    "gemistePaarscores": 0,
+    "gemisteDubbels": 0,
+    "gemisteKandidaten": 0,
+    "zonderDirectKandidaat": 0,
+    "nietSamengevoegd": 0,
+    "controleZelfde": 0,
+    "controleVerschillend": 0
+  }
+}
+Gebouwd: dist/Lead-ontdubbelaar.html (1083 kB), versie 0.1.0, 2026-10-17, 13 modules
+Meting 1: node, uniek, 1000 rijen, herhaling 1
+{"soort":"uniek","aantal":1000,"totaalMs":185.197207,"fasen":{"inlezen":7.310124999999992,"koppelen":10.580208999999996,"normaliseren":24.498374999999996,"voorbereiden":29.47366600000001,"kandidaten":2.7634160000000065,"scoren":0.43841700000000117,"groeperen":5.019624999999991,"werkmap":27.404041000000007,"serialiseren":105.40954099999999},"piekRssBytes":201211904,"kandidaten":50,"exportBytes":1057076}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 2: node, duplicaten, 1000 rijen, herhaling 1
+{"soort":"duplicaten","aantal":1000,"totaalMs":198.78274799999997,"fasen":{"inlezen":8.321458000000007,"koppelen":13.59404099999999,"normaliseren":32.66295799999999,"voorbereiden":52.02962500000001,"kandidaten":3.793750000000003,"scoren":13.169750000000008,"groeperen":14.273957999999993,"werkmap":21.016124999999988,"serialiseren":89.54754099999997},"piekRssBytes":216793088,"kandidaten":12000,"exportBytes":1044838}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 3: node, gedeeld, 1000 rijen, herhaling 1
+{"soort":"gedeeld","aantal":1000,"totaalMs":289.586583,"fasen":{"inlezen":7.617917000000006,"koppelen":10.077083000000002,"normaliseren":25.725583,"voorbereiden":141.898416,"kandidaten":6.5325830000000025,"scoren":107.145583,"groeperen":21.76333299999999,"werkmap":33.118584,"serialiseren":75.11125000000004},"piekRssBytes":289259520,"kandidaten":24500,"exportBytes":929164}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 4: node, uniek, 10000 rijen, herhaling 1
+{"soort":"uniek","aantal":10000,"totaalMs":1875.1271679999998,"fasen":{"inlezen":28.294542000000007,"koppelen":82.62212499999998,"normaliseren":228.255917,"voorbereiden":264.972375,"kandidaten":32.39225000000005,"scoren":1.912208000000021,"groeperen":35.934083999999984,"werkmap":365.37833399999994,"serialiseren":1097.9257079999998},"piekRssBytes":680083456,"kandidaten":517,"exportBytes":10956496}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 5: node, duplicaten, 10000 rijen, herhaling 1
+{"soort":"duplicaten","aantal":10000,"totaalMs":1782.5897920000002,"fasen":{"inlezen":49.418166,"koppelen":98.28629200000003,"normaliseren":335.52987499999995,"voorbereiden":487.155625,"kandidaten":24.351834000000053,"scoren":123.419625,"groeperen":119.092084,"werkmap":265.80787499999997,"serialiseren":762.8297500000001},"piekRssBytes":827424768,"kandidaten":120000,"exportBytes":11567342}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 6: node, gedeeld, 10000 rijen, herhaling 1
+{"soort":"gedeeld","aantal":10000,"totaalMs":2818.181707,"fasen":{"inlezen":28.702708,"koppelen":73.28395799999998,"normaliseren":212.49558299999998,"voorbereiden":1435.370166,"kandidaten":99.59174999999999,"scoren":1118.025833,"groeperen":152.52925000000005,"werkmap":329.51958300000024,"serialiseren":798.776042},"piekRssBytes":912031744,"kandidaten":245008,"exportBytes":9555036}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 7: node, uniek, 50000 rijen, herhaling 1
+{"soort":"uniek","aantal":50000,"totaalMs":10685.681375,"fasen":{"inlezen":140.14575,"koppelen":367.02520799999996,"normaliseren":1022.612666,"voorbereiden":1241.797333,"kandidaten":209.88991699999997,"scoren":6.841625000000022,"groeperen":155.03654200000005,"werkmap":2117.230292,"serialiseren":6664.44625},"piekRssBytes":2948169728,"kandidaten":2667,"exportBytes":56105621}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 8: node, duplicaten, 50000 rijen, herhaling 1
+{"soort":"duplicaten","aantal":50000,"totaalMs":11235.217417,"fasen":{"inlezen":132.199625,"koppelen":347.1966249999999,"normaliseren":998.06325,"voorbereiden":1721.580458,"kandidaten":122.08924999999999,"scoren":599.029333,"groeperen":715.9593749999999,"werkmap":1839.753334,"serialiseren":6478.528000000001},"piekRssBytes":3047882752,"kandidaten":600000,"exportBytes":60150200}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 9: node, gedeeld, 50000 rijen, herhaling 1
+{"soort":"gedeeld","aantal":50000,"totaalMs":21009.722457999997,"fasen":{"inlezen":140.474125,"koppelen":343.37587499999995,"normaliseren":946.1741249999999,"voorbereiden":6967.936708,"kandidaten":404.5747919999999,"scoren":5614.752417,"groeperen":822.5235829999992,"werkmap":2038.79925,"serialiseren":10696.612916999999},"piekRssBytes":3224715264,"kandidaten":1225284,"exportBytes":48587438}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 10: browser, uniek, 1000 rijen, herhaling 1
+{"soort":"uniek","aantal":1000,"totaalMs":157.299999833107,"fasen":{"inlezen":4.099999904632568,"koppelen":23.899999976158142,"normaliseren":27.100000023841858,"voorbereiden":30.399999976158142,"kandidaten":2.899999976158142,"scoren":0.3999999761581421,"groeperen":3.8000000715255737,"werkmap":19.09999990463257,"serialiseren":76},"browserBlokkadeMs":76,"timerVertragingMs":93,"kandidaten":50,"exportBytes":1057082}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 11: browser, duplicaten, 1000 rijen, herhaling 1
+{"soort":"duplicaten","aantal":1000,"totaalMs":173.39999985694885,"fasen":{"inlezen":4.199999928474426,"koppelen":17.399999976158142,"normaliseren":25.699999928474426,"voorbereiden":47.39999997615814,"kandidaten":3.899999976158142,"scoren":17.399999976158142,"groeperen":10.100000023841858,"werkmap":15.200000047683716,"serialiseren":79.09999990463257},"browserBlokkadeMs":79,"timerVertragingMs":60.199999928474426,"kandidaten":12000,"exportBytes":1044844}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 12: browser, gedeeld, 1000 rijen, herhaling 1
+{"soort":"gedeeld","aantal":1000,"totaalMs":253.39999997615814,"fasen":{"inlezen":3.8000000715255737,"koppelen":16.399999976158142,"normaliseren":26.600000023841858,"voorbereiden":130,"kandidaten":6,"scoren":97,"groeperen":14.299999952316284,"werkmap":14.5,"serialiseren":74.39999997615814},"browserBlokkadeMs":74,"timerVertragingMs":55.59999990463257,"kandidaten":24500,"exportBytes":929170}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 13: browser, uniek, 10000 rijen, herhaling 1
+{"soort":"uniek","aantal":10000,"totaalMs":1535.2000000476837,"fasen":{"inlezen":25.899999976158142,"koppelen":153.10000002384186,"normaliseren":212.39999997615814,"voorbereiden":249.89999997615814,"kandidaten":26.600000023841858,"scoren":2.399999976158142,"groeperen":44.39999997615814,"werkmap":281.8000000715256,"serialiseren":780.1000000238419},"browserBlokkadeMs":780,"timerVertragingMs":1061.2999999523163,"kandidaten":517,"exportBytes":10956502}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 14: browser, duplicaten, 10000 rijen, herhaling 1
+{"soort":"duplicaten","aantal":10000,"totaalMs":1639.5999999046326,"fasen":{"inlezen":24.799999952316284,"koppelen":129.89999997615814,"normaliseren":193.89999997615814,"voorbereiden":447.5,"kandidaten":15.600000023841858,"scoren":228.29999995231628,"groeperen":93.10000002384186,"werkmap":227.10000002384186,"serialiseren":717.1999999284744},"browserBlokkadeMs":717,"timerVertragingMs":698.0999999046326,"kandidaten":120000,"exportBytes":11567348}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 15: browser, gedeeld, 10000 rijen, herhaling 1
+{"soort":"gedeeld","aantal":10000,"totaalMs":2514.399999976158,"fasen":{"inlezen":25,"koppelen":131.5,"normaliseren":189.60000002384186,"voorbereiden":1332.5,"kandidaten":44.699999928474426,"scoren":1089.5,"groeperen":106.29999995231628,"werkmap":234.60000002384186,"serialiseren":684.5},"browserBlokkadeMs":684,"timerVertragingMs":665.4000000953674,"kandidaten":245008,"exportBytes":9555042}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 16: browser, uniek, 50000 rijen, herhaling 1
+{"soort":"uniek","aantal":50000,"totaalMs":8204.899999976158,"fasen":{"inlezen":99.5,"koppelen":820,"normaliseren":1196.7999999523163,"voorbereiden":1391.2999999523163,"kandidaten":179.40000009536743,"scoren":5.5,"groeperen":119.80000007152557,"werkmap":1831.3999999761581,"serialiseren":3942.899999976158},"browserBlokkadeMs":3943,"timerVertragingMs":5773.800000071526,"kandidaten":2667,"exportBytes":56105634}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 17: browser, duplicaten, 50000 rijen, herhaling 1
+{"soort":"duplicaten","aantal":50000,"totaalMs":8727.700000047684,"fasen":{"inlezen":90.89999997615814,"koppelen":579.5999999046326,"normaliseren":1000,"voorbereiden":2260.9000000953674,"kandidaten":99.29999995231628,"scoren":1151.7000000476837,"groeperen":516.8999999761581,"werkmap":1622.8000000715256,"serialiseren":3656.600000023842},"browserBlokkadeMs":3657,"timerVertragingMs":3638.100000023842,"kandidaten":600000,"exportBytes":60150213}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 18: browser, gedeeld, 50000 rijen, herhaling 1
+{"soort":"gedeeld","aantal":50000,"totaalMs":13930.499999761581,"fasen":{"inlezen":96.5,"koppelen":670.5999999046326,"normaliseren":1045.2999999523163,"voorbereiden":7217.399999976158,"kandidaten":323.2999999523163,"scoren":5829.199999928474,"groeperen":669.1999999284744,"werkmap":1556.6999999284744,"serialiseren":3720.100000023842},"browserBlokkadeMs":3720,"timerVertragingMs":3701.3000000715256,"kandidaten":1225284,"exportBytes":48587451}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 19: node, uniek, 1000 rijen, herhaling 2
+{"soort":"uniek","aantal":1000,"totaalMs":170.074208,"fasen":{"inlezen":4.358167000000002,"koppelen":12.455166999999996,"normaliseren":24.558666000000002,"voorbereiden":29.704207999999994,"kandidaten":2.8857920000000092,"scoren":0.4382090000000005,"groeperen":4.7357080000000025,"werkmap":26.116167000000004,"serialiseren":92.704791},"piekRssBytes":200687616,"kandidaten":50,"exportBytes":1057076}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 20: node, duplicaten, 1000 rijen, herhaling 2
+{"soort":"duplicaten","aantal":1000,"totaalMs":184.762959,"fasen":{"inlezen":6.128833999999998,"koppelen":9.088249999999995,"normaliseren":21.498959,"voorbereiden":41.22416700000001,"kandidaten":3.2138750000000016,"scoren":14.153417000000005,"groeperen":13.887375000000006,"werkmap":19.269667,"serialiseren":95.16466599999998},"piekRssBytes":216645632,"kandidaten":12000,"exportBytes":1044838}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 21: node, gedeeld, 1000 rijen, herhaling 2
+{"soort":"gedeeld","aantal":1000,"totaalMs":275.4470829999999,"fasen":{"inlezen":4.655166999999999,"koppelen":11.866207999999993,"normaliseren":22.559584,"voorbereiden":134.89079199999998,"kandidaten":5.922874999999991,"scoren":104.022916,"groeperen":21.002499999999998,"werkmap":31.69874999999999,"serialiseren":71.333666},"piekRssBytes":287522816,"kandidaten":24500,"exportBytes":929164}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 22: node, uniek, 10000 rijen, herhaling 2
+{"soort":"uniek","aantal":10000,"totaalMs":1592.013832,"fasen":{"inlezen":27.297624999999996,"koppelen":80.684,"normaliseren":217.358917,"voorbereiden":256.20904199999995,"kandidaten":34.444375000000036,"scoren":1.9855000000000018,"groeperen":35.69508300000001,"werkmap":351.194541,"serialiseren":840.9335410000001},"piekRssBytes":679460864,"kandidaten":517,"exportBytes":10956496}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 23: node, duplicaten, 10000 rijen, herhaling 2
+{"soort":"duplicaten","aantal":10000,"totaalMs":1610.043126,"fasen":{"inlezen":27.504458999999997,"koppelen":68.7805,"normaliseren":201.867917,"voorbereiden":348.52720899999997,"kandidaten":22.862541999999962,"scoren":121.37387500000006,"groeperen":133.14820799999995,"werkmap":269.96062500000005,"serialiseren":762.1221250000001},"piekRssBytes":838565888,"kandidaten":120000,"exportBytes":11567342}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 24: node, gedeeld, 10000 rijen, herhaling 2
+{"soort":"gedeeld","aantal":10000,"totaalMs":2687.209791,"fasen":{"inlezen":24.66525,"koppelen":64.438625,"normaliseren":193.226167,"voorbereiden":1303.483458,"kandidaten":62.95474999999999,"scoren":1044.896333,"groeperen":132.44266700000003,"werkmap":266.792833,"serialiseren":895.386958},"piekRssBytes":896860160,"kandidaten":245008,"exportBytes":9555036}
+Werkmap gecontroleerd: groepen, alle broncellen, tekstcellen en extra waarden.
+Meting 25: node, uniek, 50000 rijen, herhaling 2

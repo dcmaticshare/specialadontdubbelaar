@@ -1,0 +1,189 @@
+Gebouwd: dist/Lead-ontdubbelaar.html (1070 kB), versie 0.1.0, 2026-10-17, 12 modules
+B10 opslag null: OK
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: alle browserregressies van de derde ronde
++ actual - expected
+
++ [
++   'B07 constante contactkolommen en postcode: expect(locator).toBeVisible() failed\n' +
++     '\n' +
++     'Locator: getByText(/contactkolom.*niet.*vergelijken/i)\n' +
++     'Expected: visible\n' +
++     'Timeout: 5000ms\n' +
++     'Error: element(s) not found\n' +
++     '\n' +
++     'Call log:\n' +
++     '  - Expect "to.be.visible" with timeout 5000ms\n' +
++     '  - waiting for getByText(/contactkolom.*niet.*vergelijken/i)\n',
++   'B10 opslag {: expect(locator).toBeVisible() failed\n' +
++     '\n' +
++     'Locator: getByText(/bronprofielen.*hersteld|bronprofielen.*bijgewerkt/i)\n' +
++     'Expected: visible\n' +
++     'Timeout: 5000ms\n' +
++     'Error: element(s) not found\n' +
++     '\n' +
++     'Call log:\n' +
++     '  - Expect "to.be.visible" with timeout 5000ms\n' +
++     '  - waiting for getByText(/bronprofielen.*hersteld|bronprofielen.*bijgewerkt/i)\n',
++   'B10 opslag {}: expect(locator).toHaveValue(expected) failed\n' +
++     '\n' +
++     "Locator: locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n" +
++     'Expected: "telefoon"\n' +
++     'Timeout: 5000ms\n' +
++     'Error: element(s) not found\n' +
++     '\n' +
++     'Call log:\n' +
++     '  - Expect "to.have.value" with timeout 5000ms\n' +
++     "  - waiting for locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n",
++   'B10 opslag null: expect(locator).toHaveValue(expected) failed\n' +
++     '\n' +
++     "Locator: locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n" +
++     'Expected: "telefoon"\n' +
++     'Timeout: 5000ms\n' +
++     'Error: element(s) not found\n' +
++     '\n' +
++     'Call log:\n' +
++     '  - Expect "to.have.value" with timeout 5000ms\n' +
++     "  - waiting for locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n",
++   'B10 opslag [null]: expect(locator).toHaveValue(expected) failed\n' +
++     '\n' +
++     "Locator: locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n" +
++     'Expected: "telefoon"\n' +
++     'Timeout: 5000ms\n' +
++     'Error: element(s) not found\n' +
++     '\n' +
++     'Call log:\n' +
++     '  - Expect "to.have.value" with timeout 5000ms\n' +
++     "  - waiting for locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n",
++   'B10 opslag [{"signature":"naam|telefoon","mapping":{"naam":"bedrijfsnaam","telefoon":"bestaat-niet"}}]: expect(locator).toHaveValue(expected) failed\n' +
++     '\n' +
++     "Locator:  locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n" +
++     'Expected: "telefoon"\n' +
++     'Received: ""\n' +
++     'Timeout:  5000ms\n' +
++     '\n' +
++     'Call log:\n' +
++     '  - Expect "to.have.value" with timeout 5000ms\n' +
++     "  - waiting for locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n" +
++     '    14 × locator resolved to <select>…</select>\n' +
++     '       - unexpected value ""\n',
++   'B10 opslag [{"signature":"naam|telefoon","mapping":{"naam":"bedrijfsnaam","telefoon":"email"},"bron":""}]: expect(locator).toBeVisible() failed\n' +
++     '\n' +
++     'Locator: getByText(/bronprofielen.*hersteld|bronprofielen.*bijgewerkt/i)\n' +
++     'Expected: visible\n' +
++     'Timeout: 5000ms\n' +
++     'Error: element(s) not found\n' +
++     '\n' +
++     'Call log:\n' +
++     '  - Expect "to.be.visible" with timeout 5000ms\n' +
++     '  - waiting for getByText(/bronprofielen.*hersteld|bronprofielen.*bijgewerkt/i)\n',
++   'B11 contactspaties, waarschuwingen, download en herimport: expect(locator).toBeVisible() failed\n' +
++     '\n' +
++     "Locator: getByRole('cell', { name: /e-mail.*fout@.*niet herkend/ })\n" +
++     'Expected: visible\n' +
++     'Timeout: 5000ms\n' +
++     'Error: element(s) not found\n' +
++     '\n' +
++     'Call log:\n' +
++     '  - Expect "to.be.visible" with timeout 5000ms\n' +
++     "  - waiting for getByRole('cell', { name: /e-mail.*fout@.*niet herkend/ })\n"
++ ]
+- []
+
+    at controleRonde3 (file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/tools/browser-ronde3.mjs:82:10)
+    at async file:///Users/dieter/Documents/Xcode/Specialad%20Ontdubbeling/tools/check-browser.mjs:114:3 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: [
+    'B07 constante contactkolommen en postcode: expect(locator).toBeVisible() failed\n' +
+      '\n' +
+      'Locator: getByText(/contactkolom.*niet.*vergelijken/i)\n' +
+      'Expected: visible\n' +
+      'Timeout: 5000ms\n' +
+      'Error: element(s) not found\n' +
+      '\n' +
+      'Call log:\n' +
+      '  - Expect "to.be.visible" with timeout 5000ms\n' +
+      '  - waiting for getByText(/contactkolom.*niet.*vergelijken/i)\n',
+    'B10 opslag {: expect(locator).toBeVisible() failed\n' +
+      '\n' +
+      'Locator: getByText(/bronprofielen.*hersteld|bronprofielen.*bijgewerkt/i)\n' +
+      'Expected: visible\n' +
+      'Timeout: 5000ms\n' +
+      'Error: element(s) not found\n' +
+      '\n' +
+      'Call log:\n' +
+      '  - Expect "to.be.visible" with timeout 5000ms\n' +
+      '  - waiting for getByText(/bronprofielen.*hersteld|bronprofielen.*bijgewerkt/i)\n',
+    'B10 opslag {}: expect(locator).toHaveValue(expected) failed\n' +
+      '\n' +
+      "Locator: locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n" +
+      'Expected: "telefoon"\n' +
+      'Timeout: 5000ms\n' +
+      'Error: element(s) not found\n' +
+      '\n' +
+      'Call log:\n' +
+      '  - Expect "to.have.value" with timeout 5000ms\n' +
+      "  - waiting for locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n",
+    'B10 opslag null: expect(locator).toHaveValue(expected) failed\n' +
+      '\n' +
+      "Locator: locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n" +
+      'Expected: "telefoon"\n' +
+      'Timeout: 5000ms\n' +
+      'Error: element(s) not found\n' +
+      '\n' +
+      'Call log:\n' +
+      '  - Expect "to.have.value" with timeout 5000ms\n' +
+      "  - waiting for locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n",
+    'B10 opslag [null]: expect(locator).toHaveValue(expected) failed\n' +
+      '\n' +
+      "Locator: locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n" +
+      'Expected: "telefoon"\n' +
+      'Timeout: 5000ms\n' +
+      'Error: element(s) not found\n' +
+      '\n' +
+      'Call log:\n' +
+      '  - Expect "to.have.value" with timeout 5000ms\n' +
+      "  - waiting for locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n",
+    'B10 opslag [{"signature":"naam|telefoon","mapping":{"naam":"bedrijfsnaam","telefoon":"bestaat-niet"}}]: expect(locator).toHaveValue(expected) failed\n' +
+      '\n' +
+      "Locator:  locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n" +
+      'Expected: "telefoon"\n' +
+      'Received: ""\n' +
+      'Timeout:  5000ms\n' +
+      '\n' +
+      'Call log:\n' +
+      '  - Expect "to.have.value" with timeout 5000ms\n' +
+      "  - waiting for locator('tr').filter({ has: locator('strong').filter({ hasText: /^Telefoon$/ }) }).locator('select')\n" +
+      '    14 × locator resolved to <select>…</select>\n' +
+      '       - unexpected value ""\n',
+    'B10 opslag [{"signature":"naam|telefoon","mapping":{"naam":"bedrijfsnaam","telefoon":"email"},"bron":""}]: expect(locator).toBeVisible() failed\n' +
+      '\n' +
+      'Locator: getByText(/bronprofielen.*hersteld|bronprofielen.*bijgewerkt/i)\n' +
+      'Expected: visible\n' +
+      'Timeout: 5000ms\n' +
+      'Error: element(s) not found\n' +
+      '\n' +
+      'Call log:\n' +
+      '  - Expect "to.be.visible" with timeout 5000ms\n' +
+      '  - waiting for getByText(/bronprofielen.*hersteld|bronprofielen.*bijgewerkt/i)\n',
+    'B11 contactspaties, waarschuwingen, download en herimport: expect(locator).toBeVisible() failed\n' +
+      '\n' +
+      "Locator: getByRole('cell', { name: /e-mail.*fout@.*niet herkend/ })\n" +
+      'Expected: visible\n' +
+      'Timeout: 5000ms\n' +
+      'Error: element(s) not found\n' +
+      '\n' +
+      'Call log:\n' +
+      '  - Expect "to.be.visible" with timeout 5000ms\n' +
+      "  - waiting for getByRole('cell', { name: /e-mail.*fout@.*niet herkend/ })\n"
+  ],
+  expected: [],
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

@@ -1,0 +1,142 @@
+[
+  {
+    "functie": "(garbage collector) :0",
+    "ms": 923.755
+  },
+  {
+    "functie": "i vendor/xlsx.full.min.js:9",
+    "ms": 600.918
+  },
+  {
+    "functie": "Qv vendor/xlsx.full.min.js:17",
+    "ms": 471.994
+  },
+  {
+    "functie": "L vendor/xlsx.full.min.js:8",
+    "ms": 357.21
+  },
+  {
+    "functie": "bt vendor/xlsx.full.min.js:10",
+    "ms": 271.255
+  },
+  {
+    "functie": "s vendor/xlsx.full.min.js:9",
+    "ms": 229.498
+  },
+  {
+    "functie": "cleanQuotes engine/text.js:8",
+    "ms": 200.54
+  },
+  {
+    "functie": "A vendor/xlsx.full.min.js:9",
+    "ms": 158.666
+  },
+  {
+    "functie": "RegExp: (^\\s|\\s$|\\n) :0",
+    "ms": 150.628
+  },
+  {
+    "functie": "cleanValue engine/normalize.js:9",
+    "ms": 136.289
+  },
+  {
+    "functie": "Jv vendor/xlsx.full.min.js:17",
+    "ms": 114.914
+  },
+  {
+    "functie": "Ut vendor/xlsx.full.min.js:10",
+    "ms": 114.169
+  },
+  {
+    "functie": "(program) :0",
+    "ms": 101.29
+  },
+  {
+    "functie": "dominantValue io/mapping.js:129",
+    "ms": 98.545
+  },
+  {
+    "functie": "add engine/match.js:36",
+    "ms": 85.832
+  },
+  {
+    "functie": "Bt vendor/xlsx.full.min.js:10",
+    "ms": 82.62
+  },
+  {
+    "functie": " engine/normalize.js:142",
+    "ms": 79.753
+  },
+  {
+    "functie": "ep vendor/xlsx.full.min.js:17",
+    "ms": 71.873
+  },
+  {
+    "functie": "normalizePhones engine/normalize.js:82",
+    "ms": 71.666
+  },
+  {
+    "functie": "squeeze engine/text.js:16",
+    "ms": 66.25
+  },
+  {
+    "functie": "makeRecord engine/records.js:10",
+    "ms": 62.042
+  },
+  {
+    "functie": "RegExp: [‘’‚‛′´`] :0",
+    "ms": 61.207
+  },
+  {
+    "functie": "P vendor/xlsx.full.min.js:8",
+    "ms": 56.041
+  },
+  {
+    "functie": "sn vendor/xlsx.full.min.js:11",
+    "ms": 53.958
+  },
+  {
+    "functie": "mergeGroup engine/cluster.js:168",
+    "ms": 53.542
+  },
+  {
+    "functie": "RegExp: [&<>'\"] :0",
+    "ms": 52.833
+  },
+  {
+    "functie": "normalizeWebsite engine/normalize.js:196",
+    "ms": 47.914
+  },
+  {
+    "functie": "buildIndex engine/match.js:13",
+    "ms": 44.499
+  },
+  {
+    "functie": "parse :0",
+    "ms": 40.919
+  },
+  {
+    "functie": "(idle) :0",
+    "ms": 39.168
+  },
+  {
+    "functie": " vendor/xlsx.full.min.js:10",
+    "ms": 35.708
+  },
+  {
+    "functie": "originalRows io/write.js:137",
+    "ms": 35.001
+  },
+  {
+    "functie": "parseCsv io/read.js:82",
+    "ms": 34.498
+  },
+  {
+    "functie": "RegExp: ^[,;:]+\\s*|\\s*[,;:]+$ :0",
+    "ms": 34
+  },
+  {
+    "functie": "ir vendor/xlsx.full.min.js:10",
+    "ms": 31.626
+  }
+]

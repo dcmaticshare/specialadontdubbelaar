@@ -1,0 +1,18 @@
+{
+  "samenvatting": {
+    "rijen": 1357,
+    "uniekeLeads": 1128,
+    "automatischSamengevoegd": 214,
+    "samengevoegdDoorMens": 0,
+    "teControleren": 98,
+    "groepen": 1128
+  },
+  "gelijkeGroepsleden": true,
+  "gelijkeKandidaten": true,
+  "gelijkeTwijfelparenEnScores": true,
+  "gewijzigdePaarscores": 0,
+  "scoreVerschillen": [],
+  "gewijzigdeNormalisatievelden": {},
+  "waarschuwingenVoor": 1,
+  "waarschuwingenNa": 1
+}

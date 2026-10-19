@@ -1,0 +1,3204 @@
+{
+  "versie": 1,
+  "datum": "2026-10-17T11:43:01.682Z",
+  "bronSha256": "8fe95d98f4086b169bd657a9f24e3a8579d830a414f41eb82ffc75171cc92260",
+  "referentie": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M5 Pro",
+    "geheugenBytes": 25769803776,
+    "node": "24.19.0",
+    "browser": "155.0.8059.84",
+    "playwright": "1.62.1"
+  },
+  "besturingssysteem": {
+    "release": "27.0.0",
+    "versie": "Darwin Kernel Version 27.0.0: Tue Aug 11 21:06:40 PDT 2026; root:xnu-13432.1.9~1/RELEASE_ARM64_T6050"
+  },
+  "meetmethode": "Sequentieel, vers proces/browserprofiel per scenario. Synthetische CSV-invoer, XLSX-uitvoer. Werkmapcontrole in afzonderlijk proces buiten de gemeten fasen.",
+  "samples": [
+    {
+      "modus": "node",
+      "soort": "uniek",
+      "aantal": 1000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 6.378332999999998,
+        "koppelen": 10.444167,
+        "normaliseren": 21.032833999999994,
+        "voorbereiden": 25.841583999999997,
+        "kandidaten": 2.616957999999997,
+        "scoren": 0.3879170000000016,
+        "groeperen": 4.551457999999997,
+        "werkmap": 33.19587499999999,
+        "serialiseren": 77.87133399999999
+      },
+      "totaalMs": 158.28275099999996,
+      "piekRssBytes": 202555392,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 50,
+      "compacteGroepen": 0,
+      "scores": 50,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 1057076,
+      "groepen": 950,
+      "kwaliteitscontrole": {
+        "groepen": 950,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "20b17471149793ba6a25cd0a222d3e401e05901ea106e61fd8e7cfc6ed971bed",
+      "run": 1
+    },
+    {
+      "modus": "node",
+      "soort": "duplicaten",
+      "aantal": 1000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 7.096667000000004,
+        "koppelen": 10.407584,
+        "normaliseren": 20.251500000000007,
+        "voorbereiden": 39.837458,
+        "kandidaten": 3.160083,
+        "scoren": 13.968583999999993,
+        "groeperen": 19.546250000000015,
+        "werkmap": 21.296042,
+        "serialiseren": 80.758208
+      },
+      "totaalMs": 178.94220900000002,
+      "piekRssBytes": 210075648,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 12000,
+      "compacteGroepen": 0,
+      "scores": 12000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 1044838,
+      "groepen": 40,
+      "kwaliteitscontrole": {
+        "groepen": 40,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "a9ddcf127392d13592076b6be0c8a11a324ea38ccd4e1115aba7e891710bb6d5",
+      "run": 1
+    },
+    {
+      "modus": "node",
+      "soort": "gedeeld",
+      "aantal": 1000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 9.388500000000008,
+        "koppelen": 10.34675,
+        "normaliseren": 24.039999999999992,
+        "voorbereiden": 158.041666,
+        "kandidaten": 8.840582999999995,
+        "scoren": 122.567666,
+        "groeperen": 25.99154199999998,
+        "werkmap": 24.138374999999996,
+        "serialiseren": 95.909875
+      },
+      "totaalMs": 323.81670799999995,
+      "piekRssBytes": 284442624,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 24500,
+      "compacteGroepen": 500,
+      "scores": 24500,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 929164,
+      "groepen": 500,
+      "kwaliteitscontrole": {
+        "groepen": 500,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "ce76d431bdb733ae67b3273ee5f3f5f35e21a1235c8eca4bc3c91f97e46d7771",
+      "run": 1
+    },
+    {
+      "modus": "node",
+      "soort": "uniek",
+      "aantal": 10000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 28.75566699999999,
+        "koppelen": 90.332958,
+        "normaliseren": 197.78420799999998,
+        "voorbereiden": 256.727292,
+        "kandidaten": 55.20037499999995,
+        "scoren": 1.913708999999983,
+        "groeperen": 37.99141700000001,
+        "werkmap": 388.525542,
+        "serialiseren": 860.016042
+      },
+      "totaalMs": 1662.348918,
+      "piekRssBytes": 710557696,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 517,
+      "compacteGroepen": 0,
+      "scores": 500,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 10956496,
+      "groepen": 9500,
+      "kwaliteitscontrole": {
+        "groepen": 9500,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "9d8cc798c78728355feff9289f54eb32bd160549e08e0ce5ac97f68b77299f9c",
+      "run": 1
+    },
+    {
+      "modus": "node",
+      "soort": "duplicaten",
+      "aantal": 10000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 27.81583400000001,
+        "koppelen": 73.137208,
+        "normaliseren": 199.09704100000002,
+        "voorbereiden": 359.296208,
+        "kandidaten": 31.459041000000013,
+        "scoren": 124.19462499999997,
+        "groeperen": 199.36933299999998,
+        "werkmap": 265.18895799999996,
+        "serialiseren": 803.558125
+      },
+      "totaalMs": 1728.365666,
+      "piekRssBytes": 783679488,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 120000,
+      "compacteGroepen": 0,
+      "scores": 120000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 11567342,
+      "groepen": 400,
+      "kwaliteitscontrole": {
+        "groepen": 400,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "6a3a6604775b9c6e11553cced23ef200549064d4745fc0d0f5e636542ad6d0f4",
+      "run": 1
+    },
+    {
+      "modus": "node",
+      "soort": "gedeeld",
+      "aantal": 10000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 25.996375,
+        "koppelen": 65.787417,
+        "normaliseren": 168.88141599999997,
+        "voorbereiden": 1296.467833,
+        "kandidaten": 59.73674999999997,
+        "scoren": 1060.553125,
+        "groeperen": 195.8114579999999,
+        "werkmap": 251.96954199999982,
+        "serialiseren": 745.7478749999998
+      },
+      "totaalMs": 2581.7804999999994,
+      "piekRssBytes": 949387264,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 245008,
+      "compacteGroepen": 5000,
+      "scores": 245000,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 9555036,
+      "groepen": 5000,
+      "kwaliteitscontrole": {
+        "groepen": 5000,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "56d2e5835e7a9d6c5cc0610f9583d7dd9bfc7c77ea0fd979a56e306993759bbb",
+      "run": 1
+    },
+    {
+      "modus": "node",
+      "soort": "uniek",
+      "aantal": 50000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 158.6415,
+        "koppelen": 362.29658299999994,
+        "normaliseren": 940.4434999999999,
+        "voorbereiden": 1171.2799579999999,
+        "kandidaten": 221.56999999999994,
+        "scoren": 7.379875000000084,
+        "groeperen": 174.41124999999988,
+        "werkmap": 2891.836166,
+        "serialiseren": 6100.337208999999
+      },
+      "totaalMs": 10858.802666,
+      "piekRssBytes": 2083586048,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 2667,
+      "compacteGroepen": 0,
+      "scores": 2500,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 56105621,
+      "groepen": 47500,
+      "kwaliteitscontrole": {
+        "groepen": 47500,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "ce52b34ea976a375f7a90c61ae1f7fbb69f825b744b596cdb6eff0e4a998c5b0",
+      "run": 1
+    },
+    {
+      "modus": "node",
+      "soort": "duplicaten",
+      "aantal": 50000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 133.611458,
+        "koppelen": 381.033834,
+        "normaliseren": 956.1468340000001,
+        "voorbereiden": 1750.7202089999998,
+        "kandidaten": 170.65979100000004,
+        "scoren": 621.3000420000001,
+        "groeperen": 1417.299708,
+        "werkmap": 2170.5802500000004,
+        "serialiseren": 5948.430665999999
+      },
+      "totaalMs": 11801.676124999998,
+      "piekRssBytes": 3115778048,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 600000,
+      "compacteGroepen": 0,
+      "scores": 600000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 60150200,
+      "groepen": 2000,
+      "kwaliteitscontrole": {
+        "groepen": 2000,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "2d8ee85bce477b942c13c4c87eb7971584be1aa90d9819cb272c1f360df90e5c",
+      "run": 1
+    },
+    {
+      "modus": "node",
+      "soort": "gedeeld",
+      "aantal": 50000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 119.15254200000001,
+        "koppelen": 348.928042,
+        "normaliseren": 925.694458,
+        "voorbereiden": 7276.741583,
+        "kandidaten": 509.107125,
+        "scoren": 5838.67325,
+        "groeperen": 1325.9432089999991,
+        "werkmap": 2263.7059169999993,
+        "serialiseren": 7503.195167
+      },
+      "totaalMs": 18837.66646,
+      "piekRssBytes": 3192700928,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 1225284,
+      "compacteGroepen": 25000,
+      "scores": 1225020,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 48587438,
+      "groepen": 25000,
+      "kwaliteitscontrole": {
+        "groepen": 25000,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "6acb80a3549953c2ed6798b1f0196ba713d4b5793c4711cd7e282ed209e2ca3f",
+      "run": 1
+    },
+    {
+      "modus": "browser",
+      "soort": "uniek",
+      "aantal": 1000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 15,
+      "longtasks": [
+        {
+          "start": 317.2000000476837,
+          "duur": 89
+        }
+      ],
+      "timerVertragingMs": 75.60000002384186,
+      "fasen": {
+        "inlezen": 3.899999976158142,
+        "koppelen": 18.199999928474426,
+        "normaliseren": 19.5,
+        "voorbereiden": 24.800000071525574,
+        "kandidaten": 3.399999976158142,
+        "scoren": 0.3999999761581421,
+        "groeperen": 4.199999928474426,
+        "werkmap": 20.300000071525574,
+        "serialiseren": 67.89999997615814
+      },
+      "faseBlokkades": {
+        "inlezen": 0,
+        "koppelen": 0,
+        "normaliseren": 0,
+        "voorbereiden": 0,
+        "kandidaten": 0,
+        "scoren": 0,
+        "groeperen": 0,
+        "werkmap": 89,
+        "serialiseren": 89
+      },
+      "aantallen": {
+        "kandidaten": 50,
+        "compacteGroepen": 0,
+        "scores": 50,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 950,
+      "totaalMs": 139.29999995231628,
+      "browserBlokkadeMs": 89,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 50,
+      "compacteGroepen": 0,
+      "scores": 50,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 1057082,
+      "kwaliteitscontrole": {
+        "groepen": 950,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "20794157f6c2add9d602f97e550f91ddf18735145320887f988cd5b4fd89585f",
+      "run": 1
+    },
+    {
+      "modus": "browser",
+      "soort": "duplicaten",
+      "aantal": 1000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 13,
+      "longtasks": [
+        {
+          "start": 324,
+          "duur": 84
+        }
+      ],
+      "timerVertragingMs": 75.79999995231628,
+      "fasen": {
+        "inlezen": 3.799999952316284,
+        "koppelen": 15.399999976158142,
+        "normaliseren": 16.300000071525574,
+        "voorbereiden": 29.90000009536743,
+        "kandidaten": 2.799999952316284,
+        "scoren": 9.700000047683716,
+        "groeperen": 15.100000023841858,
+        "werkmap": 15.5,
+        "serialiseren": 68
+      },
+      "faseBlokkades": {
+        "inlezen": 0,
+        "koppelen": 0,
+        "normaliseren": 0,
+        "voorbereiden": 0,
+        "kandidaten": 0,
+        "scoren": 0,
+        "groeperen": 0,
+        "werkmap": 84,
+        "serialiseren": 84
+      },
+      "aantallen": {
+        "kandidaten": 12000,
+        "compacteGroepen": 0,
+        "scores": 12000,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 40,
+      "totaalMs": 147.70000004768372,
+      "browserBlokkadeMs": 84,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 12000,
+      "compacteGroepen": 0,
+      "scores": 12000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 1044844,
+      "kwaliteitscontrole": {
+        "groepen": 40,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "90c1d19cf15383ad27f6008b152742c415149c6ac4e3717b5aec334b98048b3d",
+      "run": 1
+    },
+    {
+      "modus": "browser",
+      "soort": "gedeeld",
+      "aantal": 1000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 19,
+      "longtasks": [
+        {
+          "start": 410.90000009536743,
+          "duur": 80
+        }
+      ],
+      "timerVertragingMs": 66.20000004768372,
+      "fasen": {
+        "inlezen": 3.799999952316284,
+        "koppelen": 15.400000095367432,
+        "normaliseren": 16.899999976158142,
+        "voorbereiden": 111,
+        "kandidaten": 5.400000095367432,
+        "scoren": 87.60000002384186,
+        "groeperen": 28.300000071525574,
+        "werkmap": 14.699999928474426,
+        "serialiseren": 64.60000002384186
+      },
+      "faseBlokkades": {
+        "inlezen": 0,
+        "koppelen": 0,
+        "normaliseren": 0,
+        "voorbereiden": 0,
+        "kandidaten": 0,
+        "scoren": 0,
+        "groeperen": 0,
+        "werkmap": 80,
+        "serialiseren": 80
+      },
+      "aantallen": {
+        "kandidaten": 24500,
+        "compacteGroepen": 500,
+        "scores": 24500,
+        "overgeslagenSleutels": 2
+      },
+      "groepen": 500,
+      "totaalMs": 237.80000007152557,
+      "browserBlokkadeMs": 80,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 24500,
+      "compacteGroepen": 500,
+      "scores": 24500,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 929170,
+      "kwaliteitscontrole": {
+        "groepen": 500,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "9ba6fbf4b39dba2657bb7ed35be2bed21c1e3ddbca9ba5943f0de8ad72033035",
+      "run": 1
+    },
+    {
+      "modus": "browser",
+      "soort": "uniek",
+      "aantal": 10000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 17,
+      "longtasks": [
+        {
+          "start": 88.89999997615814,
+          "duur": 62
+        },
+        {
+          "start": 229.29999995231628,
+          "duur": 137
+        },
+        {
+          "start": 411.10000002384186,
+          "duur": 162
+        },
+        {
+          "start": 710.7999999523163,
+          "duur": 937
+        }
+      ],
+      "timerVertragingMs": 927.6000000238419,
+      "fasen": {
+        "inlezen": 24.299999952316284,
+        "koppelen": 134.89999997615814,
+        "normaliseren": 160.89999997615814,
+        "voorbereiden": 187.39999997615814,
+        "kandidaten": 22.399999976158142,
+        "scoren": 3.200000047683716,
+        "groeperen": 26.100000023841858,
+        "werkmap": 209.19999992847443,
+        "serialiseren": 727.5
+      },
+      "faseBlokkades": {
+        "inlezen": 0,
+        "koppelen": 137,
+        "normaliseren": 162,
+        "voorbereiden": 162,
+        "kandidaten": 0,
+        "scoren": 0,
+        "groeperen": 0,
+        "werkmap": 937,
+        "serialiseren": 937
+      },
+      "aantallen": {
+        "kandidaten": 517,
+        "compacteGroepen": 0,
+        "scores": 500,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 9500,
+      "totaalMs": 1309.3999998569489,
+      "browserBlokkadeMs": 937,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 517,
+      "compacteGroepen": 0,
+      "scores": 500,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 10956502,
+      "kwaliteitscontrole": {
+        "groepen": 9500,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "8902cb0f3e26612bc92ea5ffa099af4f818a16ab197d556702aa4f560201edab",
+      "run": 1
+    },
+    {
+      "modus": "browser",
+      "soort": "duplicaten",
+      "aantal": 10000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 29,
+      "longtasks": [
+        {
+          "start": 88.79999995231628,
+          "duur": 59
+        },
+        {
+          "start": 229.20000004768372,
+          "duur": 120
+        },
+        {
+          "start": 395,
+          "duur": 152
+        },
+        {
+          "start": 789.3999999761581,
+          "duur": 161
+        },
+        {
+          "start": 1144.7000000476837,
+          "duur": 832
+        }
+      ],
+      "timerVertragingMs": 813.8000000715256,
+      "fasen": {
+        "inlezen": 23.699999928474426,
+        "koppelen": 117.59999990463257,
+        "normaliseren": 150.60000002384186,
+        "voorbereiden": 393.7000000476837,
+        "kandidaten": 16.800000071525574,
+        "scoren": 224.70000004768372,
+        "groeperen": 141.90000009536743,
+        "werkmap": 198.10000002384186,
+        "serialiseren": 632
+      },
+      "faseBlokkades": {
+        "inlezen": 59,
+        "koppelen": 120,
+        "normaliseren": 152,
+        "voorbereiden": 161,
+        "kandidaten": 0,
+        "scoren": 161,
+        "groeperen": 161,
+        "werkmap": 832,
+        "serialiseren": 832
+      },
+      "aantallen": {
+        "kandidaten": 120000,
+        "compacteGroepen": 0,
+        "scores": 120000,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 400,
+      "totaalMs": 1507,
+      "browserBlokkadeMs": 832,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 120000,
+      "compacteGroepen": 0,
+      "scores": 120000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 11567348,
+      "kwaliteitscontrole": {
+        "groepen": 400,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "7503553a66ab03d167138c51c9451a89f55cff70e1d238de71fdb4c325abfeb9",
+      "run": 1
+    },
+    {
+      "modus": "browser",
+      "soort": "gedeeld",
+      "aantal": 10000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 75,
+      "longtasks": [
+        {
+          "start": 93.39999997615814,
+          "duur": 58
+        },
+        {
+          "start": 237.39999997615814,
+          "duur": 125
+        },
+        {
+          "start": 403.10000002384186,
+          "duur": 151
+        },
+        {
+          "start": 1646.1000000238419,
+          "duur": 192
+        },
+        {
+          "start": 2019.6000000238419,
+          "duur": 822
+        }
+      ],
+      "timerVertragingMs": 815,
+      "fasen": {
+        "inlezen": 23.899999976158142,
+        "koppelen": 123.30000007152557,
+        "normaliseren": 148.79999995231628,
+        "voorbereiden": 1246.2999999523163,
+        "kandidaten": 44.5,
+        "scoren": 1051.7999999523163,
+        "groeperen": 180.69999992847443,
+        "werkmap": 200.90000009536743,
+        "serialiseren": 620.6999999284744
+      },
+      "faseBlokkades": {
+        "inlezen": 0,
+        "koppelen": 125,
+        "normaliseren": 151,
+        "voorbereiden": 192,
+        "kandidaten": 0,
+        "scoren": 192,
+        "groeperen": 192,
+        "werkmap": 822,
+        "serialiseren": 822
+      },
+      "aantallen": {
+        "kandidaten": 245008,
+        "compacteGroepen": 5000,
+        "scores": 245000,
+        "overgeslagenSleutels": 2
+      },
+      "groepen": 5000,
+      "totaalMs": 2395.7999999523163,
+      "browserBlokkadeMs": 822,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 245008,
+      "compacteGroepen": 5000,
+      "scores": 245000,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 9555042,
+      "kwaliteitscontrole": {
+        "groepen": 5000,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "9ce8e0056732a9b3038fb99839f151397dd71cd285441a134d088dd5faed3463",
+      "run": 1
+    },
+    {
+      "modus": "browser",
+      "soort": "uniek",
+      "aantal": 50000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 27,
+      "longtasks": [
+        {
+          "start": 188.79999995231628,
+          "duur": 330
+        },
+        {
+          "start": 523.1999999284744,
+          "duur": 95
+        },
+        {
+          "start": 654.3999999761581,
+          "duur": 759
+        },
+        {
+          "start": 1470.3999999761581,
+          "duur": 876
+        },
+        {
+          "start": 2347.399999976158,
+          "duur": 232
+        },
+        {
+          "start": 2580.899999976158,
+          "duur": 193
+        },
+        {
+          "start": 2853.399999976158,
+          "duur": 5350
+        }
+      ],
+      "timerVertragingMs": 5338.5,
+      "fasen": {
+        "inlezen": 96,
+        "koppelen": 756.8999999761581,
+        "normaliseren": 875.3000000715256,
+        "voorbereiden": 1115.8000000715256,
+        "kandidaten": 232.60000002384186,
+        "scoren": 6.100000023841858,
+        "groeperen": 169.20000004768372,
+        "werkmap": 1654.1999999284744,
+        "serialiseren": 3684.600000023842
+      },
+      "faseBlokkades": {
+        "inlezen": 330,
+        "koppelen": 759,
+        "normaliseren": 876,
+        "voorbereiden": 876,
+        "kandidaten": 232,
+        "scoren": 193,
+        "groeperen": 193,
+        "werkmap": 5350,
+        "serialiseren": 5350
+      },
+      "aantallen": {
+        "kandidaten": 2667,
+        "compacteGroepen": 0,
+        "scores": 2500,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 47500,
+      "totaalMs": 7476.700000047684,
+      "browserBlokkadeMs": 5350,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 2667,
+      "compacteGroepen": 0,
+      "scores": 2500,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 56105627,
+      "kwaliteitscontrole": {
+        "groepen": 47500,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "0a8cad2935917cb09eeb5bb17a0cebfb21f4f0cdf164fd30ac77c9043141a565",
+      "run": 1
+    },
+    {
+      "modus": "browser",
+      "soort": "duplicaten",
+      "aantal": 50000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 82,
+      "longtasks": [
+        {
+          "start": 172,
+          "duur": 317
+        },
+        {
+          "start": 493.89999997615814,
+          "duur": 92
+        },
+        {
+          "start": 625.1999999284744,
+          "duur": 565
+        },
+        {
+          "start": 1240.7999999523163,
+          "duur": 744
+        },
+        {
+          "start": 1985.1999999284744,
+          "duur": 111
+        },
+        {
+          "start": 3244.7999999523163,
+          "duur": 909
+        },
+        {
+          "start": 4357.399999976158,
+          "duur": 4765
+        }
+      ],
+      "timerVertragingMs": 4747.100000023842,
+      "fasen": {
+        "inlezen": 93.69999992847443,
+        "koppelen": 562.5,
+        "normaliseren": 742.7000000476837,
+        "voorbereiden": 2003.2000000476837,
+        "kandidaten": 111.5,
+        "scoren": 1147.3999999761581,
+        "groeperen": 877.7999999523163,
+        "werkmap": 1321.1999999284744,
+        "serialiseren": 3443.2000000476837
+      },
+      "faseBlokkades": {
+        "inlezen": 317,
+        "koppelen": 565,
+        "normaliseren": 744,
+        "voorbereiden": 909,
+        "kandidaten": 111,
+        "scoren": 0,
+        "groeperen": 909,
+        "werkmap": 4765,
+        "serialiseren": 4765
+      },
+      "aantallen": {
+        "kandidaten": 600000,
+        "compacteGroepen": 0,
+        "scores": 600000,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 2000,
+      "totaalMs": 8301.599999904633,
+      "browserBlokkadeMs": 4765,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 600000,
+      "compacteGroepen": 0,
+      "scores": 600000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 60150213,
+      "kwaliteitscontrole": {
+        "groepen": 2000,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "26475368f4190ee36499b514acf118502359862d54afc669c9667f1ffe188dfd",
+      "run": 1
+    },
+    {
+      "modus": "browser",
+      "soort": "gedeeld",
+      "aantal": 50000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 302,
+      "longtasks": [
+        {
+          "start": 172.20000004768372,
+          "duur": 307
+        },
+        {
+          "start": 484.2000000476837,
+          "duur": 88
+        },
+        {
+          "start": 609.6000000238419,
+          "duur": 581
+        },
+        {
+          "start": 1242.9000000953674,
+          "duur": 721
+        },
+        {
+          "start": 1964.9000000953674,
+          "duur": 316
+        },
+        {
+          "start": 7853.600000023842,
+          "duur": 1085
+        },
+        {
+          "start": 9025.600000023842,
+          "duur": 4942
+        }
+      ],
+      "timerVertragingMs": 4929.399999976158,
+      "fasen": {
+        "inlezen": 90.70000004768372,
+        "koppelen": 579.1000000238419,
+        "normaliseren": 720.2999999523163,
+        "voorbereiden": 6614.899999976158,
+        "kandidaten": 315.89999997615814,
+        "scoren": 5577.100000023842,
+        "groeperen": 1062.7999999523163,
+        "werkmap": 1281.7999999523163,
+        "serialiseren": 3659.8000000715256
+      },
+      "faseBlokkades": {
+        "inlezen": 307,
+        "koppelen": 581,
+        "normaliseren": 721,
+        "voorbereiden": 1085,
+        "kandidaten": 316,
+        "scoren": 1085,
+        "groeperen": 1085,
+        "werkmap": 4942,
+        "serialiseren": 4942
+      },
+      "aantallen": {
+        "kandidaten": 1225284,
+        "compacteGroepen": 25000,
+        "scores": 1225020,
+        "overgeslagenSleutels": 2
+      },
+      "groepen": 25000,
+      "totaalMs": 13289.100000023842,
+      "browserBlokkadeMs": 4942,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 1225284,
+      "compacteGroepen": 25000,
+      "scores": 1225020,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 48587451,
+      "kwaliteitscontrole": {
+        "groepen": 25000,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "022d689bf476fa9b1797fe7834afbc59fe77c3348a77ca1ece6ce553b8c53201",
+      "run": 1
+    },
+    {
+      "modus": "node",
+      "soort": "uniek",
+      "aantal": 1000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 6.419165999999997,
+        "koppelen": 10.487167000000014,
+        "normaliseren": 21.213667,
+        "voorbereiden": 26.996291999999997,
+        "kandidaten": 2.5822089999999918,
+        "scoren": 0.755833999999993,
+        "groeperen": 5.030749999999998,
+        "werkmap": 20.87700000000001,
+        "serialiseren": 80.14658399999999
+      },
+      "totaalMs": 149.956959,
+      "piekRssBytes": 201474048,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 50,
+      "compacteGroepen": 0,
+      "scores": 50,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 1057076,
+      "groepen": 950,
+      "kwaliteitscontrole": {
+        "groepen": 950,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "20b17471149793ba6a25cd0a222d3e401e05901ea106e61fd8e7cfc6ed971bed",
+      "run": 2
+    },
+    {
+      "modus": "node",
+      "soort": "duplicaten",
+      "aantal": 1000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 6.3337080000000014,
+        "koppelen": 8.857708000000002,
+        "normaliseren": 19.601250000000007,
+        "voorbereiden": 38.603375,
+        "kandidaten": 3.0631249999999994,
+        "scoren": 13.464457999999993,
+        "groeperen": 18.443583000000004,
+        "werkmap": 20.024291000000005,
+        "serialiseren": 69.353625
+      },
+      "totaalMs": 161.61629,
+      "piekRssBytes": 211369984,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 12000,
+      "compacteGroepen": 0,
+      "scores": 12000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 1044838,
+      "groepen": 40,
+      "kwaliteitscontrole": {
+        "groepen": 40,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "a9ddcf127392d13592076b6be0c8a11a324ea38ccd4e1115aba7e891710bb6d5",
+      "run": 2
+    },
+    {
+      "modus": "node",
+      "soort": "gedeeld",
+      "aantal": 1000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 6.130125,
+        "koppelen": 9.473832999999999,
+        "normaliseren": 19.773250000000004,
+        "voorbereiden": 131.071833,
+        "kandidaten": 5.552000000000007,
+        "scoren": 103.20579199999999,
+        "groeperen": 30.203750000000014,
+        "werkmap": 30.035791999999987,
+        "serialiseren": 65.297125
+      },
+      "totaalMs": 272.21245799999997,
+      "piekRssBytes": 313344000,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 24500,
+      "compacteGroepen": 500,
+      "scores": 24500,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 929164,
+      "groepen": 500,
+      "kwaliteitscontrole": {
+        "groepen": 500,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "ce76d431bdb733ae67b3273ee5f3f5f35e21a1235c8eca4bc3c91f97e46d7771",
+      "run": 2
+    },
+    {
+      "modus": "node",
+      "soort": "uniek",
+      "aantal": 10000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 25.796999999999997,
+        "koppelen": 76.41641599999998,
+        "normaliseren": 190.46887500000003,
+        "voorbereiden": 237.39891599999999,
+        "kandidaten": 43.32349999999997,
+        "scoren": 1.8248330000000124,
+        "groeperen": 34.95666699999998,
+        "werkmap": 291.92275000000006,
+        "serialiseren": 804.3941659999999
+      },
+      "totaalMs": 1470.8859149999998,
+      "piekRssBytes": 733151232,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 517,
+      "compacteGroepen": 0,
+      "scores": 500,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 10956496,
+      "groepen": 9500,
+      "kwaliteitscontrole": {
+        "groepen": 9500,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "9d8cc798c78728355feff9289f54eb32bd160549e08e0ce5ac97f68b77299f9c",
+      "run": 2
+    },
+    {
+      "modus": "node",
+      "soort": "duplicaten",
+      "aantal": 10000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 25.233416000000005,
+        "koppelen": 66.207958,
+        "normaliseren": 177.747292,
+        "voorbereiden": 322.38862500000005,
+        "kandidaten": 28.856083000000012,
+        "scoren": 113.79754200000002,
+        "groeperen": 174.67612499999996,
+        "werkmap": 227.73291599999993,
+        "serialiseren": 758.877625
+      },
+      "totaalMs": 1575.116665,
+      "piekRssBytes": 800653312,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 120000,
+      "compacteGroepen": 0,
+      "scores": 120000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 11567342,
+      "groepen": 400,
+      "kwaliteitscontrole": {
+        "groepen": 400,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "6a3a6604775b9c6e11553cced23ef200549064d4745fc0d0f5e636542ad6d0f4",
+      "run": 2
+    },
+    {
+      "modus": "node",
+      "soort": "gedeeld",
+      "aantal": 10000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 26.025458999999998,
+        "koppelen": 64.344833,
+        "normaliseren": 167.61204199999997,
+        "voorbereiden": 1286.39925,
+        "kandidaten": 57.76350000000002,
+        "scoren": 1053.657666,
+        "groeperen": 189.03320899999994,
+        "werkmap": 244.83387500000003,
+        "serialiseren": 741.439916
+      },
+      "totaalMs": 2552.076542,
+      "piekRssBytes": 979025920,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 245008,
+      "compacteGroepen": 5000,
+      "scores": 245000,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 9555036,
+      "groepen": 5000,
+      "kwaliteitscontrole": {
+        "groepen": 5000,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "56d2e5835e7a9d6c5cc0610f9583d7dd9bfc7c77ea0fd979a56e306993759bbb",
+      "run": 2
+    },
+    {
+      "modus": "node",
+      "soort": "uniek",
+      "aantal": 50000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 141.125792,
+        "koppelen": 356.98220800000007,
+        "normaliseren": 966.4935839999999,
+        "voorbereiden": 1179.669542,
+        "kandidaten": 203.99954200000002,
+        "scoren": 6.639999999999873,
+        "groeperen": 176.00154199999997,
+        "werkmap": 2208.876542,
+        "serialiseren": 5630.976291
+      },
+      "totaalMs": 9693.631917,
+      "piekRssBytes": 2327019520,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 2667,
+      "compacteGroepen": 0,
+      "scores": 2500,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 56105621,
+      "groepen": 47500,
+      "kwaliteitscontrole": {
+        "groepen": 47500,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "ce52b34ea976a375f7a90c61ae1f7fbb69f825b744b596cdb6eff0e4a998c5b0",
+      "run": 2
+    },
+    {
+      "modus": "node",
+      "soort": "duplicaten",
+      "aantal": 50000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 127.883542,
+        "koppelen": 332.97954100000004,
+        "normaliseren": 888.2826670000001,
+        "voorbereiden": 1591.2752499999997,
+        "kandidaten": 144.81425000000013,
+        "scoren": 555.9237500000002,
+        "groeperen": 1264.727167,
+        "werkmap": 1734.3715419999999,
+        "serialiseren": 5493.508292
+      },
+      "totaalMs": 10544.745334,
+      "piekRssBytes": 3633758208,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 600000,
+      "compacteGroepen": 0,
+      "scores": 600000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 60150200,
+      "groepen": 2000,
+      "kwaliteitscontrole": {
+        "groepen": 2000,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "2d8ee85bce477b942c13c4c87eb7971584be1aa90d9819cb272c1f360df90e5c",
+      "run": 2
+    },
+    {
+      "modus": "node",
+      "soort": "gedeeld",
+      "aantal": 50000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 118.311833,
+        "koppelen": 310.046958,
+        "normaliseren": 836.5761249999999,
+        "voorbereiden": 6630.273917,
+        "kandidaten": 389.1212909999999,
+        "scoren": 5401.9896659999995,
+        "groeperen": 1185.8227500000003,
+        "werkmap": 2099.044749999999,
+        "serialiseren": 5605.316417
+      },
+      "totaalMs": 15948.816625,
+      "piekRssBytes": 3804725248,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 1225284,
+      "compacteGroepen": 25000,
+      "scores": 1225020,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 48587438,
+      "groepen": 25000,
+      "kwaliteitscontrole": {
+        "groepen": 25000,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "6acb80a3549953c2ed6798b1f0196ba713d4b5793c4711cd7e282ed209e2ca3f",
+      "run": 2
+    },
+    {
+      "modus": "browser",
+      "soort": "uniek",
+      "aantal": 1000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 13,
+      "longtasks": [
+        {
+          "start": 257.60000002384186,
+          "duur": 81
+        }
+      ],
+      "timerVertragingMs": 67.70000004768372,
+      "fasen": {
+        "inlezen": 5.400000095367432,
+        "koppelen": 16.399999976158142,
+        "normaliseren": 16.399999976158142,
+        "voorbereiden": 20.5,
+        "kandidaten": 3,
+        "scoren": 0.20000004768371582,
+        "groeperen": 4.100000023841858,
+        "werkmap": 18.199999928474426,
+        "serialiseren": 62.700000047683716
+      },
+      "faseBlokkades": {
+        "inlezen": 0,
+        "koppelen": 0,
+        "normaliseren": 0,
+        "voorbereiden": 0,
+        "kandidaten": 0,
+        "scoren": 0,
+        "groeperen": 0,
+        "werkmap": 81,
+        "serialiseren": 81
+      },
+      "aantallen": {
+        "kandidaten": 50,
+        "compacteGroepen": 0,
+        "scores": 50,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 950,
+      "totaalMs": 127.30000007152557,
+      "browserBlokkadeMs": 81,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 50,
+      "compacteGroepen": 0,
+      "scores": 50,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 1057085,
+      "kwaliteitscontrole": {
+        "groepen": 950,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "c6cbedbbebfcaf068f16643824f699b101ce524509c6d0c60dbb97c5a7927eb8",
+      "run": 2
+    },
+    {
+      "modus": "browser",
+      "soort": "duplicaten",
+      "aantal": 1000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 13,
+      "longtasks": [
+        {
+          "start": 290.6999999284744,
+          "duur": 81
+        }
+      ],
+      "timerVertragingMs": 74.90000009536743,
+      "fasen": {
+        "inlezen": 3.5,
+        "koppelen": 14.600000023841858,
+        "normaliseren": 15.799999952316284,
+        "voorbereiden": 28.59999990463257,
+        "kandidaten": 2.8000000715255737,
+        "scoren": 9.099999904632568,
+        "groeperen": 13.800000071525574,
+        "werkmap": 14.299999952316284,
+        "serialiseren": 65.89999997615814
+      },
+      "faseBlokkades": {
+        "inlezen": 0,
+        "koppelen": 0,
+        "normaliseren": 0,
+        "voorbereiden": 0,
+        "kandidaten": 0,
+        "scoren": 0,
+        "groeperen": 0,
+        "werkmap": 81,
+        "serialiseren": 81
+      },
+      "aantallen": {
+        "kandidaten": 12000,
+        "compacteGroepen": 0,
+        "scores": 12000,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 40,
+      "totaalMs": 140.69999992847443,
+      "browserBlokkadeMs": 81,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 12000,
+      "compacteGroepen": 0,
+      "scores": 12000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 1044847,
+      "kwaliteitscontrole": {
+        "groepen": 40,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "abbc4a45f5295eb6e9b7b5544a2f7db81f2708e872823028aaaba7c3e24b3fb6",
+      "run": 2
+    },
+    {
+      "modus": "browser",
+      "soort": "gedeeld",
+      "aantal": 1000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 17,
+      "longtasks": [
+        {
+          "start": 393.40000009536743,
+          "duur": 76
+        }
+      ],
+      "timerVertragingMs": 69.69999992847443,
+      "fasen": {
+        "inlezen": 3.5,
+        "koppelen": 14.800000071525574,
+        "normaliseren": 15.699999928474426,
+        "voorbereiden": 107.89999997615814,
+        "kandidaten": 5.200000047683716,
+        "scoren": 85.89999997615814,
+        "groeperen": 19,
+        "werkmap": 14.800000071525574,
+        "serialiseren": 60.59999990463257
+      },
+      "faseBlokkades": {
+        "inlezen": 0,
+        "koppelen": 0,
+        "normaliseren": 0,
+        "voorbereiden": 0,
+        "kandidaten": 0,
+        "scoren": 0,
+        "groeperen": 0,
+        "werkmap": 76,
+        "serialiseren": 76
+      },
+      "aantallen": {
+        "kandidaten": 24500,
+        "compacteGroepen": 500,
+        "scores": 24500,
+        "overgeslagenSleutels": 2
+      },
+      "groepen": 500,
+      "totaalMs": 220.60000002384186,
+      "browserBlokkadeMs": 76,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 24500,
+      "compacteGroepen": 500,
+      "scores": 24500,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 929173,
+      "kwaliteitscontrole": {
+        "groepen": 500,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "69cc42548e765997808ea82287f5e91db19bb4a41687cd6d657534882da0b1cd",
+      "run": 2
+    },
+    {
+      "modus": "browser",
+      "soort": "uniek",
+      "aantal": 10000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 16,
+      "longtasks": [
+        {
+          "start": 75.59999990463257,
+          "duur": 60
+        },
+        {
+          "start": 223,
+          "duur": 137
+        },
+        {
+          "start": 405.59999990463257,
+          "duur": 156
+        },
+        {
+          "start": 688,
+          "duur": 854
+        }
+      ],
+      "timerVertragingMs": 852.7999999523163,
+      "fasen": {
+        "inlezen": 23.100000023841858,
+        "koppelen": 135.39999997615814,
+        "normaliseren": 155.5,
+        "voorbereiden": 178.89999997615814,
+        "kandidaten": 18.700000047683716,
+        "scoren": 3.1999999284744263,
+        "groeperen": 25.699999928474426,
+        "werkmap": 203.5,
+        "serialiseren": 649.8999999761581
+      },
+      "faseBlokkades": {
+        "inlezen": 0,
+        "koppelen": 137,
+        "normaliseren": 156,
+        "voorbereiden": 156,
+        "kandidaten": 0,
+        "scoren": 0,
+        "groeperen": 0,
+        "werkmap": 854,
+        "serialiseren": 854
+      },
+      "aantallen": {
+        "kandidaten": 517,
+        "compacteGroepen": 0,
+        "scores": 500,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 9500,
+      "totaalMs": 1216.4999998807907,
+      "browserBlokkadeMs": 854,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 517,
+      "compacteGroepen": 0,
+      "scores": 500,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 10956505,
+      "kwaliteitscontrole": {
+        "groepen": 9500,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "293fb18e6576a9d99613c60538374816c7e2964d3e3eaac663035ed340064c62",
+      "run": 2
+    },
+    {
+      "modus": "browser",
+      "soort": "duplicaten",
+      "aantal": 10000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 29,
+      "longtasks": [
+        {
+          "start": 79,
+          "duur": 57
+        },
+        {
+          "start": 226,
+          "duur": 121
+        },
+        {
+          "start": 392,
+          "duur": 145
+        },
+        {
+          "start": 769.3999999761581,
+          "duur": 150
+        },
+        {
+          "start": 1125,
+          "duur": 771
+        }
+      ],
+      "timerVertragingMs": 765.2999999523163,
+      "fasen": {
+        "inlezen": 22.699999928474426,
+        "koppelen": 118.89999997615814,
+        "normaliseren": 144.5,
+        "voorbereiden": 376.89999997615814,
+        "kandidaten": 15.100000023841858,
+        "scoren": 215.69999992847443,
+        "groeperen": 131.80000007152557,
+        "werkmap": 173.19999992847443,
+        "serialiseren": 597.8999999761581
+      },
+      "faseBlokkades": {
+        "inlezen": 0,
+        "koppelen": 121,
+        "normaliseren": 145,
+        "voorbereiden": 150,
+        "kandidaten": 0,
+        "scoren": 0,
+        "groeperen": 150,
+        "werkmap": 771,
+        "serialiseren": 771
+      },
+      "aantallen": {
+        "kandidaten": 120000,
+        "compacteGroepen": 0,
+        "scores": 120000,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 400,
+      "totaalMs": 1421.3999998569489,
+      "browserBlokkadeMs": 771,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 120000,
+      "compacteGroepen": 0,
+      "scores": 120000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 11567354,
+      "kwaliteitscontrole": {
+        "groepen": 400,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "dcd174f29bbfc30c12175fd0496d7c35c9f3d7b3bac928a31b902c441bd42d80",
+      "run": 2
+    },
+    {
+      "modus": "browser",
+      "soort": "gedeeld",
+      "aantal": 10000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 74,
+      "longtasks": [
+        {
+          "start": 82,
+          "duur": 56
+        },
+        {
+          "start": 225,
+          "duur": 118
+        },
+        {
+          "start": 391.10000002384186,
+          "duur": 143
+        },
+        {
+          "start": 1606.2000000476837,
+          "duur": 166
+        },
+        {
+          "start": 1974.4000000953674,
+          "duur": 803
+        }
+      ],
+      "timerVertragingMs": 799,
+      "fasen": {
+        "inlezen": 22.600000023841858,
+        "koppelen": 116.20000004768372,
+        "normaliseren": 140.90000009536743,
+        "voorbereiden": 1218.3000000715256,
+        "kandidaten": 43.699999928474426,
+        "scoren": 1032.3999999761581,
+        "groeperen": 156,
+        "werkmap": 196.10000002384186,
+        "serialiseren": 606.3999999761581
+      },
+      "faseBlokkades": {
+        "inlezen": 0,
+        "koppelen": 118,
+        "normaliseren": 143,
+        "voorbereiden": 166,
+        "kandidaten": 0,
+        "scoren": 166,
+        "groeperen": 166,
+        "werkmap": 803,
+        "serialiseren": 803
+      },
+      "aantallen": {
+        "kandidaten": 245008,
+        "compacteGroepen": 5000,
+        "scores": 245000,
+        "overgeslagenSleutels": 2
+      },
+      "groepen": 5000,
+      "totaalMs": 2315.600000143051,
+      "browserBlokkadeMs": 803,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 245008,
+      "compacteGroepen": 5000,
+      "scores": 245000,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 9555048,
+      "kwaliteitscontrole": {
+        "groepen": 5000,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "0668e1fff8203f7708cea2f7ce03fcbb31955e2ecdfbe125766e9ec77f5bd8eb",
+      "run": 2
+    },
+    {
+      "modus": "browser",
+      "soort": "uniek",
+      "aantal": 50000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 24,
+      "longtasks": [
+        {
+          "start": 174.79999995231628,
+          "duur": 326
+        },
+        {
+          "start": 505.2999999523163,
+          "duur": 91
+        },
+        {
+          "start": 643.5,
+          "duur": 677
+        },
+        {
+          "start": 1376.5999999046326,
+          "duur": 835
+        },
+        {
+          "start": 2212.7999999523163,
+          "duur": 188
+        },
+        {
+          "start": 2402.0999999046326,
+          "duur": 146
+        },
+        {
+          "start": 2625.899999976158,
+          "duur": 5219
+        }
+      ],
+      "timerVertragingMs": 5207.199999928474,
+      "fasen": {
+        "inlezen": 91.79999995231628,
+        "koppelen": 675.1999999284744,
+        "normaliseren": 834.6000000238419,
+        "voorbereiden": 1030.1000000238419,
+        "kandidaten": 188.5,
+        "scoren": 5.400000095367432,
+        "groeperen": 127.80000007152557,
+        "werkmap": 1481.4000000953674,
+        "serialiseren": 3728.5
+      },
+      "faseBlokkades": {
+        "inlezen": 326,
+        "koppelen": 677,
+        "normaliseren": 835,
+        "voorbereiden": 835,
+        "kandidaten": 188,
+        "scoren": 146,
+        "groeperen": 146,
+        "werkmap": 5219,
+        "serialiseren": 5219
+      },
+      "aantallen": {
+        "kandidaten": 2667,
+        "compacteGroepen": 0,
+        "scores": 2500,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 47500,
+      "totaalMs": 7134.800000071526,
+      "browserBlokkadeMs": 5219,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 2667,
+      "compacteGroepen": 0,
+      "scores": 2500,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 56105633,
+      "kwaliteitscontrole": {
+        "groepen": 47500,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "fbc294d65e845b8feb15b8bca053937ba959433b8a1776efd21dc5df6480be27",
+      "run": 2
+    },
+    {
+      "modus": "browser",
+      "soort": "duplicaten",
+      "aantal": 50000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 83,
+      "longtasks": [
+        {
+          "start": 163.10000002384186,
+          "duur": 316
+        },
+        {
+          "start": 484.89999997615814,
+          "duur": 89
+        },
+        {
+          "start": 607.8999999761581,
+          "duur": 562
+        },
+        {
+          "start": 1224.1999999284744,
+          "duur": 732
+        },
+        {
+          "start": 1956.6000000238419,
+          "duur": 114
+        },
+        {
+          "start": 3248.7999999523163,
+          "duur": 879
+        },
+        {
+          "start": 4323.600000023842,
+          "duur": 4833
+        }
+      ],
+      "timerVertragingMs": 4826.600000023842,
+      "fasen": {
+        "inlezen": 91.39999997615814,
+        "koppelen": 560.1000000238419,
+        "normaliseren": 730.6999999284744,
+        "voorbereiden": 2023.8999999761581,
+        "kandidaten": 114.59999990463257,
+        "scoren": 1176.6999999284744,
+        "groeperen": 847.8000000715256,
+        "werkmap": 1299.7000000476837,
+        "serialiseren": 3530.2999999523163
+      },
+      "faseBlokkades": {
+        "inlezen": 316,
+        "koppelen": 562,
+        "normaliseren": 732,
+        "voorbereiden": 879,
+        "kandidaten": 114,
+        "scoren": 0,
+        "groeperen": 879,
+        "werkmap": 4833,
+        "serialiseren": 4833
+      },
+      "aantallen": {
+        "kandidaten": 600000,
+        "compacteGroepen": 0,
+        "scores": 600000,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 2000,
+      "totaalMs": 8353.200000047684,
+      "browserBlokkadeMs": 4833,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 600000,
+      "compacteGroepen": 0,
+      "scores": 600000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 60150212,
+      "kwaliteitscontrole": {
+        "groepen": 2000,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "9fa48824940fe725125804cfbf36b53d12222f125d6c651006ccf40584fc42db",
+      "run": 2
+    },
+    {
+      "modus": "browser",
+      "soort": "gedeeld",
+      "aantal": 50000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 303,
+      "longtasks": [
+        {
+          "start": 165.39999997615814,
+          "duur": 303
+        },
+        {
+          "start": 473.7000000476837,
+          "duur": 93
+        },
+        {
+          "start": 597.1000000238419,
+          "duur": 579
+        },
+        {
+          "start": 1230,
+          "duur": 728
+        },
+        {
+          "start": 1959.3000000715256,
+          "duur": 305
+        },
+        {
+          "start": 7861.899999976158,
+          "duur": 1121
+        },
+        {
+          "start": 9062.600000023842,
+          "duur": 4927
+        }
+      ],
+      "timerVertragingMs": 4916.399999976158,
+      "fasen": {
+        "inlezen": 91.09999990463257,
+        "koppelen": 576.7000000476837,
+        "normaliseren": 727.6999999284744,
+        "voorbereiden": 6636.699999928474,
+        "kandidaten": 305.39999997615814,
+        "scoren": 5601.600000023842,
+        "groeperen": 1097.6000000238419,
+        "werkmap": 1281.4000000953674,
+        "serialiseren": 3644.399999976158
+      },
+      "faseBlokkades": {
+        "inlezen": 303,
+        "koppelen": 579,
+        "normaliseren": 728,
+        "voorbereiden": 1121,
+        "kandidaten": 305,
+        "scoren": 1121,
+        "groeperen": 1121,
+        "werkmap": 4927,
+        "serialiseren": 4927
+      },
+      "aantallen": {
+        "kandidaten": 1225284,
+        "compacteGroepen": 25000,
+        "scores": 1225020,
+        "overgeslagenSleutels": 2
+      },
+      "groepen": 25000,
+      "totaalMs": 13327.899999976158,
+      "browserBlokkadeMs": 4927,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 1225284,
+      "compacteGroepen": 25000,
+      "scores": 1225020,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 48587450,
+      "kwaliteitscontrole": {
+        "groepen": 25000,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "921945b9fda653da141fd998d32b7abd57978bc9d6b61951decc40101ca36906",
+      "run": 2
+    },
+    {
+      "modus": "node",
+      "soort": "uniek",
+      "aantal": 1000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 6.019207999999999,
+        "koppelen": 9.497125000000004,
+        "normaliseren": 22.41083300000001,
+        "voorbereiden": 28.14262500000001,
+        "kandidaten": 2.4577919999999978,
+        "scoren": 0.3692920000000015,
+        "groeperen": 4.115459000000001,
+        "werkmap": 31.81666700000001,
+        "serialiseren": 73.35079200000001
+      },
+      "totaalMs": 152.94187600000004,
+      "piekRssBytes": 201883648,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 50,
+      "compacteGroepen": 0,
+      "scores": 50,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 1057076,
+      "groepen": 950,
+      "kwaliteitscontrole": {
+        "groepen": 950,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "20b17471149793ba6a25cd0a222d3e401e05901ea106e61fd8e7cfc6ed971bed",
+      "run": 3
+    },
+    {
+      "modus": "node",
+      "soort": "duplicaten",
+      "aantal": 1000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 6.007458,
+        "koppelen": 9.177791,
+        "normaliseren": 19.584707999999992,
+        "voorbereiden": 38.22475,
+        "kandidaten": 2.9849159999999983,
+        "scoren": 13.185375000000008,
+        "groeperen": 17.87216699999999,
+        "werkmap": 20.268333000000013,
+        "serialiseren": 68.838209
+      },
+      "totaalMs": 160.388708,
+      "piekRssBytes": 211255296,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 12000,
+      "compacteGroepen": 0,
+      "scores": 12000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 1044838,
+      "groepen": 40,
+      "kwaliteitscontrole": {
+        "groepen": 40,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "a9ddcf127392d13592076b6be0c8a11a324ea38ccd4e1115aba7e891710bb6d5",
+      "run": 3
+    },
+    {
+      "modus": "node",
+      "soort": "gedeeld",
+      "aantal": 1000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 4.240208000000003,
+        "koppelen": 11.168625000000006,
+        "normaliseren": 19.740957999999992,
+        "voorbereiden": 131.46333299999998,
+        "kandidaten": 5.887874999999994,
+        "scoren": 103.33429200000002,
+        "groeperen": 30.819125000000014,
+        "werkmap": 31.462000000000018,
+        "serialiseren": 66.002542
+      },
+      "totaalMs": 275.15583300000003,
+      "piekRssBytes": 313262080,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 24500,
+      "compacteGroepen": 500,
+      "scores": 24500,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 929164,
+      "groepen": 500,
+      "kwaliteitscontrole": {
+        "groepen": 500,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "ce76d431bdb733ae67b3273ee5f3f5f35e21a1235c8eca4bc3c91f97e46d7771",
+      "run": 3
+    },
+    {
+      "modus": "node",
+      "soort": "uniek",
+      "aantal": 10000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 25.681541999999993,
+        "koppelen": 75.340792,
+        "normaliseren": 183.48758299999997,
+        "voorbereiden": 219.434958,
+        "kandidaten": 32.62204200000002,
+        "scoren": 1.8245000000000005,
+        "groeperen": 38.168542,
+        "werkmap": 293.039708,
+        "serialiseren": 765.759416
+      },
+      "totaalMs": 1417.424958,
+      "piekRssBytes": 723206144,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 517,
+      "compacteGroepen": 0,
+      "scores": 500,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 10956496,
+      "groepen": 9500,
+      "kwaliteitscontrole": {
+        "groepen": 9500,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "9d8cc798c78728355feff9289f54eb32bd160549e08e0ce5ac97f68b77299f9c",
+      "run": 3
+    },
+    {
+      "modus": "node",
+      "soort": "duplicaten",
+      "aantal": 10000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 26.276959000000005,
+        "koppelen": 69.58574999999999,
+        "normaliseren": 178.753208,
+        "voorbereiden": 322.393833,
+        "kandidaten": 21.093416000000047,
+        "scoren": 114.21870799999999,
+        "groeperen": 172.13520799999998,
+        "werkmap": 298.943083,
+        "serialiseren": 703.100167
+      },
+      "totaalMs": 1592.435,
+      "piekRssBytes": 817283072,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 120000,
+      "compacteGroepen": 0,
+      "scores": 120000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 11567342,
+      "groepen": 400,
+      "kwaliteitscontrole": {
+        "groepen": 400,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "6a3a6604775b9c6e11553cced23ef200549064d4745fc0d0f5e636542ad6d0f4",
+      "run": 3
+    },
+    {
+      "modus": "node",
+      "soort": "gedeeld",
+      "aantal": 10000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 26.338082999999997,
+        "koppelen": 61.300708,
+        "normaliseren": 170.5375,
+        "voorbereiden": 1295.533042,
+        "kandidaten": 62.50366600000001,
+        "scoren": 1058.453375,
+        "groeperen": 184.8604580000001,
+        "werkmap": 226.97833300000002,
+        "serialiseren": 735.9858750000001
+      },
+      "totaalMs": 2530.9964990000003,
+      "piekRssBytes": 948551680,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 245008,
+      "compacteGroepen": 5000,
+      "scores": 245000,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 9555036,
+      "groepen": 5000,
+      "kwaliteitscontrole": {
+        "groepen": 5000,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "56d2e5835e7a9d6c5cc0610f9583d7dd9bfc7c77ea0fd979a56e306993759bbb",
+      "run": 3
+    },
+    {
+      "modus": "node",
+      "soort": "uniek",
+      "aantal": 50000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 129.277291,
+        "koppelen": 357.345417,
+        "normaliseren": 933.8883330000001,
+        "voorbereiden": 1151.988208,
+        "kandidaten": 180.1060419999999,
+        "scoren": 6.370333999999957,
+        "groeperen": 176.59570800000006,
+        "werkmap": 2235.706125,
+        "serialiseren": 5607.131459
+      },
+      "totaalMs": 9658.044208,
+      "piekRssBytes": 2344337408,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 2667,
+      "compacteGroepen": 0,
+      "scores": 2500,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 56105621,
+      "groepen": 47500,
+      "kwaliteitscontrole": {
+        "groepen": 47500,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "ce52b34ea976a375f7a90c61ae1f7fbb69f825b744b596cdb6eff0e4a998c5b0",
+      "run": 3
+    },
+    {
+      "modus": "node",
+      "soort": "duplicaten",
+      "aantal": 50000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 127.845583,
+        "koppelen": 335.40700000000004,
+        "normaliseren": 890.6429159999999,
+        "voorbereiden": 1593.217333,
+        "kandidaten": 117.39587499999993,
+        "scoren": 557.5377500000002,
+        "groeperen": 1272.229375,
+        "werkmap": 1691.5102090000005,
+        "serialiseren": 5562.098917
+      },
+      "totaalMs": 10582.308417,
+      "piekRssBytes": 3669540864,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 600000,
+      "compacteGroepen": 0,
+      "scores": 600000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 60150200,
+      "groepen": 2000,
+      "kwaliteitscontrole": {
+        "groepen": 2000,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "2d8ee85bce477b942c13c4c87eb7971584be1aa90d9819cb272c1f360df90e5c",
+      "run": 3
+    },
+    {
+      "modus": "node",
+      "soort": "gedeeld",
+      "aantal": 50000,
+      "seed": 12345,
+      "fasen": {
+        "inlezen": 119.11920899999998,
+        "koppelen": 320.95629099999996,
+        "normaliseren": 832.079042,
+        "voorbereiden": 6981.890458000001,
+        "kandidaten": 400.7827500000001,
+        "scoren": 5745.951041,
+        "groeperen": 1324.2425839999996,
+        "werkmap": 1689.65625,
+        "serialiseren": 5928.076333000001
+      },
+      "totaalMs": 16363.941125000001,
+      "piekRssBytes": 3837132800,
+      "geheugenMethode": "os-maxrss",
+      "geheugenToelichting": "OS maxRSS, vers Node-proces, inclusief generator en werkmap, vóór heropenen",
+      "browserBlokkadeMs": null,
+      "timerVertragingMs": null,
+      "responsiviteitMethode": "niet-van-toepassing",
+      "kandidaten": 1225284,
+      "compacteGroepen": 25000,
+      "scores": 1225020,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 48587438,
+      "groepen": 25000,
+      "kwaliteitscontrole": {
+        "groepen": 25000,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "meetversie": 1,
+      "exportSha256": "6acb80a3549953c2ed6798b1f0196ba713d4b5793c4711cd7e282ed209e2ca3f",
+      "run": 3
+    },
+    {
+      "modus": "browser",
+      "soort": "uniek",
+      "aantal": 1000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 13,
+      "longtasks": [
+        {
+          "start": 247,
+          "duur": 82
+        }
+      ],
+      "timerVertragingMs": 77.5,
+      "fasen": {
+        "inlezen": 3.600000023841858,
+        "koppelen": 15.700000047683716,
+        "normaliseren": 17.59999990463257,
+        "voorbereiden": 22.09999990463257,
+        "kandidaten": 3.0999999046325684,
+        "scoren": 0.2999999523162842,
+        "groeperen": 3.899999976158142,
+        "werkmap": 18.100000023841858,
+        "serialiseren": 63.5
+      },
+      "faseBlokkades": {
+        "inlezen": 0,
+        "koppelen": 0,
+        "normaliseren": 0,
+        "voorbereiden": 0,
+        "kandidaten": 0,
+        "scoren": 0,
+        "groeperen": 0,
+        "werkmap": 82,
+        "serialiseren": 82
+      },
+      "aantallen": {
+        "kandidaten": 50,
+        "compacteGroepen": 0,
+        "scores": 50,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 950,
+      "totaalMs": 126.89999997615814,
+      "browserBlokkadeMs": 82,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 50,
+      "compacteGroepen": 0,
+      "scores": 50,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 1057089,
+      "kwaliteitscontrole": {
+        "groepen": 950,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "aba0938ffcf7bd853234c54e49ee7ef1fe06e0f122565a9a4a6c17d2302a28a7",
+      "run": 3
+    },
+    {
+      "modus": "browser",
+      "soort": "duplicaten",
+      "aantal": 1000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 12,
+      "longtasks": [
+        {
+          "start": 275.7999999523163,
+          "duur": 82
+        }
+      ],
+      "timerVertragingMs": 76.80000007152557,
+      "fasen": {
+        "inlezen": 3.600000023841858,
+        "koppelen": 14.399999976158142,
+        "normaliseren": 15.799999952316284,
+        "voorbereiden": 28.799999952316284,
+        "kandidaten": 2.700000047683716,
+        "scoren": 9.299999952316284,
+        "groeperen": 14.099999904632568,
+        "werkmap": 14.199999928474426,
+        "serialiseren": 66.89999997615814
+      },
+      "faseBlokkades": {
+        "inlezen": 0,
+        "koppelen": 0,
+        "normaliseren": 0,
+        "voorbereiden": 0,
+        "kandidaten": 0,
+        "scoren": 0,
+        "groeperen": 0,
+        "werkmap": 82,
+        "serialiseren": 82
+      },
+      "aantallen": {
+        "kandidaten": 12000,
+        "compacteGroepen": 0,
+        "scores": 12000,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 40,
+      "totaalMs": 141.99999976158142,
+      "browserBlokkadeMs": 82,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 12000,
+      "compacteGroepen": 0,
+      "scores": 12000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 1044851,
+      "kwaliteitscontrole": {
+        "groepen": 40,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "85797b257bb55b6ce733757fa243ba9b7b4b9c12cd29fc6e3da9e24ce5329418",
+      "run": 3
+    },
+    {
+      "modus": "browser",
+      "soort": "gedeeld",
+      "aantal": 1000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 17,
+      "longtasks": [
+        {
+          "start": 388.2999999523163,
+          "duur": 77
+        }
+      ],
+      "timerVertragingMs": 73.10000002384186,
+      "fasen": {
+        "inlezen": 3.399999976158142,
+        "koppelen": 17.600000023841858,
+        "normaliseren": 15.799999952316284,
+        "voorbereiden": 107.89999997615814,
+        "kandidaten": 5.200000047683716,
+        "scoren": 85.79999995231628,
+        "groeperen": 18.299999952316284,
+        "werkmap": 14.399999976158142,
+        "serialiseren": 61.89999997615814
+      },
+      "faseBlokkades": {
+        "inlezen": 0,
+        "koppelen": 0,
+        "normaliseren": 0,
+        "voorbereiden": 0,
+        "kandidaten": 0,
+        "scoren": 0,
+        "groeperen": 0,
+        "werkmap": 77,
+        "serialiseren": 77
+      },
+      "aantallen": {
+        "kandidaten": 24500,
+        "compacteGroepen": 500,
+        "scores": 24500,
+        "overgeslagenSleutels": 2
+      },
+      "groepen": 500,
+      "totaalMs": 223.4999998807907,
+      "browserBlokkadeMs": 77,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 24500,
+      "compacteGroepen": 500,
+      "scores": 24500,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 929177,
+      "kwaliteitscontrole": {
+        "groepen": 500,
+        "bronrijen": 1000,
+        "oorspronkelijkeCellen": 7000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "0828aa8ad12299fe6df2e077b1a932f9e591ae19354289ee15dd9c7aa0a1d539",
+      "run": 3
+    },
+    {
+      "modus": "browser",
+      "soort": "uniek",
+      "aantal": 10000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 18,
+      "longtasks": [
+        {
+          "start": 83.89999997615814,
+          "duur": 62
+        },
+        {
+          "start": 228.29999995231628,
+          "duur": 129
+        },
+        {
+          "start": 411.1999999284744,
+          "duur": 159
+        },
+        {
+          "start": 710.7999999523163,
+          "duur": 870
+        }
+      ],
+      "timerVertragingMs": 861.5,
+      "fasen": {
+        "inlezen": 23.699999928474426,
+        "koppelen": 127,
+        "normaliseren": 158.5,
+        "voorbereiden": 182.5,
+        "kandidaten": 19.300000071525574,
+        "scoren": 3.299999952316284,
+        "groeperen": 25.399999976158142,
+        "werkmap": 200,
+        "serialiseren": 669.2999999523163
+      },
+      "faseBlokkades": {
+        "inlezen": 62,
+        "koppelen": 129,
+        "normaliseren": 159,
+        "voorbereiden": 159,
+        "kandidaten": 0,
+        "scoren": 0,
+        "groeperen": 0,
+        "werkmap": 870,
+        "serialiseren": 870
+      },
+      "aantallen": {
+        "kandidaten": 517,
+        "compacteGroepen": 0,
+        "scores": 500,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 9500,
+      "totaalMs": 1227.8999998569489,
+      "browserBlokkadeMs": 870,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 517,
+      "compacteGroepen": 0,
+      "scores": 500,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 10956509,
+      "kwaliteitscontrole": {
+        "groepen": 9500,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "26b2041a1f564e85b4f2c019a904d62b9edb8526113a1d4f5af85c0157db8c65",
+      "run": 3
+    },
+    {
+      "modus": "browser",
+      "soort": "duplicaten",
+      "aantal": 10000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 29,
+      "longtasks": [
+        {
+          "start": 84.30000007152557,
+          "duur": 59
+        },
+        {
+          "start": 224.40000009536743,
+          "duur": 115
+        },
+        {
+          "start": 389.8000000715256,
+          "duur": 145
+        },
+        {
+          "start": 769.1000000238419,
+          "duur": 154
+        },
+        {
+          "start": 1123.6000000238419,
+          "duur": 768
+        }
+      ],
+      "timerVertragingMs": 750.1999999284744,
+      "fasen": {
+        "inlezen": 23.5,
+        "koppelen": 113.29999995231628,
+        "normaliseren": 143.89999997615814,
+        "voorbereiden": 378.60000002384186,
+        "kandidaten": 15.799999952316284,
+        "scoren": 217.39999997615814,
+        "groeperen": 134.59999990463257,
+        "werkmap": 176.59999990463257,
+        "serialiseren": 591.1000000238419
+      },
+      "faseBlokkades": {
+        "inlezen": 59,
+        "koppelen": 115,
+        "normaliseren": 145,
+        "voorbereiden": 154,
+        "kandidaten": 0,
+        "scoren": 0,
+        "groeperen": 154,
+        "werkmap": 768,
+        "serialiseren": 768
+      },
+      "aantallen": {
+        "kandidaten": 120000,
+        "compacteGroepen": 0,
+        "scores": 120000,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 400,
+      "totaalMs": 1417.6999998092651,
+      "browserBlokkadeMs": 768,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 120000,
+      "compacteGroepen": 0,
+      "scores": 120000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 11567355,
+      "kwaliteitscontrole": {
+        "groepen": 400,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "72e542b6a388aa414f37703347f13af49dcb59569d2635525411c576a5e0e5fe",
+      "run": 3
+    },
+    {
+      "modus": "browser",
+      "soort": "gedeeld",
+      "aantal": 10000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 75,
+      "longtasks": [
+        {
+          "start": 75.5,
+          "duur": 58
+        },
+        {
+          "start": 223.80000007152557,
+          "duur": 118
+        },
+        {
+          "start": 388.8000000715256,
+          "duur": 144
+        },
+        {
+          "start": 1591.4000000953674,
+          "duur": 172
+        },
+        {
+          "start": 1989.3000000715256,
+          "duur": 790
+        }
+      ],
+      "timerVertragingMs": 788.9000000953674,
+      "fasen": {
+        "inlezen": 23.299999952316284,
+        "koppelen": 115.70000004768372,
+        "normaliseren": 142.30000007152557,
+        "voorbereiden": 1206,
+        "kandidaten": 42.5,
+        "scoren": 1020,
+        "groeperen": 161.10000002384186,
+        "werkmap": 190.5,
+        "serialiseren": 598.8999999761581
+      },
+      "faseBlokkades": {
+        "inlezen": 58,
+        "koppelen": 118,
+        "normaliseren": 144,
+        "voorbereiden": 172,
+        "kandidaten": 0,
+        "scoren": 172,
+        "groeperen": 172,
+        "werkmap": 790,
+        "serialiseren": 790
+      },
+      "aantallen": {
+        "kandidaten": 245008,
+        "compacteGroepen": 5000,
+        "scores": 245000,
+        "overgeslagenSleutels": 2
+      },
+      "groepen": 5000,
+      "totaalMs": 2295.5,
+      "browserBlokkadeMs": 790,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 245008,
+      "compacteGroepen": 5000,
+      "scores": 245000,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 9555049,
+      "kwaliteitscontrole": {
+        "groepen": 5000,
+        "bronrijen": 10000,
+        "oorspronkelijkeCellen": 70000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "c7d0a2ee8c1df21f9011db51cd2ef412475ceecb410afec349e65a8e94226eaf",
+      "run": 3
+    },
+    {
+      "modus": "browser",
+      "soort": "uniek",
+      "aantal": 50000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 24,
+      "longtasks": [
+        {
+          "start": 175.39999997615814,
+          "duur": 324
+        },
+        {
+          "start": 504.2000000476837,
+          "duur": 91
+        },
+        {
+          "start": 629.7000000476837,
+          "duur": 679
+        },
+        {
+          "start": 1362.2000000476837,
+          "duur": 838
+        },
+        {
+          "start": 2200.7000000476837,
+          "duur": 190
+        },
+        {
+          "start": 2391.899999976158,
+          "duur": 150
+        },
+        {
+          "start": 2630.899999976158,
+          "duur": 5108
+        }
+      ],
+      "timerVertragingMs": 5104.200000047684,
+      "fasen": {
+        "inlezen": 93.20000004768372,
+        "koppelen": 676.7999999523163,
+        "normaliseren": 836.8999999761581,
+        "voorbereiden": 1034.2999999523163,
+        "kandidaten": 190.5,
+        "scoren": 5.399999976158142,
+        "groeperen": 131.60000002384186,
+        "werkmap": 1415.2999999523163,
+        "serialiseren": 3690.6999999284744
+      },
+      "faseBlokkades": {
+        "inlezen": 324,
+        "koppelen": 679,
+        "normaliseren": 838,
+        "voorbereiden": 838,
+        "kandidaten": 190,
+        "scoren": 150,
+        "groeperen": 150,
+        "werkmap": 5108,
+        "serialiseren": 5108
+      },
+      "aantallen": {
+        "kandidaten": 2667,
+        "compacteGroepen": 0,
+        "scores": 2500,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 47500,
+      "totaalMs": 7041.899999856949,
+      "browserBlokkadeMs": 5108,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 2667,
+      "compacteGroepen": 0,
+      "scores": 2500,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 56105634,
+      "kwaliteitscontrole": {
+        "groepen": 47500,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "848206dfad5b7243aa02952edd3135eeed0f04bc0de79df8969d05806454fc69",
+      "run": 3
+    },
+    {
+      "modus": "browser",
+      "soort": "duplicaten",
+      "aantal": 50000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 88,
+      "longtasks": [
+        {
+          "start": 165.20000004768372,
+          "duur": 307
+        },
+        {
+          "start": 477.2000000476837,
+          "duur": 90
+        },
+        {
+          "start": 627.7000000476837,
+          "duur": 565
+        },
+        {
+          "start": 1243.6000000238419,
+          "duur": 729
+        },
+        {
+          "start": 1972.8999999761581,
+          "duur": 115
+        },
+        {
+          "start": 3350.600000023842,
+          "duur": 893
+        },
+        {
+          "start": 4443.100000023842,
+          "duur": 4874
+        }
+      ],
+      "timerVertragingMs": 4865.099999904633,
+      "fasen": {
+        "inlezen": 92.5,
+        "koppelen": 562.8999999761581,
+        "normaliseren": 727.7000000476837,
+        "voorbereiden": 2106.2000000476837,
+        "kandidaten": 115,
+        "scoren": 1261.8999999761581,
+        "groeperen": 862.7000000476837,
+        "werkmap": 1339.3000000715256,
+        "serialiseren": 3533.2999999523163
+      },
+      "faseBlokkades": {
+        "inlezen": 307,
+        "koppelen": 565,
+        "normaliseren": 729,
+        "voorbereiden": 729,
+        "kandidaten": 115,
+        "scoren": 0,
+        "groeperen": 893,
+        "werkmap": 4874,
+        "serialiseren": 4874
+      },
+      "aantallen": {
+        "kandidaten": 600000,
+        "compacteGroepen": 0,
+        "scores": 600000,
+        "overgeslagenSleutels": 0
+      },
+      "groepen": 2000,
+      "totaalMs": 8496.900000095367,
+      "browserBlokkadeMs": 4874,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 600000,
+      "compacteGroepen": 0,
+      "scores": 600000,
+      "overgeslagenSleutels": 0,
+      "exportBytes": 60150213,
+      "kwaliteitscontrole": {
+        "groepen": 2000,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "a58cfa4a48d00b79db3041c74c9829dde224b8e69955a935e4359ee20e762265",
+      "run": 3
+    },
+    {
+      "modus": "browser",
+      "soort": "gedeeld",
+      "aantal": 50000,
+      "seed": 12345,
+      "browser": "155.0.8059.84",
+      "meetversie": 1,
+      "ticks": 310,
+      "longtasks": [
+        {
+          "start": 168.70000004768372,
+          "duur": 301
+        },
+        {
+          "start": 474.7000000476837,
+          "duur": 88
+        },
+        {
+          "start": 611.1000000238419,
+          "duur": 586
+        },
+        {
+          "start": 1243.6000000238419,
+          "duur": 726
+        },
+        {
+          "start": 1970.8999999761581,
+          "duur": 307
+        },
+        {
+          "start": 8071.700000047684,
+          "duur": 1149
+        },
+        {
+          "start": 9310.399999976158,
+          "duur": 5093
+        }
+      ],
+      "timerVertragingMs": 5089.100000023842,
+      "fasen": {
+        "inlezen": 89.5,
+        "koppelen": 584.3999999761581,
+        "normaliseren": 725.7000000476837,
+        "voorbereiden": 6831.300000071526,
+        "kandidaten": 307.5,
+        "scoren": 5796.5,
+        "groeperen": 1127.5,
+        "werkmap": 1368.6000000238419,
+        "serialiseren": 3719.7999999523163
+      },
+      "faseBlokkades": {
+        "inlezen": 301,
+        "koppelen": 586,
+        "normaliseren": 726,
+        "voorbereiden": 1149,
+        "kandidaten": 307,
+        "scoren": 1149,
+        "groeperen": 1149,
+        "werkmap": 5093,
+        "serialiseren": 5093
+      },
+      "aantallen": {
+        "kandidaten": 1225284,
+        "compacteGroepen": 25000,
+        "scores": 1225020,
+        "overgeslagenSleutels": 2
+      },
+      "groepen": 25000,
+      "totaalMs": 13721.100000023842,
+      "browserBlokkadeMs": 5093,
+      "piekRssBytes": null,
+      "geheugenMethode": "niet-beschikbaar",
+      "responsiviteitMethode": "longtask+timer",
+      "geheugenBeperking": "Geen betrouwbare piek voor alle Chrome-processen. JS-heapmomentopnamen en CDP-steekproeven missen synchrone pieken en ArrayBuffers; daarom geen schijnpiek.",
+      "kandidaten": 1225284,
+      "compacteGroepen": 25000,
+      "scores": 1225020,
+      "overgeslagenSleutels": 2,
+      "exportBytes": 48587440,
+      "kwaliteitscontrole": {
+        "groepen": 25000,
+        "bronrijen": 50000,
+        "oorspronkelijkeCellen": 350000,
+        "tekstcellen": true,
+        "gegevensbehoud": true
+      },
+      "exportSha256": "30997ae2e8f5071a34aee1916728d04378837d611c84ca70af99d69d4fddc8e0",
+      "run": 3
+    }
+  ]
+}
